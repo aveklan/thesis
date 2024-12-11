@@ -42,13 +42,16 @@ if __name__ == "__main__":
     df = getEthos()
     results = []
     json_file_path = "ethos_classification_results.json" 
+    counter = 0
 
     for comment in df['comment']:  # Replace 'comment' with your column name
+        print('Processing', counter, ":", df.apply(len)[0])
         classification = classify_comment(comment)
         results.append({
             'comment': comment,
             'classification': classification
         })
+        counter += 1
 
     with open(json_file_path, 'w', encoding='utf-8') as json_file:
         json.dump(results, json_file, ensure_ascii=False, indent=4)
