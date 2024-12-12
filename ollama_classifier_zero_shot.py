@@ -1,6 +1,5 @@
 import pandas as pd
 import json
-
 from ollama import chat, ChatResponse
 from pathlib import Path
 from src.scripts.gab_hate import get_gab_columns
@@ -28,7 +27,7 @@ def getCad():
 # Function to classify a comment
 def classify_comment(comment):
     prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nComment: {comment}"
-    response: ChatResponse = chat(model="mistral", messages=[
+    response: ChatResponse = chat(model="gemma", messages=[
         {
             'role': 'user',
             'content': prompt,
