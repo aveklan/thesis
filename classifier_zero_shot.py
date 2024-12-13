@@ -38,9 +38,9 @@ def classify_comment(comment):
 
 
 if __name__ == "__main__": 
-    df = getEthos()
+    df = getCad()
     results = []
-    json_file_path = "ethos_classification_results.json" 
+    json_file_path = "cad_classification_zero_shot_results.json" 
     counter = 0
 
     for comment in df['comment']:  # Replace 'comment' with your column name
