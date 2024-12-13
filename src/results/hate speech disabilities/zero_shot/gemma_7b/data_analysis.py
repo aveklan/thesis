@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Load the JSON file
 root_dir = Path(__file__).resolve().parent.parent
-json_file_path = root_dir / "mistral_7b" / "gab_classification_results.json"
+json_file_path = root_dir / "gemma_7b" / "cad_classification_results.json"
 with open(json_file_path, 'r', encoding='utf-8') as file:
     data = json.load(file)
 
