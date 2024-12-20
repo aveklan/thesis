@@ -1,4 +1,3 @@
-from math import nan
 import pandas as pd
 from pathlib import Path
 import pandas as pd
@@ -47,7 +46,23 @@ def cad():
     return cad_dataset
 
 
-def create_dataset(dataset):
+def gab():
+    print("Creating GAB dataset...")
+    file_path = root_dir / "dataset" / "GabHateCorpus_annotations.tsv"
+    dfGAB = pd.read_csv(file_path, delimiter="\t")
+    dfGAB_aggregated = dfGAB.groupby("Text", as_index=False).sum(numeric_only=True)
+    dfGAB_aggregated["Text"] = dfGAB_aggregated["Text"].str.replace(
+        r"https://.*", "", regex=True
+    )
+
+    dfGAB_aggregated_filtered = dfGAB_aggregated.drop(
+        columns=["ID", "Annotator"], errors="ignore"
+    )
+
+    return dfGAB_aggregated_filtered
+
+
+def create_cad_dataset(dataset):
     filtered_data = []
     json_file_path = root_dir / "dataset" / "cad_dataset_withContext.json"
 
@@ -69,10 +84,45 @@ def create_dataset(dataset):
     print(f"Data successfully saved to {json_file_path}")
 
 
+def create_gab_dataset(dataset):
+    filtered_data = []
+    json_file_path = root_dir / "dataset" / "gab_dataset_withContext.json"
+
+    for _, row in dataset.iterrows():
+        # Create the JSON structure for each row
+        entry = {
+            "comment": row["Text"],
+            "Hate": row["Hate"],
+            "CV": row["CV"],
+            "VO": row["VO"],
+            "REL": row["REL"],
+            "RAE": row["RAE"],
+            "SXO": row["SXO"],
+            "GEN": row["GEN"],
+            "IDL": row["IDL"],
+            "NAT": row["NAT"],
+            "POL": row["POL"],
+            "MPH": row["MPH"],
+            "EX": row["EX"],
+            "IM": row["IM"],
+        }
+        # Append the entry to the list
+        filtered_data.append(entry)
+
+    # Save the list of structured data to a JSON file
+    with open(json_file_path, "w", encoding="utf-8") as file:
+        json.dump(filtered_data, file, indent=4, ensure_ascii=False)
+
+    print(f"Data successfully saved to {json_file_path}")
+
+
 def main():
     print("Creating Datasets...")
-    identityDirected = cad()
-    create_dataset(identityDirected)
+    # cadDataset = cad()
+    # create_cad_dataset(cadDataset)
+
+    gabDataset = gab()
+    create_gab_dataset(gabDataset)
 
 
 if __name__ == "__main__":
