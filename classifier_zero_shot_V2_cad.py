@@ -7,7 +7,7 @@ root_dir = Path(__file__).resolve().parent.parent
 
 
 def get_dataset():
-    json_file_path = root_dir / "Project" / "src" / "dataset" / "cad_dataset.json"
+    json_file_path = root_dir / "thesis" / "src" / "dataset" / "cad_dataset.json"
     with open(json_file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
@@ -31,7 +31,7 @@ def classify_comment(comment, model):
 
 def classify_dataset(data, model, entry_name):
     output_file_path = (
-        root_dir / "Project" / "src" / "dataset" / "cad_dataset_classified.json"
+        root_dir / "thesis" / "src" / "dataset" / "cad_dataset_classified.json"
     )
     processed_comments = 0
     total_comments = len(data)
