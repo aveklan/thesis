@@ -37,7 +37,7 @@ def classify_dataset(data, model, entry_name):
         / "thesis"
         / "src"
         / "dataset"
-        / "gab_dataset_withContext_classified.json"
+        / "gab_dataset_withContext_zero_shot_classified.json"
     )
     processed_comments = 0
     total_comments = len(data)
