@@ -1,7 +1,6 @@
 import json
 from ollama import chat, ChatResponse
 from pathlib import Path
-from src.scripts.gab_hate import get_gab_columns
 
 root_dir = Path(__file__).resolve().parent.parent
 
