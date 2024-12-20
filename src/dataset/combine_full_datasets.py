@@ -54,6 +54,9 @@ def gab():
     dfGAB_aggregated["Text"] = dfGAB_aggregated["Text"].str.replace(
         r"https://.*", "", regex=True
     )
+    dfGAB_aggregated["Text"] = dfGAB_aggregated["Text"].str.replace(
+        r"http://.*", "", regex=True
+    )
 
     dfGAB_aggregated_filtered = dfGAB_aggregated.drop(
         columns=["ID", "Annotator"], errors="ignore"
