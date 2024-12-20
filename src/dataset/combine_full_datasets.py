@@ -17,6 +17,7 @@ def cad():
             "annotation_Primary",
             "annotation_Secondary",
             "annotation_Target_top.level.category",
+            "annotation_Context",
         ]
     ]
     dfCAD_filtered = dfCAD_filtered.rename(
@@ -43,20 +44,20 @@ def cad():
             dfCAD_filtered_nonHate,
         ]
     )
-
     return cad_dataset
 
 
 def create_dataset(dataset):
     filtered_data = []
-    json_file_path = root_dir / "dataset" / "cad_dataset.json"
+    json_file_path = root_dir / "dataset" / "cad_dataset_withContext.json"
 
     for _, row in dataset.iterrows():
         # Create the JSON structure for each row
         entry = {
             "comment": row["meta_text"],
             "annotation_Primary": row["annotation_Primary"],
-            "annotation_category": row["annotation_category"],
+            "annotation_ategory": row["annotation_category"],
+            "annotation_Context": row["annotation_Context"],
         }
         # Append the entry to the list
         filtered_data.append(entry)
