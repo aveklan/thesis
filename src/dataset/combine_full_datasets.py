@@ -9,7 +9,7 @@ root_dir = Path(__file__).resolve().parent.parent
 def cad():
     print("Creating CAD dataset...")
     file_path = root_dir / "dataset" / "cad_v1.tsv"
-    dfCAD = pd.read_csv(file_path, delimiter="\t")
+    dfCAD = pd.read_csv(file_path, delimiter="\t", encoding="utf-8")
     dfCAD_filtered = dfCAD[
         [
             "meta_text",
@@ -63,6 +63,15 @@ def gab():
     )
 
     return dfGAB_aggregated_filtered
+
+
+def ethos():
+    print("Creating ETHOS dataset...")
+    file_path = root_dir / "dataset" / "Ethos_Dataset_Multi_Label.csv"
+    dfETHOS = pd.read_csv(file_path, delimiter=";", encoding="utf-8")
+
+    print(dfETHOS)
+    return dfETHOS
 
 
 def create_cad_dataset(dataset):
@@ -119,13 +128,43 @@ def create_gab_dataset(dataset):
     print(f"Data successfully saved to {json_file_path}")
 
 
+def create_ethos_dataset(dataset):
+    filtered_data = []
+    json_file_path = root_dir / "dataset" / "ethos_dataset_withContext.json"
+
+    for _, row in dataset.iterrows():
+        # Create the JSON structure for each row
+        entry = {
+            "comment": row["comment"],
+            "violence": row["violence"],
+            "directed_vs_generalized": row["directed_vs_generalized"],
+            "gender": row["gender"],
+            "race": row["race"],
+            "national_origin": row["national_origin"],
+            "disability": row["disability"],
+            "religion": row["religion"],
+            "sexual_orientation": row["sexual_orientation"],
+        }
+        # Append the entry to the list
+        filtered_data.append(entry)
+
+    # Save the list of structured data to a JSON file
+    with open(json_file_path, "w", encoding="utf-8") as file:
+        json.dump(filtered_data, file, indent=4, ensure_ascii=False)
+
+    print(f"Data successfully saved to {json_file_path}")
+
+
 def main():
     print("Creating Datasets...")
     # cadDataset = cad()
     # create_cad_dataset(cadDataset)
 
-    gabDataset = gab()
-    create_gab_dataset(gabDataset)
+    # gabDataset = gab()
+    # create_gab_dataset(gabDataset)
+
+    ethosDataset = ethos()
+    create_ethos_dataset(ethosDataset)
 
 
 if __name__ == "__main__":
