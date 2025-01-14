@@ -14,13 +14,6 @@ def get_dataset():
     return data
 
 
-def load_existing_data(output_file_path):
-    if output_file_path.exists():
-        with open(output_file_path, "r", encoding="utf-8") as file:
-            return json.load(file)
-    return None
-
-
 # Function to classify a comment
 def classify_comment(comment, model):
     prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nComment: {comment}"
@@ -44,32 +37,14 @@ def classify_dataset(data, model, entry_name):
         / "dataset"
         / "gab_dataset_classified_zero_shot.json"
     )
-    existing_data = load_existing_data(output_file_path)
-    if existing_data is None:
-        existing_data = []
-
-    # Map existing classifications for quick lookup
-    existing_results = {entry["comment"]: entry for entry in existing_data}
 
     processed_comments = 0
     total_comments = len(data)
 
     for entry in data:
         comment = entry.get("comment", "")
-
-        # Skip classification if the key exists
-        if comment in existing_results and entry_name in existing_results[comment]:
-            entry[entry_name] = existing_results[comment][entry_name]
-            processed_comments += 1
-            continue
-
-        # Perform classification
         result = classify_comment(comment, model)
         entry[entry_name] = result
-
-        # Add or update entry in the existing results
-        if comment not in existing_results:
-            existing_results[comment] = entry
 
         processed_comments += 1
         progress = (processed_comments / total_comments) * 100
@@ -77,12 +52,12 @@ def classify_dataset(data, model, entry_name):
 
         if processed_comments % 100 == 0:
             with open(output_file_path, "w", encoding="utf-8") as output_file:
-                json.dump(list(existing_results.values()), output_file, indent=4)
+                json.dump(data, output_file, indent=4)
             print(f"Progress saved at {processed_comments} comments.")
 
     # Final save to ensure all data is written
     with open(output_file_path, "w", encoding="utf-8") as output_file:
-        json.dump(list(existing_results.values()), output_file, indent=4)
+        json.dump(data, output_file, indent=4)
 
     print(
         f"{model} Classification completed, result can be found in JSON file {output_file_path}"
