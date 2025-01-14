@@ -94,8 +94,8 @@ if __name__ == "__main__":
     # print("Starting classification with llama model...")
     # classify_dataset(data, "llama3.1:8b", "result_llama")
 
-    # print("Starting classification with gemma model...")
-    # classify_dataset(data, "gemma", "result_gemma")
+    print("Starting classification with gemma model...")
+    classify_dataset(data, "gemma", "result_gemma")
 
     print("Starting classification with mistral model...")
     classify_dataset(data, "mistral", "result_mistral")
