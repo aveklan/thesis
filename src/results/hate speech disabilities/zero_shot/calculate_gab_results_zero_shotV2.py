@@ -9,8 +9,8 @@ ethos_file_path = root_dir / "zero_shot" / "gab_dataset_classified_zero_shot.jso
 # Model result keys
 MODEL_KEYS = {
     "llama": "result_llama",
-    "gemma": "result_gemma",
     "mistral": "result_mistral",
+    "gemma": "result_gemma",
 }
 
 # Constants
@@ -127,7 +127,10 @@ def ethos_results():
     """Main function to calculate results for the ethos dataset."""
     with open(ethos_file_path, "r", encoding="utf-8") as file:
         comments = json.load(file)
-    print(len(comments))
+    comments = [
+        entry for entry in comments if entry.get("comment", "").strip().lower() != ""
+    ]
+    print("Total comments: ", len(comments))
 
     hateful_comments = [entry for entry in comments if entry.get("Hate", 0) == 1]
     print("Hateful comments", len(hateful_comments))
