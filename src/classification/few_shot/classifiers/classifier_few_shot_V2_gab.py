@@ -6,7 +6,12 @@ root_dir = Path(__file__).resolve().parent.parent.parent.parent
 
 
 def get_dataset():
-    json_file_path = root_dir / "dataset" / "gab_dataset_withContext.json"
+    json_file_path = (
+        root_dir
+        / "dataset"
+        / "cleaned_json_datasets"
+        / "gab_dataset_withContext_cleaned.json"
+    )
     with open(json_file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
@@ -55,10 +60,10 @@ def classify_comment(comment, model):
 def classify_dataset(data, model, entry_name):
     output_file_path = (
         root_dir
-        / "results"
+        / "classification"
         / "few_shot"
         / "classification_results"
-        / "gab_dataset_classified_few_shot.json"
+        / "gab_dataset_classified_few_shot_second_attempt.json"
     )
     processed_comments = 0
     total_comments = len(data)
