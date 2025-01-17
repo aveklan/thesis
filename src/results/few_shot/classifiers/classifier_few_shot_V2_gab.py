@@ -1,15 +1,12 @@
 import json
 from ollama import chat, ChatResponse
 from pathlib import Path
-from src.scripts.gab_hate import get_gab_columns
 
-root_dir = Path(__file__).resolve().parent.parent
+root_dir = Path(__file__).resolve().parent.parent.parent.parent
 
 
 def get_dataset():
-    json_file_path = (
-        root_dir / "thesis" / "src" / "dataset" / "cad_dataset_withContext.json"
-    )
+    json_file_path = root_dir / "dataset" / "gab_dataset_withContext.json"
     with open(json_file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
@@ -17,7 +14,31 @@ def get_dataset():
 
 # Function to classify a comment
 def classify_comment(comment, model):
-    prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nComment: {comment}"
+    examples = """
+        The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.
+        Example 1:
+        Comment: "Ah the PSYOPS antifa crew is back. That’s how I know we are winning."
+        Response: no
+
+        Example 2:
+        Comment: "They weren't innocents, they weren't protestors, they were Hamas scum who want to obliterate Jews and Israel. Leftwing MSM needs to realise Hamas would indoctrinate all of them if they lived under its governance."
+        Response: no
+
+        Example 3:
+        Comment: "Must be an old picture.  There are no refugees camps or streets filled with human shit."
+        Response: no
+        
+        Example 4:
+        Comment: "The white self hating leftist mental disorder that push's people to vote for these scum bags. A few day's earlier he was boasting about how his ancestors came to the US from Italy for a better life. And we need more 3rd worlders from shit holes."
+        Response: yes
+
+        Example 5:
+        Comment: "Actually that mentally ill fag Bruce Jenner is simply that, a retarded mentally ill faggott."
+        Response: yes
+    """
+    # Add the actual comment to classify
+    prompt = f"{examples}\nComment: {comment}\nResponse:"
+
     response: ChatResponse = chat(
         model=model,
         messages=[
@@ -34,10 +55,10 @@ def classify_comment(comment, model):
 def classify_dataset(data, model, entry_name):
     output_file_path = (
         root_dir
-        / "thesis"
-        / "src"
-        / "dataset"
-        / "cad_dataset_withContext_classified.json"
+        / "results"
+        / "few_shot"
+        / "classification_results"
+        / "gab_dataset_classified_few_shot.json"
     )
     processed_comments = 0
     total_comments = len(data)

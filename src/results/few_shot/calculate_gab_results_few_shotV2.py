@@ -4,7 +4,9 @@ from pathlib import Path
 
 # File paths
 root_dir = Path(__file__).resolve().parent.parent
-ethos_file_path = root_dir / "few_shot" / "gab_dataset_classified_few_shot.json"
+ethos_file_path = (
+    root_dir / "few_shot" / "results" / "gab_dataset_classified_few_shot.json"
+)
 
 # Model result keys
 MODEL_KEYS = {

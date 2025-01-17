@@ -8,7 +8,7 @@ root_dir = Path(__file__).resolve().parent.parent
 
 def cad():
     print("Creating CAD dataset...")
-    file_path = root_dir / "dataset" / "cad_v1.tsv"
+    file_path = root_dir / "raw_data" / "cad_v1.tsv"
     dfCAD = pd.read_csv(file_path, delimiter="\t", encoding="utf-8")
     dfCAD_filtered = dfCAD[
         [
@@ -48,7 +48,7 @@ def cad():
 
 def gab():
     print("Creating GAB dataset...")
-    file_path = root_dir / "dataset" / "GabHateCorpus_annotations.tsv"
+    file_path = root_dir / "raw_data" / "GabHateCorpus_annotations.tsv"
     dfGAB = pd.read_csv(file_path, delimiter="\t")
     dfGAB_aggregated = dfGAB.groupby("Text", as_index=False).sum(numeric_only=True)
     dfGAB_aggregated["Text"] = dfGAB_aggregated["Text"].str.replace(
@@ -67,7 +67,7 @@ def gab():
 
 def ethos():
     print("Creating ETHOS dataset...")
-    file_path = root_dir / "dataset" / "Ethos_Dataset_Multi_Label.csv"
+    file_path = root_dir / "raw_data" / "Ethos_Dataset_Multi_Label.csv"
     dfETHOS = pd.read_csv(file_path, delimiter=";", encoding="utf-8")
 
     print(dfETHOS)
@@ -76,7 +76,7 @@ def ethos():
 
 def create_cad_dataset(dataset):
     filtered_data = []
-    json_file_path = root_dir / "dataset" / "cad_dataset_withContext.json"
+    json_file_path = root_dir / "cad_dataset_withContext.json"
 
     for _, row in dataset.iterrows():
         # Create the JSON structure for each row
@@ -98,7 +98,7 @@ def create_cad_dataset(dataset):
 
 def create_gab_dataset(dataset):
     filtered_data = []
-    json_file_path = root_dir / "dataset" / "gab_dataset_withContext.json"
+    json_file_path = root_dir / "gab_dataset_withContext.json"
 
     for _, row in dataset.iterrows():
         # Create the JSON structure for each row
@@ -130,7 +130,7 @@ def create_gab_dataset(dataset):
 
 def create_ethos_dataset(dataset):
     filtered_data = []
-    json_file_path = root_dir / "dataset" / "ethos_dataset_withContext.json"
+    json_file_path = root_dir / "ethos_dataset_withContext.json"
 
     for _, row in dataset.iterrows():
         # Create the JSON structure for each row
@@ -157,11 +157,11 @@ def create_ethos_dataset(dataset):
 
 def main():
     print("Creating Datasets...")
-    # cadDataset = cad()
-    # create_cad_dataset(cadDataset)
+    cadDataset = cad()
+    create_cad_dataset(cadDataset)
 
-    # gabDataset = gab()
-    # create_gab_dataset(gabDataset)
+    gabDataset = gab()
+    create_gab_dataset(gabDataset)
 
     ethosDataset = ethos()
     create_ethos_dataset(ethosDataset)
