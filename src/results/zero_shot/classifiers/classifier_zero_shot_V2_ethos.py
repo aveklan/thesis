@@ -2,13 +2,11 @@ import json
 from ollama import chat, ChatResponse
 from pathlib import Path
 
-root_dir = Path(__file__).resolve().parent.parent
+root_dir = Path(__file__).resolve().parent.parent.parent.parent
 
 
 def get_dataset():
-    json_file_path = (
-        root_dir / "thesis" / "src" / "dataset" / "cad_dataset_withContext.json"
-    )
+    json_file_path = root_dir / "dataset" / "ethos_dataset_withContext.json"
     with open(json_file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
@@ -16,31 +14,7 @@ def get_dataset():
 
 # Function to classify a comment
 def classify_comment(comment, model):
-    examples = """
-        The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.
-        Example 1:
-        Comment: "I just colonized the shit out of her mom last night"
-        Response: no
-
-        Example 2:
-        Comment: "are you telling me to "shut the fuck up" because i asked a question about the culture of this subreddit? you must be a regular over at r/politics."
-        Response: no
-
-        Example 3:
-        Comment: "now excuse me as i go wave my female penis around in the women's washroom."
-        Response: no
-        
-        Example 4:
-        Comment: "Throwing stones to paraplegic kids is my favourite hobby"
-        Response: yes
-
-        Example 5:
-        Comment: "uh, yes. are you mentally challenged? asking for a friend"
-        Response: yes
-    """
-    # Add the actual comment to classify
-    prompt = f"{examples}\nComment: {comment}\nResponse:"
-
+    prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nComment: {comment}"
     response: ChatResponse = chat(
         model=model,
         messages=[
@@ -56,7 +30,11 @@ def classify_comment(comment, model):
 
 def classify_dataset(data, model, entry_name):
     output_file_path = (
-        root_dir / "thesis" / "src" / "dataset" / "cad_dataset_few_shot_classified.json"
+        root_dir
+        / "results"
+        / "few_shot"
+        / "classification_results"
+        / "ethos_dataset_withContext_classified_zero_shot.json"
     )
     processed_comments = 0
     total_comments = len(data)
