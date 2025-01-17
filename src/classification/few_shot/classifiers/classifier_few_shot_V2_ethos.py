@@ -60,7 +60,7 @@ def classify_comment(comment, model):
 def classify_dataset(data, model, entry_name):
     output_file_path = (
         root_dir
-        / "results"
+        / "classification"
         / "few_shot"
         / "classification_results"
         / "ethos_dataset_classified_few_shot_second_attempt.json"
