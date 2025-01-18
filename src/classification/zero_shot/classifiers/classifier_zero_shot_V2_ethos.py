@@ -6,7 +6,12 @@ root_dir = Path(__file__).resolve().parent.parent.parent.parent
 
 
 def get_dataset():
-    json_file_path = root_dir / "dataset" / "ethos_dataset_withContext.json"
+    json_file_path = (
+        root_dir
+        / "dataset"
+        / "cleaned_json_datasets"
+        / "ethos_dataset_withContext_cleaned.json"
+    )
     with open(json_file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
@@ -34,7 +39,7 @@ def classify_dataset(data, model, entry_name):
         / "results"
         / "few_shot"
         / "classification_results"
-        / "ethos_dataset_withContext_classified_zero_shot.json"
+        / "ethos_dataset_withContext_classified_zero_shot_second_attempt.json"
     )
     processed_comments = 0
     total_comments = len(data)
