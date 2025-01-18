@@ -6,7 +6,10 @@ from pathlib import Path
 # File paths
 root_dir = Path(__file__).resolve().parent.parent
 cad_file_path = (
-    root_dir / "zero_shot" / "results" / "cad_dataset_zero_shot_classified.json"
+    root_dir
+    / "zero_shot"
+    / "classification_results"
+    / "cad_dataset_zero_shot_classified.json"
 )
 
 # Model result keys

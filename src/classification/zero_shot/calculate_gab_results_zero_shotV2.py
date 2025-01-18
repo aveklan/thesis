@@ -5,7 +5,10 @@ from pathlib import Path
 # File paths
 root_dir = Path(__file__).resolve().parent.parent
 ethos_file_path = (
-    root_dir / "zero_shot" / "results" / "gab_dataset_classified_zero_shot.json"
+    root_dir
+    / "zero_shot"
+    / "classification_results"
+    / "gab_dataset_classified_zero_shot.json"
 )
 
 # Model result keys
