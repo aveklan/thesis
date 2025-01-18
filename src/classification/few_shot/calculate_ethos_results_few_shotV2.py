@@ -5,7 +5,10 @@ from pathlib import Path
 # File paths
 root_dir = Path(__file__).resolve().parent.parent
 ethos_file_path = (
-    root_dir / "few_shot" / "results" / "ethos_dataset_classified_few_shot.json"
+    root_dir
+    / "few_shot"
+    / "classification_results"
+    / "ethos_dataset_classified_few_shot.json"
 )
 
 # Model result keys

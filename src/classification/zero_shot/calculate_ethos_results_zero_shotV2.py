@@ -7,7 +7,7 @@ root_dir = Path(__file__).resolve().parent.parent
 ethos_file_path = (
     root_dir
     / "zero_shot"
-    / "results"
+    / "classification_results"
     / "ethos_dataset_withContext_classified_zero_shot.json"
 )
 
