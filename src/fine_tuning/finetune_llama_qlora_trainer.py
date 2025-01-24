@@ -1,5 +1,10 @@
 from huggingface_hub import login
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
+from transformers import (
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    BitsAndBytesConfig,
+    TrainingArguments,
+)
 from peft import LoraConfig, get_peft_model
 from trl import SFTTrainer
 from datasets import load_dataset
@@ -9,13 +14,12 @@ import torch
 # Paths
 root_dir = Path(__file__).resolve().parent
 model_id = "meta-llama/Meta-Llama-3.1-8B"
-trained_model_id = "Llama-3.1-8B-sft-lora-fine_tuned"
+trained_model_id = "/Llama-3.1-8B-sft-lora-fine_tuned"
 output_dir = trained_model_id
 
 # Dataset
 dataset = load_dataset(
-    "json", 
-    data_files=str(root_dir / "ethos_dataset_withContext_formatted.json")
+    "json", data_files=str(root_dir / "ethos_dataset_withContext_formatted.json")
 )
 train_dataset = dataset["train"]
 eval_dataset = dataset["train"]
@@ -44,7 +48,7 @@ model = AutoModelForCausalLM.from_pretrained(
     num_labels=2,
     quantization_config=quantization_config,
     device_map="auto",
-    revision = "main"
+    revision="main",
 )
 
 # Apply LoRA Config

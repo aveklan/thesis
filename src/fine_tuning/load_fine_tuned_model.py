@@ -1,8 +1,12 @@
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, BitsAndBytesConfig
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
+    BitsAndBytesConfig,
+)
 import torch
 
 # Load the fine-tuned model and tokenizer
-model_path = "Llama-3.1-8B-sft-lora-fine_tuned" # Path to your fine-tuned model
+model_path = "Llama-3.1-8B-sft-lora-fine_tuned"  # Path to your fine-tuned model
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 # Quantization Config
@@ -27,6 +31,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
 
+
 # Function to classify a comment
 def classify_comment(comment, model):
     # Tokenize the input comment
@@ -37,7 +42,7 @@ def classify_comment(comment, model):
         padding="longest",  # Ensures proper padding
         max_length=512,
     )
-    
+
     # Move inputs to the same device as the model
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
