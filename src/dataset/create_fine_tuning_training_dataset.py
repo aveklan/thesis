@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from numpy import negative, positive
+
 root_dir = Path(__file__).resolve().parent
 
 
@@ -18,10 +20,16 @@ def create_formatted_dataset(input_file, output_file):
     # Process each entry
     for entry in raw_data:
         # Extract the comment and labels
+        classification = entry.get("disability", 0.0)
+        if classification >= 0.5:
+            classification = "yes"
+        else:
+            classification = "no"
+
         formatted_entry = {
-            "instruction": "Classify this comment as hate speech or not: "
+            "text": "Classify this comment as hate speech or not: "
             + entry.get("comment", "").strip(),  # Comment text
-            "label": "Negative",
+            "label": classification,
         }
         formatted_data.append(formatted_entry)
 
