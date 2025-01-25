@@ -12,17 +12,27 @@ from pathlib import Path
 import torch
 
 # Paths
-root_dir = Path(__file__).resolve().parent
+root_dir = Path(__file__).resolve().parent.parent
 model_id = "meta-llama/Meta-Llama-3.1-8B"
-trained_model_id = "/Llama-3.1-8B-sft-lora-fine_tuned"
+trained_model_id = root_dir / "fine_tuning" / "Llama-3.1-8B-sft-lora-fine_tuned"
 output_dir = trained_model_id
 
 # Dataset
 dataset = load_dataset(
-    "json", data_files=str(root_dir / "ethos_dataset_withContext_formatted.json")
+    "json",
+    data_files=str(
+        root_dir / "dataset" / "fine_tuning_datasets" / "combined_training_dataset.json"
+    ),
 )
+testing_dataset = load_dataset(
+    "json",
+    data_files=str(
+        root_dir / "dataset" / "fine_tuning_datasets" / "combined_testing_dataset.json"
+    ),
+)
+
 train_dataset = dataset["train"]
-eval_dataset = dataset["train"]
+eval_dataset = testing_dataset["train"]
 
 # Hugging Face login
 login(token="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")
@@ -32,15 +42,15 @@ tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=True)
 
 # Quantization Config
 ## For 4 bit quantization
-# quantization_config = BitsAndBytesConfig(
-#     load_in_4bit=True,
-#     bnb_4bit_use_double_quant=True,
-#     bnb_4bit_quant_type="nf4",
-#     bnb_4bit_compute_dtype=torch.bfloat16,
-# )
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16,
+)
 
 # For 8 bit quantization
-quantization_config = BitsAndBytesConfig(load_in_8bit=True, llm_int8_threshold=200.0)
+# quantization_config = BitsAndBytesConfig(load_in_8bit=True, llm_int8_threshold=200.0)
 
 # Model Loading
 model = AutoModelForCausalLM.from_pretrained(
@@ -66,7 +76,7 @@ model = get_peft_model(model, peft_config)
 training_args = TrainingArguments(
     fp16=False,  # Use bf16 on supported GPUs
     bf16=False,
-    do_eval=False,
+    do_eval=True,
     evaluation_strategy="no",  # No evaluation
     gradient_accumulation_steps=1,
     gradient_checkpointing=True,
