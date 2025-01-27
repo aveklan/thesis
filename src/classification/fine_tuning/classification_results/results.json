@@ -1,0 +1,36 @@
+{
+    "experiments": [
+      {
+        "experiment_id": 1,
+        "description": "First experiment evaluating classification performance on the test dataset.",
+        "metrics": {
+          "no": {
+            "precision": 0.5205,
+            "recall": 0.4159,
+            "f1_score": 0.4623,
+            "support": 214
+          },
+          "yes": {
+            "precision": 0.4770,
+            "recall": 0.5816,
+            "f1_score": 0.5241,
+            "support": 196
+          },
+          "accuracy": 0.4951,
+          "macro_avg": {
+            "precision": 0.4987,
+            "recall": 0.4988,
+            "f1_score": 0.4932,
+            "support": 410
+          },
+          "weighted_avg": {
+            "precision": 0.4997,
+            "recall": 0.4951,
+            "f1_score": 0.4919,
+            "support": 410
+          }
+        }
+      }
+    ]
+  }
+  
