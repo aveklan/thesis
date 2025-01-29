@@ -11,8 +11,11 @@ import time
 
 # Path configuration
 root_dir = Path(__file__).resolve().parent.parent.parent
+# model_path = "meta-llama/Llama-3.1-8B-Instruct"
 model_path = (
-    root_dir / "fine_tuning" / "Llama-3.1-8B-sft-lora-fine_tuned"
+    root_dir
+    / "fine_tuning"
+    / "Llama-3.1-8_V5-five_epoch_new_settings-sft-lora-fine_tuned"
 )  # Path to your fine-tuned model
 test_file = (
     root_dir / "dataset" / "fine_tuning_datasets" / "combined_testing_dataset.json"

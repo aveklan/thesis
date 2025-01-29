@@ -18,7 +18,7 @@ model_id = "meta-llama/Meta-Llama-3.1-8B"
 trained_model_id = (
     root_dir
     / "fine_tuning"
-    / "Llama-3.1-8_V4-one_epoch_new_settings-sft-lora-fine_tuned"
+    / "Llama-3.1-8_V5-five_epoch_new_settings-sft-lora-fine_tuned"
 )
 output_dir = trained_model_id
 
@@ -91,7 +91,7 @@ training_args = TrainingArguments(
     warmup_ratio=0.1,  # Add warmup period
     logging_steps=5,
     logging_strategy="steps",
-    num_train_epochs=1,
+    num_train_epochs=5,
     output_dir=output_dir,
     overwrite_output_dir=True,
     per_device_eval_batch_size=1,
