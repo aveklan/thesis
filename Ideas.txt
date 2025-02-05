@@ -1,3 +1,4 @@
 Train bigger datasets with more data
 Do the same for datasets not related to disabilities
 Check the relationship between the post and the commend and check for example if a comment support an hateful comment ecc.
+Fine tuning even with all the exaples of the databases but including weights to differently balance the datasets<   
