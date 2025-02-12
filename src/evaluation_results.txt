@@ -1,0 +1,9 @@
+Evaluation Metrics:
+              precision    recall  f1-score   support
+
+          no     0.5702    0.9299    0.7069       214
+         yes     0.7541    0.2347    0.3580       196
+
+    accuracy                         0.5976       410
+   macro avg     0.6621    0.5823    0.5325       410
+weighted avg     0.6581    0.5976    0.5401       410
