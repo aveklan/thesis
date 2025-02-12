@@ -19,6 +19,7 @@ input_path = root_dir / "hate_speech_KG_datase_only_comments.json"
 nodes_output_path = root_dir / "KG_nodes.csv"
 edges_output_path = root_dir / "KG_edges.csv"
 grap_output_path = root_dir / "GK_graph.html"
+search_grap_output_path = root_dir / "GK_search_graph.html"
 
 
 def preprocess_text(text):
@@ -37,7 +38,7 @@ def cluster_similar_words(unique_tokens):
     word_vectors = np.array([nlp(token).vector for token in unique_tokens])
 
     # Cluster similar words using KMeans
-    num_clusters = len(unique_tokens)
+    num_clusters = int(len(unique_tokens) * 0.3)
     kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init=10)
     clusters = kmeans.fit_predict(word_vectors)
 
@@ -72,11 +73,24 @@ def build_cooccurrence_graph(comments, cluster_dict, window_size=3):
     return G
 
 
-def filter_important_nodes(G, min_degree=3):
-    important_nodes = [
-        node for node, degree in dict(G.degree()).items() if degree >= min_degree
+def filter_graph(G, edge_weight_threshold=5, min_node_degree=3):
+    # Remove edges with weight < edge_weight_threshold
+    filtered_G = nx.Graph()
+    filtered_G.add_nodes_from(G.nodes(data=True))  # Keep all nodes initially
+
+    for u, v, data in G.edges(data=True):
+        if data["weight"] >= edge_weight_threshold:
+            filtered_G.add_edge(u, v, weight=data["weight"])
+
+    # Remove nodes with degree ≤ min_node_degree
+    nodes_to_remove = [
+        node
+        for node, degree in dict(filtered_G.degree()).items()
+        if degree <= min_node_degree
     ]
-    return G.subgraph(important_nodes)
+    filtered_G.remove_nodes_from(nodes_to_remove)
+
+    return filtered_G
 
 
 def extract_named_entities(comments):
@@ -103,6 +117,16 @@ def visualize_graph_interactive(G):
     for source, target, data in G.edges(data=True):
         net.add_edge(source, target, value=data["weight"])
 
+    net.set_options(
+        """
+    var options = {
+      "physics": {
+        "enabled": false
+      }
+    }
+    """
+    )
+
     net.show(str(grap_output_path))
 
 
@@ -127,23 +151,24 @@ comments = df[0]
 tokens = []
 for comment in comments:
     tokens.extend(preprocess_text(comment))
+unique_tokens = list(set(tokens))
 
+# Get tokens that appears more than n times in the comments
 high_fequency_tokens = filter_frequent_words(tokens)
-unique_tokens = list(
-    set(high_fequency_tokens)
-)  # Change tokens to high_fequency_tokens to have a kg with only words with high frequency
+unique_tokens_high_frequency = list(set(high_fequency_tokens))
+
 word_clusters = cluster_similar_words(unique_tokens)
 
 graph = build_cooccurrence_graph(comments, word_clusters)
-filtered_graph = filter_important_nodes(graph)
+filtered_graph = filter_graph(graph)
 
 print(
     "Initial number of tokens: ",
     len(tokens),
-    "\nTokens with frequency higher than 3: ",
-    len(high_fequency_tokens),
-    "\nUnunique Tokens with frequency higher than 3: ",
+    "\nUnunique Tokens: ",
     len(unique_tokens),
+    "\nUnunique Tokens with frequency higher than 3: ",
+    len(unique_tokens_high_frequency),
     "\nNumber of world clusters: ",
     len(word_clusters),
     "\nOriginal Graph Nodes: ",
@@ -153,4 +178,5 @@ print(
 )
 
 visualize_graph_interactive(filtered_graph)
+# Example: Display connections for the word "hate"
 # save_graph(graph)
