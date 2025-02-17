@@ -18,7 +18,8 @@ root_dir = Path(__file__).resolve().parent
 input_path = root_dir / "hate_speech_KG_datase_only_comments.json"
 nodes_output_path = root_dir / "KG_nodes.csv"
 edges_output_path = root_dir / "KG_edges.csv"
-grap_output_path = root_dir / "GK_graph.html"
+grap_clustered_output_path = root_dir / "GK_graph_clustered.html"
+grap_unclustered_output_path = root_dir / "GK_graph_unclustered.html"
 search_grap_output_path = root_dir / "GK_search_graph.html"
 
 
@@ -49,27 +50,45 @@ def cluster_similar_words(unique_tokens):
     return cluster_dict
 
 
+import networkx as nx
+
+
 def build_cooccurrence_graph(comments, cluster_dict, window_size=3):
     G = nx.Graph()
 
     for comment in comments:
         tokens = preprocess_text(comment)
 
-        # Replace words with their cluster representatives
-        reduced_tokens = set()
-        for token in tokens:
-            for cluster_id, words in cluster_dict.items():
-                if token in words:
-                    reduced_tokens.add(words[0])  # Use first word as representative
+        # Case 1: If cluster_dict is a dictionary (word clustering case)
+        if isinstance(cluster_dict, dict) and all(
+            isinstance(words, list) for words in cluster_dict.values()
+        ):
+            reduced_tokens = set()
+            for token in tokens:
+                for cluster_id, words in cluster_dict.items():
+                    if token in words:
+                        reduced_tokens.add(
+                            words[0]
+                        )  # Use the first word as the cluster representative
+            reduced_tokens = list(reduced_tokens)  # Convert set to list
+
+        # Case 2: If cluster_dict is a list (single tokens case)
+        elif isinstance(cluster_dict, list):
+            reduced_tokens = cluster_dict  # Directly use the token list
+
+        else:
+            raise TypeError(
+                "Invalid format for cluster_dict. It must be a dictionary of lists or a list of tokens."
+            )
 
         # Connect words in the same comment
-        reduced_tokens = list(reduced_tokens)
         for i in range(len(reduced_tokens)):
             for j in range(i + 1, min(i + window_size, len(reduced_tokens))):
                 if G.has_edge(reduced_tokens[i], reduced_tokens[j]):
                     G[reduced_tokens[i]][reduced_tokens[j]]["weight"] += 1
                 else:
                     G.add_edge(reduced_tokens[i], reduced_tokens[j], weight=1)
+
     return G
 
 
@@ -127,7 +146,7 @@ def visualize_graph_interactive(G):
     """
     )
 
-    net.show(str(grap_output_path))
+    net.show(str(grap_unclustered_output_path))
 
 
 def save_graph(G):
@@ -159,7 +178,7 @@ unique_tokens_high_frequency = list(set(high_fequency_tokens))
 
 word_clusters = cluster_similar_words(unique_tokens)
 
-graph = build_cooccurrence_graph(comments, word_clusters)
+graph = build_cooccurrence_graph(comments, unique_tokens_high_frequency)
 filtered_graph = filter_graph(graph)
 
 print(
