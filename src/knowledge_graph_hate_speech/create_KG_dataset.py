@@ -13,7 +13,7 @@ output_path = root_dir / "knowledge_graph_hate_speech" / "hate_speech_KG_dataset
 output_json_path = (
     root_dir
     / "knowledge_graph_hate_speech"
-    / "hate_speech_KG_datase_only_commentst.json"
+    / "hate_speech_KG_datase_only_comments.json"
 )
 
 df = pd.read_json(input_path, orient="records")
