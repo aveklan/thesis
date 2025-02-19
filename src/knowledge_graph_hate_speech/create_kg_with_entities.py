@@ -9,7 +9,7 @@ from nltk.corpus import stopwords
 from textblob import TextBlob
 from openie import StanfordOpenIE
 from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 nlp = spacy.load("en_core_web_md")  # Load a pre-trained spaCy model
 
@@ -19,6 +19,15 @@ stop_words = set(stopwords.words("english"))
 root_dir = Path(__file__).resolve().parent
 input_path = root_dir / "hate_speech_KG_dataset_only_comments.json"
 output_json_path_relationships = root_dir / "extracted_relationships.json"
+output_json_path_relationships_babelscapeGPT = (
+    root_dir / "extracted_relationships_babelscapeGPT.json"
+)
+output_json_path_relationships_babelscapeGIT = (
+    root_dir / "extracted_relationships_babelscapeGIT.json"
+)
+output_json_path_relationships_babelscapeGITBatch = (
+    root_dir / "extracted_relationships_babelscapeGITBatch.json"
+)
 
 abbreviation_dict = {
     "u": "you",
@@ -50,6 +59,14 @@ tqdm.pandas()
 
 tokenizer = AutoTokenizer.from_pretrained("Babelscape/rebel-large")
 model = AutoModelForSeq2SeqLM.from_pretrained("Babelscape/rebel-large")
+
+# Load the REBEL model
+triplet_extractor = pipeline(
+    "text2text-generation",
+    model="Babelscape/rebel-large",
+    tokenizer="Babelscape/rebel-large",
+    device=0,  # Uses GPU if available (-1 for CPU)
+)
 
 
 ##### 1. Load dataset #####
@@ -164,8 +181,94 @@ def extract_relationship_from_rebel(comments):
         )
     )
 
-    print(extracted_relations.head(10))
     return extracted_relations
+
+
+def extract_relationships_from_rebel_GIT(comments):
+    print("Extracting relationships with REBEL model with GIT script...")
+
+    extracted_relations = comments.astype(str).progress_apply(
+        lambda x: extract_triplets(
+            triplet_extractor.tokenizer.batch_decode(
+                [
+                    triplet_extractor(x, return_tensors=True, return_text=False)[0][
+                        "generated_token_ids"
+                    ]
+                ]
+            )[0]
+        )
+    )
+    print("Done extracting relationships GIT.", extracted_relations.head())
+    return extracted_relations
+
+
+def extract_relationships_from_rebel_GIT_batch(comments, batch_size=16):
+    print("Extracting relationships with REBEL model using batch processing...")
+
+    # Convert comments to strings and process them in batches
+    extracted_relations = []
+    for i in range(0, len(comments), batch_size):
+        batch = comments[i : i + batch_size].tolist()
+        outputs = triplet_extractor(batch, return_tensors=True, return_text=False)
+
+        decoded_texts = triplet_extractor.tokenizer.batch_decode(
+            [out["generated_token_ids"] for out in outputs]
+        )
+        extracted_relations.extend([extract_triplets(text) for text in decoded_texts])
+
+    return extracted_relations
+
+
+# Function to parse the generated text and extract triplets
+def extract_triplets(text):
+    triplets = []
+    relation, subject, object_ = "", "", ""
+    text = text.strip()
+    current = "x"
+
+    for token in (
+        text.replace("<s>", "").replace("<pad>", "").replace("</s>", "").split()
+    ):
+        if token == "<triplet>":
+            current = "t"
+            if relation:
+                triplets.append(
+                    {
+                        "head": subject.strip(),
+                        "type": relation.strip(),
+                        "tail": object_.strip(),
+                    }
+                )
+            subject = ""
+            relation = ""
+        elif token == "<subj>":
+            current = "s"
+            if relation:
+                triplets.append(
+                    {
+                        "head": subject.strip(),
+                        "type": relation.strip(),
+                        "tail": object_.strip(),
+                    }
+                )
+            object_ = ""
+        elif token == "<obj>":
+            current = "o"
+            relation = ""
+        else:
+            if current == "t":
+                subject += " " + token
+            elif current == "s":
+                object_ += " " + token
+            elif current == "o":
+                relation += " " + token
+
+    if subject and relation and object_:
+        triplets.append(
+            {"head": subject.strip(), "type": relation.strip(), "tail": object_.strip()}
+        )
+
+    return triplets
 
 
 dataset_elements = load_dataset(input_path)
@@ -184,12 +287,58 @@ print(
 )
 
 extracted_relationships = extract_relationships_automated(preprocessed_comments)
-extracted_relationships_rebel = extract_relationship_from_rebel(preprocessed_comments)
+# extracted_relationships_rebel = extract_relationship_from_rebel(preprocessed_comments)
+extracted_relationships_rebel_GIT = extract_relationships_from_rebel_GIT(
+    preprocessed_comments
+)
+extracted_relationships_rebel_GIT_batch = extract_relationships_from_rebel_GIT_batch(
+    preprocessed_comments
+)
+
 print(
     "Relationships extraction phase performed correctly, remaining elements: ",
-    extracted_relationships_rebel.size,
+    extracted_relationships_rebel_GIT.head(),
 )
 extracted_relationships.to_json(
     output_json_path_relationships, orient="records", indent=4, force_ascii=False
 )
+# extracted_relationships_rebel.to_json(
+#     output_json_path_relationships_babelscapeGPT,
+#     orient="records",
+#     indent=4,
+#     force_ascii=False,
+# )
+
+try:
+    extracted_relationships_rebel_GIT.to_json(
+        output_json_path_relationships_babelscapeGIT,
+        orient="records",
+        indent=4,
+        force_ascii=False,
+    )
+    print(
+        f"Successfully saved extracted relationships to {output_json_path_relationships_babelscapeGIT}"
+    )
+except Exception as e:
+    print(f"Error saving extracted_relationships_rebel_GIT: {e}")
+
+try:
+    # Convert the list to a pandas DataFrame
+    df_extracted_relationships = pd.DataFrame(
+        extracted_relationships_rebel_GIT_batch, columns=["relationships"]
+    )
+
+    # Save the DataFrame to JSON
+    df_extracted_relationships.to_json(
+        output_json_path_relationships_babelscapeGITBatch,
+        orient="records",
+        indent=4,
+        force_ascii=False,
+    )
+    print(
+        f"Successfully saved batch relationships to {output_json_path_relationships_babelscapeGITBatch}"
+    )
+except Exception as e:
+    print(f"Error saving extracted_relationships_rebel_GIT_batch: {e}")
+
 print(f"Extracted relationships saved to {output_json_path_relationships}")
