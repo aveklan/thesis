@@ -3,6 +3,7 @@ import pandas as pd
 import re
 import spacy
 import nltk
+import json
 
 from pathlib import Path
 from nltk.corpus import stopwords
@@ -202,7 +203,7 @@ def extract_relationships_from_rebel_GIT(comments):
     return extracted_relations
 
 
-def extract_relationships_from_rebel_GIT_batch(comments, batch_size=16):
+def extract_relationships_from_rebel_GIT_batch(comments, batch_size=64):
     print("Extracting relationships with REBEL model using batch processing...")
 
     # Convert comments to strings and process them in batches
@@ -273,6 +274,7 @@ def extract_triplets(text):
 
 dataset_elements = load_dataset(input_path)
 print("Dataset loaded correctly, element loaded: ", dataset_elements.size)
+dataset_elements = dataset_elements
 
 preprocessed_comments = preprocess_text(dataset_elements)
 print(
@@ -287,7 +289,7 @@ print(
 )
 
 extracted_relationships = extract_relationships_automated(preprocessed_comments)
-# extracted_relationships_rebel = extract_relationship_from_rebel(preprocessed_comments)
+extracted_relationships_rebel = extract_relationship_from_rebel(preprocessed_comments)
 extracted_relationships_rebel_GIT = extract_relationships_from_rebel_GIT(
     preprocessed_comments
 )
@@ -302,12 +304,12 @@ print(
 extracted_relationships.to_json(
     output_json_path_relationships, orient="records", indent=4, force_ascii=False
 )
-# extracted_relationships_rebel.to_json(
-#     output_json_path_relationships_babelscapeGPT,
-#     orient="records",
-#     indent=4,
-#     force_ascii=False,
-# )
+extracted_relationships_rebel.to_json(
+    output_json_path_relationships_babelscapeGPT,
+    orient="records",
+    indent=4,
+    force_ascii=False,
+)
 
 try:
     extracted_relationships_rebel_GIT.to_json(
@@ -323,18 +325,12 @@ except Exception as e:
     print(f"Error saving extracted_relationships_rebel_GIT: {e}")
 
 try:
-    # Convert the list to a pandas DataFrame
-    df_extracted_relationships = pd.DataFrame(
-        extracted_relationships_rebel_GIT_batch, columns=["relationships"]
-    )
-
-    # Save the DataFrame to JSON
-    df_extracted_relationships.to_json(
-        output_json_path_relationships_babelscapeGITBatch,
-        orient="records",
-        indent=4,
-        force_ascii=False,
-    )
+    with open(
+        output_json_path_relationships_babelscapeGITBatch, "w", encoding="utf-8"
+    ) as f:
+        json.dump(
+            extracted_relationships_rebel_GIT_batch, f, indent=4, ensure_ascii=False
+        )
     print(
         f"Successfully saved batch relationships to {output_json_path_relationships_babelscapeGITBatch}"
     )
