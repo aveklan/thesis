@@ -32,5 +32,14 @@ df.to_csv(output_path, index=False)
 df = df["text"]
 print(df.head(), "\nFile length only for hate speech: ", len(df))
 
+# Remove empty or duplicate comments
+df = df.astype(str).str.lower()
+comments_non_empty = df.dropna()
+comments_without_duplicates = comments_non_empty.drop_duplicates()
+print("Comments size after removing empty comments: ", comments_non_empty.size)
+print("Comments size after removing duplicates: ", comments_without_duplicates.size)
+
 # Save cleaned dataset
-df.to_json(output_json_path, orient="records", force_ascii=False)
+comments_without_duplicates.to_json(
+    output_json_path, orient="records", force_ascii=False
+)
