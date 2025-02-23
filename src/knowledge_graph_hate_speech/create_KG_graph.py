@@ -15,7 +15,7 @@ from collections import defaultdict, Counter
 nlp = spacy.load("en_core_web_md")
 
 root_dir = Path(__file__).resolve().parent
-input_path = root_dir / "hate_speech_KG_datase_only_comments.json"
+input_path = root_dir / "hate_speech_KG_dataset_only_comments.json"
 nodes_output_path = root_dir / "KG_nodes.csv"
 edges_output_path = root_dir / "KG_edges.csv"
 grap_clustered_output_path = root_dir / "GK_graph_clustered.html"
