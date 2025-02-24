@@ -50,9 +50,6 @@ def cluster_similar_words(unique_tokens):
     return cluster_dict
 
 
-import networkx as nx
-
-
 def build_cooccurrence_graph(comments, cluster_dict, window_size=3):
     G = nx.Graph()
 
