@@ -2,7 +2,6 @@ from enum import unique
 from networkx import number_of_nodes
 import pandas as pd
 import spacy
-import csv
 import networkx as nx
 import numpy as np
 from pathlib import Path
@@ -10,6 +9,8 @@ from pyvis.network import Network
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from collections import defaultdict, Counter
+from tqdm import tqdm
+from collections import Counter
 
 
 nlp = spacy.load("en_core_web_md")
@@ -21,6 +22,11 @@ edges_output_path = root_dir / "KG_edges.csv"
 grap_clustered_output_path = root_dir / "GK_graph_clustered.html"
 grap_unclustered_output_path = root_dir / "GK_graph_unclustered.html"
 search_grap_output_path = root_dir / "GK_search_graph.html"
+comments_with_common_words_output_path = (
+    root_dir / "hate_speech_KG_dataset_comments_with_common_words.json"
+)
+
+tqdm.pandas()
 
 
 def preprocess_text(text):
@@ -28,9 +34,21 @@ def preprocess_text(text):
     return [token.lemma_ for token in doc if not token.is_stop and token.is_alpha]
 
 
-def filter_frequent_words(comments, min_occurrences=3):
-    all_words = [word for comment in comments for word in preprocess_text(comment)]
-    word_counts = Counter(all_words)
+# def filter_frequent_words(comments, min_occurrences=3):
+#     all_words = [word for comment in comments for word in preprocess_text(comment)]
+#     word_counts = Counter(all_words)
+#     return [word for word, count in word_counts.items() if count >= min_occurrences]
+
+
+def filter_frequent_words(all_tokens, min_occurrences=3):
+    """
+    Filters tokens that appear at least `min_occurrences` times.
+
+    :param all_tokens: A flattened list of all tokens from comments.
+    :param min_occurrences: Minimum number of times a token must appear to be included.
+    :return: A list of high-frequency tokens.
+    """
+    word_counts = Counter(all_tokens)  # Count token occurrences
     return [word for word, count in word_counts.items() if count >= min_occurrences]
 
 
@@ -39,7 +57,7 @@ def cluster_similar_words(unique_tokens):
     word_vectors = np.array([nlp(token).vector for token in unique_tokens])
 
     # Cluster similar words using KMeans
-    num_clusters = int(len(unique_tokens) * 0.3)
+    num_clusters = int(len(unique_tokens) * 0.1)
     kmeans = KMeans(n_clusters=num_clusters, random_state=42, n_init=10)
     clusters = kmeans.fit_predict(word_vectors)
 
@@ -109,13 +127,12 @@ def filter_graph(G, edge_weight_threshold=5, min_node_degree=3):
     return filtered_G
 
 
-def extract_named_entities(comments):
-    entities = set()
-    for comment in comments:
-        doc = nlp(comment)
-        for ent in doc.ents:
-            entities.add(ent.text)
-    return list(entities)
+def find_common_words_from_comment(comment, high_frequency_set):
+    tokens = []
+    tokens.extend(preprocess_text(comment))
+    words = set(tokens)
+    high_frequency_set = set(high_frequency_set)
+    return list(words & high_frequency_set)
 
 
 def visualize_graph_interactive(G):
@@ -146,41 +163,35 @@ def visualize_graph_interactive(G):
     net.show(str(grap_unclustered_output_path))
 
 
-def save_graph(G):
-    nodes = G.nodes()
-    edges = G.edges(data=True)
-    with open(nodes_output_path, "w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["word"])
-        for node in nodes:
-            writer.writerow([node])
-    with open(edges_output_path, "w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["word1", "word2", "weight"])
-        for source, target, data in edges:
-            writer.writerow([source, target, data["weight"]])
-
-
 df = pd.read_json(input_path, orient="records")
 comments = df[0]
 
-tokens = []
-for comment in comments:
-    tokens.extend(preprocess_text(comment))
-unique_tokens = list(set(tokens))
+print("Tokenizing the comments......")
+# Apply `preprocess_text()` to each comment and store in a new column
+df["tokenized_text"] = comments.astype(str).progress_apply(preprocess_text)
+# Get a flattened list of all unique tokens
+all_tokens = [
+    token for tokens in df["tokenized_text"] for token in tokens
+]  # Flatten list
+unique_tokens = list(
+    set([token for tokens in df["tokenized_text"] for token in tokens])
+)
 
 # Get tokens that appears more than n times in the comments
-high_fequency_tokens = filter_frequent_words(tokens)
+print("Extracting tokens with high frequency......")
+high_fequency_tokens = filter_frequent_words(all_tokens)  # Apply frequency filter
 unique_tokens_high_frequency = list(set(high_fequency_tokens))
 
+print("Creating word clusters......")
 word_clusters = cluster_similar_words(unique_tokens)
 
+print("Creating word graph......")
 graph = build_cooccurrence_graph(comments, unique_tokens_high_frequency)
 filtered_graph = filter_graph(graph)
 
 print(
     "Initial number of tokens: ",
-    len(tokens),
+    len(all_tokens),
     "\nUnunique Tokens: ",
     len(unique_tokens),
     "\nUnunique Tokens with frequency higher than 3: ",
@@ -192,6 +203,16 @@ print(
     "\nFiltered Graph nodes: ",
     filtered_graph.number_of_nodes(),
 )
+
+# Create a new column in the df which only contains the common words used that comment
+print("Finding common words in ech comment...")
+df["originalComment"] = comments
+df["commonEdges"] = comments.astype(str).progress_apply(
+    lambda x: find_common_words_from_comment(x, unique_tokens_high_frequency)
+)
+
+df.to_json(comments_with_common_words_output_path, orient="records", force_ascii=False)
+
 
 visualize_graph_interactive(filtered_graph)
 # Example: Display connections for the word "hate"
