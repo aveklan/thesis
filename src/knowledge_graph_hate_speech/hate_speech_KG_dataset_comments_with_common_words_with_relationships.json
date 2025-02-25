@@ -1,0 +1,1259 @@
+[
+    {
+        "tokenized_text": [
+            "country",
+            "mentally",
+            "ill",
+            "terrorist",
+            "say",
+            "different",
+            "enabler",
+            "ignorant",
+            "blind",
+            "endless",
+            "countless",
+            "war",
+            "aggression",
+            "death",
+            "rate",
+            "american",
+            "terrorist",
+            "act",
+            "fuck",
+            "american",
+            "scum"
+        ],
+        "originalComment": "@suddenlywestan because you are a country of mentally ill terrorists. whoever says different is an enabler, ignorant and blind to endless/countless wars and aggression and the death rate by american terrorist acts. fuck you american scum!",
+        "preprocessedComments": "you because you are a country of mentally ill terrorists. whoever says different is an enabler, ignorant and blind to endless/countless wars and aggression and the death rate by american terrorist acts. fuck you american scum!",
+        "commonEdges": [
+            "country",
+            "scum",
+            "blind",
+            "ill",
+            "fuck",
+            "death",
+            "act",
+            "terrorist",
+            "mentally",
+            "american",
+            "ignorant",
+            "say"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "country"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "terrorist"
+            },
+            {
+                "subject": "whoever",
+                "predicate": "says",
+                "object": "different"
+            },
+            {
+                "subject": "whoever",
+                "predicate": "is",
+                "object": "enabler"
+            },
+            {
+                "subject": "whoever",
+                "predicate": "is",
+                "object": "ignorant"
+            },
+            {
+                "subject": "whoever",
+                "predicate": "is",
+                "object": "blind"
+            },
+            {
+                "subject": "american",
+                "predicate": "terrorist",
+                "object": "acts"
+            },
+            {
+                "subject": "fuck",
+                "predicate": "you",
+                "object": "scum"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "ill"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "mentally"
+            },
+            {
+                "subject": "american",
+                "predicate": "is",
+                "object": "scum"
+            },
+            {
+                "subject": "american",
+                "predicate": "death",
+                "object": "acts"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "thick",
+            "fuck",
+            "retard",
+            "lmfao",
+            "rim",
+            "dead",
+            "boi",
+            "xxx"
+        ],
+        "originalComment": "you thick fucking retard lmfao go back to rimming your dead boi xxx",
+        "preprocessedComments": "you thick fucking retard lmfao go back to rimming your dead boi xxx",
+        "commonEdges": [
+            "fuck",
+            "retard",
+            "lmfao",
+            "dead"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "fuck",
+                "object": "retard"
+            },
+            {
+                "subject": "you",
+                "predicate": "go",
+                "object": "dead"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "tear",
+            "sad",
+            "nutcase",
+            "go",
+            "wild",
+            "wrong",
+            "people"
+        ],
+        "originalComment": "this made me tear up, so sad that another nutcase went wild... what is wrong with these people",
+        "preprocessedComments": "this made me tear up, so sad that another nutcase went wild... what is wrong with these people",
+        "commonEdges": [
+            "wrong",
+            "people",
+            "go",
+            "sad"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "people",
+                "predicate": "are",
+                "object": "wrong"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "fuck",
+            "fat",
+            "sooooooo",
+            "closet",
+            "homo",
+            "dumb",
+            "shit",
+            "drug",
+            "feend",
+            "fuck",
+            "urself",
+            "white",
+            "privladge",
+            "pussy",
+            "glad",
+            "ur",
+            "dead",
+            "u",
+            "bore",
+            "fat",
+            "bitch"
+        ],
+        "originalComment": "fucking fat sooooooo closet homo just another dumb shit drug feend go fuck urself white privladge pussy so glad ur dead u boring fat bitch",
+        "preprocessedComments": "fucking fat sooooooo closet homo just another dumb shit drug feend go fuck urself white privladge pussy so glad ur dead u boring fat bitch",
+        "commonEdges": [
+            "white",
+            "urself",
+            "shit",
+            "drug",
+            "fuck",
+            "homo",
+            "pussy",
+            "dead",
+            "u",
+            "bitch",
+            "ur",
+            "closet",
+            "fat",
+            "dumb"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "u",
+                "predicate": "fuck",
+                "object": "urself"
+            },
+            {
+                "subject": "u",
+                "predicate": "go",
+                "object": "fuck"
+            },
+            {
+                "subject": "ur",
+                "predicate": "dead",
+                "object": "u"
+            },
+            {
+                "subject": "u",
+                "predicate": "boring",
+                "object": "bitch"
+            },
+            {
+                "subject": "ur",
+                "predicate": "is",
+                "object": "fat"
+            },
+            {
+                "subject": "u",
+                "predicate": "is",
+                "object": "homo"
+            },
+            {
+                "subject": "u",
+                "predicate": "is",
+                "object": "dumb"
+            },
+            {
+                "subject": "u",
+                "predicate": "is",
+                "object": "shit"
+            },
+            {
+                "subject": "u",
+                "predicate": "is",
+                "object": "pussy"
+            },
+            {
+                "subject": "u",
+                "predicate": "are",
+                "object": "white"
+            },
+            {
+                "subject": "u",
+                "predicate": "is",
+                "object": "drug"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "lol",
+            "you",
+            "retard",
+            "fucking",
+            "dumb",
+            "like",
+            "death",
+            "penalty",
+            "stop",
+            "trip",
+            "lame",
+            "shit"
+        ],
+        "originalComment": "lol yall retards so fucking dumb like give yourself the death penalty or stop tripping over some lame shit",
+        "preprocessedComments": "lol yall retards so fucking dumb like give yourself the death penalty or stop tripping over some lame shit",
+        "commonEdges": [
+            "shit",
+            "lol",
+            "death",
+            "retard",
+            "stop",
+            "like",
+            "you",
+            "fucking",
+            "dumb"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "retard"
+            },
+            {
+                "subject": "retards",
+                "predicate": "are",
+                "object": "dumb"
+            },
+            {
+                "subject": "you",
+                "predicate": "like",
+                "object": "dumb"
+            },
+            {
+                "subject": "you",
+                "predicate": "stop",
+                "object": "tripping"
+            },
+            {
+                "subject": "you",
+                "predicate": "stop",
+                "object": "shit"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "bet",
+            "retard",
+            "smart",
+            "reposte",
+            "faggot"
+        ],
+        "originalComment": "i bet one of those retards is smarter than this reposting faggot.",
+        "preprocessedComments": "i bet one of those retards is smarter than this reposting faggot.",
+        "commonEdges": [
+            "bet",
+            "smart",
+            "faggot",
+            "retard"
+        ],
+        "extracted_relationships": []
+    },
+    {
+        "tokenized_text": [
+            "look",
+            "like",
+            "zombie",
+            "give",
+            "cancer",
+            "new",
+            "agenda",
+            "bring",
+            "adnroygnous",
+            "clothing",
+            "cuck",
+            "lil",
+            "boy",
+            "turn",
+            "emotional",
+            "beta",
+            "simp"
+        ],
+        "originalComment": "she looks like a zombie who gives cancer! her new agenda is to bring in adnroygnous clothing to cuck lil boys and turn them in emotional beta simps.",
+        "preprocessedComments": "she looks like a zombie who gives cancer! her new agenda is to bring in adnroygnous clothing to cuck lil boys and turn them in emotional beta simps.",
+        "commonEdges": [
+            "turn",
+            "lil",
+            "beta",
+            "like",
+            "boy",
+            "new",
+            "cancer",
+            "look",
+            "give",
+            "cuck"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "she",
+                "predicate": "look",
+                "object": "zombie"
+            },
+            {
+                "subject": "she",
+                "predicate": "give",
+                "object": "cancer"
+            },
+            {
+                "subject": "agenda",
+                "predicate": "turn",
+                "object": "boy"
+            },
+            {
+                "subject": "she",
+                "predicate": "cuck",
+                "object": "boys"
+            },
+            {
+                "subject": "boys",
+                "predicate": "turn",
+                "object": "beta"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "hell",
+            "ya",
+            "get",
+            "retarded",
+            "mans",
+            "hookup",
+            "fantasy"
+        ],
+        "originalComment": "hell ya got a retarded every mans hookup fantasy",
+        "preprocessedComments": "hell ya got a retarded every mans hookup fantasy",
+        "commonEdges": [
+            "hell",
+            "get",
+            "retarded",
+            "ya"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "ya",
+                "predicate": "got",
+                "object": "retarded"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "scum",
+            "allow",
+            "kid"
+        ],
+        "originalComment": "scum shouldn't be allowed have kids!",
+        "preprocessedComments": "scum shouldn't be allowed have kids!",
+        "commonEdges": [
+            "allow",
+            "scum",
+            "kid"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "scum",
+                "predicate": "shouldn't be allowed",
+                "object": "kid"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "black",
+            "confirm",
+            "education",
+            "know",
+            "money",
+            "suck",
+            "poor",
+            "tell",
+            "way",
+            "type",
+            "small",
+            "short",
+            "poor",
+            "little",
+            "boy",
+            "definitely",
+            "depressed"
+        ],
+        "originalComment": "i'm not black and this confirms you indeed have no education and even though i knew it already show's i make more money \ud83d\ude02 must suck being poor i can tell by the way you type you are a small short poor little boy. definitely depressed \ud83d\udc80",
+        "preprocessedComments": "i'm not black and this confirms you indeed have no education and even though i knew it already show's i make more money \ud83d\ude02 must suck being poor i can tell by the way you type you are a small short poor little boy. definitely depressed \ud83d\udc80",
+        "commonEdges": [
+            "suck",
+            "money",
+            "tell",
+            "type",
+            "short",
+            "small",
+            "little",
+            "boy",
+            "confirm",
+            "way",
+            "black",
+            "poor",
+            "know"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "i",
+                "predicate": "confirm",
+                "object": "black"
+            },
+            {
+                "subject": "i",
+                "predicate": "know",
+                "object": "it"
+            },
+            {
+                "subject": "i",
+                "predicate": "make",
+                "object": "money"
+            },
+            {
+                "subject": "it",
+                "predicate": "suck",
+                "object": "being poor"
+            },
+            {
+                "subject": "i",
+                "predicate": "tell",
+                "object": "way"
+            },
+            {
+                "subject": "you",
+                "predicate": "type",
+                "object": "boy"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "short"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "poor"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "little boy"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "small"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "fucking",
+            "retarded",
+            "dumb",
+            "thot",
+            "spit",
+            "vodka",
+            "pet",
+            "mouth",
+            "fuck"
+        ],
+        "originalComment": "you are just as fucking retarded as the dumb thot who spit vodka in her pets mouth, fuck you.",
+        "preprocessedComments": "you are just as fucking retarded as the dumb thot who spit vodka in her pets mouth, fuck you.",
+        "commonEdges": [
+            "retarded",
+            "thot",
+            "fuck",
+            "mouth",
+            "spit",
+            "fucking",
+            "dumb"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "retarded"
+            },
+            {
+                "subject": "you",
+                "predicate": "fuck",
+                "object": "you"
+            },
+            {
+                "subject": "thot",
+                "predicate": "is",
+                "object": "dumb"
+            },
+            {
+                "subject": "thot",
+                "predicate": "spit",
+                "object": "vodka"
+            },
+            {
+                "subject": "thot",
+                "predicate": "spit",
+                "object": "mouth"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "retarded",
+            "mother",
+            "consensual",
+            "candy",
+            "coo",
+            "happily"
+        ],
+        "originalComment": "everything i did with your retarded mother was consensual. i would give her candy after and she would coo happily.",
+        "preprocessedComments": "everything i did with your retarded mother was consensual. i would give her candy after and she would coo happily.",
+        "commonEdges": [
+            "retarded",
+            "mother"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "i",
+                "predicate": "did",
+                "object": "retarded"
+            },
+            {
+                "subject": "i",
+                "predicate": "did",
+                "object": "mother"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "nice",
+            "shot",
+            "retard",
+            "make",
+            "lmao"
+        ],
+        "originalComment": "\"nice shot retard\"  so much for making that 2grand back lmao",
+        "preprocessedComments": "\"nice shot retard\"  so much for making that 2grand back lmao",
+        "commonEdges": [
+            "nice",
+            "retard",
+            "make",
+            "lmao"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "shot",
+                "predicate": "retard",
+                "object": "nice"
+            },
+            {
+                "subject": "he",
+                "predicate": "make",
+                "object": "2grand"
+            },
+            {
+                "subject": "he",
+                "predicate": "make",
+                "object": "back"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "cause",
+            "fuck",
+            "retard",
+            "url"
+        ],
+        "originalComment": "@anindiangod cause fuck retards url",
+        "preprocessedComments": "you cause fuck retards url",
+        "commonEdges": [
+            "fuck",
+            "cause",
+            "retard",
+            "url"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "cause",
+                "object": "retards"
+            },
+            {
+                "subject": "you",
+                "predicate": "fuck",
+                "object": "retards"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "gay",
+            "autistic",
+            "fag",
+            "learn",
+            "vs",
+            "autist"
+        ],
+        "originalComment": "one's gay the other's autistic. \u200b it's what fags learn to do vs autists",
+        "preprocessedComments": "one's gay the other's autistic. \u200b it's what fags learn to do vs autists",
+        "commonEdges": [
+            "learn",
+            "autist",
+            "fag",
+            "gay",
+            "autistic"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "fags",
+                "predicate": "learn",
+                "object": "to do"
+            },
+            {
+                "subject": "other",
+                "predicate": "is",
+                "object": "autistic"
+            },
+            {
+                "subject": "one's",
+                "predicate": "is",
+                "object": "gay"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "fucking",
+            "crazy",
+            "crazy",
+            "people",
+            "like",
+            "need",
+            "sterilize"
+        ],
+        "originalComment": "you're fucking crazy. crazy people like you need to be sterilized.",
+        "preprocessedComments": "you're fucking crazy. crazy people like you need to be sterilized.",
+        "commonEdges": [
+            "crazy",
+            "sterilize",
+            "like",
+            "need",
+            "people",
+            "fucking"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "people",
+                "predicate": "need",
+                "object": "sterilize"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "crazy"
+            },
+            {
+                "subject": "people",
+                "predicate": "like",
+                "object": "you"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "shut",
+            "fuck",
+            "autist",
+            "toilet",
+            "cleaner"
+        ],
+        "originalComment": "shut the fuck up autist toilet cleaner",
+        "preprocessedComments": "shut the fuck up autist toilet cleaner",
+        "commonEdges": [
+            "fuck",
+            "autist",
+            "shut"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "shut",
+                "object": "autist"
+            },
+            {
+                "subject": "you",
+                "predicate": "fuck",
+                "object": "autist"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "honestly",
+            "little",
+            "retarted"
+        ],
+        "originalComment": "she honestly seems a little retarted.",
+        "preprocessedComments": "she honestly seems a little retarted.",
+        "commonEdges": [
+            "little",
+            "honestly",
+            "retarted"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "she",
+                "predicate": "seems",
+                "object": "retarted"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "libtard",
+            "sensitive",
+            "politically",
+            "correct",
+            "faggot"
+        ],
+        "originalComment": "libtards: sensitive politically correct faggots",
+        "preprocessedComments": "libtards: sensitive politically correct faggots",
+        "commonEdges": [
+            "sensitive",
+            "faggot"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "libtards",
+                "predicate": "are",
+                "object": "faggots"
+            },
+            {
+                "subject": "libtards",
+                "predicate": "are",
+                "object": "sensitive"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "faith",
+            "humanity",
+            "retard"
+        ],
+        "originalComment": "faith in humanity retard",
+        "preprocessedComments": "faith in humanity retard",
+        "commonEdges": [
+            "humanity",
+            "retard"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "faith",
+                "predicate": "in",
+                "object": "humanity"
+            },
+            {
+                "subject": "humanity",
+                "predicate": "is",
+                "object": "retard"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "literally",
+            "mongoloid"
+        ],
+        "originalComment": "and you're literally a mongoloid",
+        "preprocessedComments": "and you're literally a mongoloid",
+        "commonEdges": [
+            "literally",
+            "mongoloid"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "mongoloid"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "brain",
+            "dead",
+            "retard"
+        ],
+        "originalComment": "brain dead retard!",
+        "preprocessedComments": "brain dead retard!",
+        "commonEdges": [
+            "brain",
+            "dead",
+            "retard"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "retard",
+                "predicate": "is",
+                "object": "brain"
+            },
+            {
+                "subject": "retard",
+                "predicate": "is",
+                "object": "dead"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "go",
+            "to",
+            "r",
+            "word",
+            "retarded"
+        ],
+        "originalComment": "if you're gonna call someone \"the r word\" why not just call him retarded.",
+        "preprocessedComments": "if you're gonna call someone \"the r word\" why not just call him retarded.",
+        "commonEdges": [
+            "retarded",
+            "go",
+            "to",
+            "word"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "call",
+                "object": "word"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "fucking",
+            "retard",
+            "dutch",
+            "dick",
+            "end",
+            "ass",
+            "fag"
+        ],
+        "originalComment": "they'd only be fucking retards if somehow a dutch dick ended up in your ass, you fag.",
+        "preprocessedComments": "they'd only be fucking retards if somehow a dutch dick ended up in your ass, you fag.",
+        "commonEdges": [
+            "end",
+            "retard",
+            "ass",
+            "fag",
+            "dick",
+            "fucking"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "they",
+                "predicate": "be",
+                "object": "retards"
+            },
+            {
+                "subject": "dick",
+                "predicate": "ended",
+                "object": "ass"
+            },
+            {
+                "subject": "you",
+                "predicate": "fag",
+                "object": null
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "fuckign",
+            "bitch",
+            "u",
+            "ugly",
+            "bullinyg",
+            "retard"
+        ],
+        "originalComment": "fuckign bitch u ugly in bullinyg you retard",
+        "preprocessedComments": "fuckign bitch u ugly in bullinyg you retard",
+        "commonEdges": [
+            "u",
+            "bitch",
+            "retard",
+            "ugly"
+        ],
+        "extracted_relationships": []
+    },
+    {
+        "tokenized_text": [
+            "shut",
+            "fuck",
+            "retard",
+            "little",
+            "year",
+            "old"
+        ],
+        "originalComment": "\"shut the fuck up you retarded little 9 year old!\"",
+        "preprocessedComments": "\"shut the fuck up you retarded little 9 year old!\"",
+        "commonEdges": [
+            "year",
+            "fuck",
+            "retard",
+            "little",
+            "old",
+            "shut"
+        ],
+        "extracted_relationships": []
+    },
+    {
+        "tokenized_text": [
+            "shirt",
+            "fake",
+            "gay",
+            "ur",
+            "retarded",
+            "prolly",
+            "like",
+            "taste",
+            "ur",
+            "pee"
+        ],
+        "originalComment": "that shirt is fake and gay and ur retarded and prolly like to taste ur own pee.",
+        "preprocessedComments": "that shirt is fake and gay and ur retarded and prolly like to taste ur own pee.",
+        "commonEdges": [
+            "retarded",
+            "pee",
+            "like",
+            "ur",
+            "gay"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "shirt",
+                "predicate": "is",
+                "object": "gay"
+            },
+            {
+                "subject": "ur",
+                "predicate": "retarded",
+                "object": null
+            },
+            {
+                "subject": "ur",
+                "predicate": "like",
+                "object": "pee"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "ugly",
+            "fat",
+            "r",
+            "random",
+            "fucking",
+            "wannabe",
+            "level",
+            "fat",
+            "bitch",
+            "lmfao",
+            "trash",
+            "periodt",
+            "sis"
+        ],
+        "originalComment": "y'all ugly and fat and y'all r randoms fucking wannabes. y'all could never get to my level fat bitches. lmfao y'all trash periodt sis. \ud83e\udd23\ud83e\udd21\ud83e\udd21",
+        "preprocessedComments": "y'all ugly and fat and y'all r randoms fucking wannabes. y'all could never get to my level fat bitches. lmfao y'all trash periodt sis. \ud83e\udd23\ud83e\udd21\ud83e\udd21",
+        "commonEdges": [
+            "level",
+            "ugly",
+            "bitch",
+            "fucking",
+            "lmfao",
+            "fat",
+            "trash"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "y'all",
+                "predicate": "are",
+                "object": "ugly"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "are",
+                "object": "fat"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "r",
+                "object": "wannabes"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "are",
+                "object": "trash"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "could never get to",
+                "object": "level"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "are",
+                "object": "fat bitches"
+            },
+            {
+                "subject": "y'all",
+                "predicate": "are",
+                "object": "fucking wannabes"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "weird",
+            "autist",
+            "kid",
+            "grown",
+            "baby",
+            "body",
+            "poop",
+            "stick",
+            "diaper",
+            "url"
+        ],
+        "originalComment": "m0xyy is some weird autist kid in a grown baby body with poop stuck to his diaper.  url",
+        "preprocessedComments": "m0xyy is some weird autist kid in a grown baby body with poop stuck to his diaper.  url",
+        "commonEdges": [
+            "baby",
+            "body",
+            "url",
+            "autist",
+            "kid",
+            "diaper"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "m0xyy",
+                "predicate": "is",
+                "object": "autist"
+            },
+            {
+                "subject": "kid",
+                "predicate": "in",
+                "object": "body"
+            },
+            {
+                "subject": "poop",
+                "predicate": "stuck to",
+                "object": "diaper"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "kill",
+            "instead"
+        ],
+        "originalComment": "kill yourself instead",
+        "preprocessedComments": "kill yourself instead",
+        "commonEdges": [
+            "kill",
+            "instead"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "yourself",
+                "predicate": "kill",
+                "object": null
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "nigga",
+            "retard",
+            "tourette"
+        ],
+        "originalComment": "this nigga a retard with tourette's",
+        "preprocessedComments": "this nigga a retard with tourette's",
+        "commonEdges": [
+            "retard",
+            "nigga"
+        ],
+        "extracted_relationships": []
+    },
+    {
+        "tokenized_text": [
+            "trigger",
+            "baby",
+            "dicke",
+            "retard",
+            "yes",
+            "yes",
+            "baby",
+            "dick"
+        ],
+        "originalComment": "are you a triggered baby dicked retard? yes yes you are baby dick",
+        "preprocessedComments": "are you a triggered baby dicked retard? yes yes you are baby dick",
+        "commonEdges": [
+            "dick",
+            "baby",
+            "retard",
+            "yes"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "retard"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "baby"
+            },
+            {
+                "subject": "you",
+                "predicate": "are",
+                "object": "dick"
+            }
+        ]
+    },
+    {
+        "tokenized_text": [
+            "stupid",
+            "low",
+            "iq",
+            "idiot",
+            "moron",
+            "take",
+            "america"
+        ],
+        "originalComment": "stupid low iq idiot morons. they're taking over, america",
+        "preprocessedComments": "stupid low iq idiot morons. they're taking over, america",
+        "commonEdges": [
+            "idiot",
+            "take",
+            "moron",
+            "low",
+            "america",
+            "stupid",
+            "iq"
+        ],
+        "extracted_relationships": [
+            {
+                "subject": "stupid",
+                "predicate": "is",
+                "object": "idiot"
+            },
+            {
+                "subject": "idiot",
+                "predicate": "is",
+                "object": "moron"
+            },
+            {
+                "subject": "they",
+                "predicate": "take",
+                "object": "america"
+            },
+            {
+                "subject": "iq",
+                "predicate": "is",
+                "object": "low"
+            }
+        ]
+    }
+]
