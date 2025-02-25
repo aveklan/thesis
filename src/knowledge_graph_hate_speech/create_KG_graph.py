@@ -211,7 +211,9 @@ df["commonEdges"] = comments.astype(str).progress_apply(
     lambda x: find_common_words_from_comment(x, unique_tokens_high_frequency)
 )
 
-df.to_json(comments_with_common_words_output_path, orient="records", force_ascii=False)
+df.drop(df.columns[0], axis=1).to_json(
+    comments_with_common_words_output_path, orient="records", force_ascii=False
+)
 
 
 visualize_graph_interactive(filtered_graph)
