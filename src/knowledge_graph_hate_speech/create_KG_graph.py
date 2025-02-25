@@ -1,12 +1,10 @@
-from enum import unique
-from networkx import number_of_nodes
 import pandas as pd
 import spacy
 import networkx as nx
 import numpy as np
+import re
 from pathlib import Path
 from pyvis.network import Network
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from collections import defaultdict, Counter
 from tqdm import tqdm
@@ -29,8 +27,13 @@ comments_with_common_words_output_path = (
 tqdm.pandas()
 
 
+def remove_mentions(comment):
+    text = re.sub(r"@\w+", "you", comment.lower())
+    return text
+
+
 def preprocess_text(text):
-    doc = nlp(text.lower())
+    doc = nlp(text)
     return [token.lemma_ for token in doc if not token.is_stop and token.is_alpha]
 
 
@@ -164,7 +167,10 @@ def visualize_graph_interactive(G):
 
 
 df = pd.read_json(input_path, orient="records")
+
+print("Removing mentions from comments......")
 comments = df[0]
+preprocessed_comments = comments.astype(str).progress_apply(remove_mentions)
 
 print("Tokenizing the comments......")
 # Apply `preprocess_text()` to each comment and store in a new column
@@ -207,6 +213,7 @@ print(
 # Create a new column in the df which only contains the common words used that comment
 print("Finding common words in ech comment...")
 df["originalComment"] = comments
+df["preprocessedComments"] = preprocessed_comments
 df["commonEdges"] = comments.astype(str).progress_apply(
     lambda x: find_common_words_from_comment(x, unique_tokens_high_frequency)
 )
