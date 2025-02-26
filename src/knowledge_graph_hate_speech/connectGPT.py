@@ -13,6 +13,11 @@ keys = [
     "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",
     "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",
     "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
 ]
 models = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
@@ -33,7 +38,7 @@ output_path = (
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=keys[3],
+    api_key=keys[8],
 )
 
 
@@ -48,7 +53,7 @@ def load_dataset(dataset_path):
 
 def generate_relationships(comment, keywords):
     completion = client.chat.completions.create(
-        model=models[2],
+        model=models[0],
         messages=[
             {
                 "role": "system",
