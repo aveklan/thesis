@@ -7,8 +7,25 @@ import re
 
 tqdm.pandas()
 
+
+keys = [
+    "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",
+    "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",
+    "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",
+    "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",
+]
+models = [
+    "google/gemini-2.0-flash-lite-preview-02-05:free",
+    "google/gemini-2.0-pro-exp-02-05:free",
+    "deepseek/deepseek-chat:free",
+]
+
+
 root_dir = Path(__file__).resolve().parent
-input_path = root_dir / "hate_speech_KG_dataset_comments_with_common_words.json"
+input_path = (
+    root_dir
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
+)
 output_path = (
     root_dir
     / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
@@ -16,7 +33,7 @@ output_path = (
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key=keys[3],
 )
 
 
@@ -31,7 +48,7 @@ def load_dataset(dataset_path):
 
 def generate_relationships(comment, keywords):
     completion = client.chat.completions.create(
-        model="google/gemini-2.0-flash-lite-preview-02-05:free",
+        model=models[2],
         messages=[
             {
                 "role": "system",
@@ -65,46 +82,36 @@ def generate_relationships(comment, keywords):
 
 # Load dataframe
 df = load_dataset(input_path)
-
-# Initialize the new column for extracted relationships
-df["extracted_relationships"] = None
-
-# Load existing data from the output file (if it exists)
-try:
-    with open(output_path, "r") as file:
-        existing_data = json.load(file)
-except FileNotFoundError:
-    existing_data = []
-
-# Convert existing data to a DataFrame
-existing_df = pd.DataFrame(existing_data)
+# Ensure 'extracted_relationships' column exists in the DataFrame
+if "extracted_relationships" not in df.columns:
+    df["extracted_relationships"] = None  # Initialize with None
 
 # Iterate over each row in the DataFrame with progress tracking
 for index, row in tqdm(df.iterrows(), total=len(df)):
-    # Call the API and get the triples
-    triples = generate_relationships(row["preprocessedComments"], row["commonEdges"])
-    print(index, row, triples)
+    # If the column does not exist, create it for this row
+    extracted_relationships = row.get("extracted_relationships", None)
+    if isinstance(extracted_relationships, list) and len(extracted_relationships) > 0:
+        print("Skipping: ", index)
+        continue  # Skip if relationships already exist
+    else:
+        # Call the API and get the triples
+        triples = generate_relationships(
+            row["preprocessedComments"], row["commonEdges"]
+        )
+        print(triples)
 
-    # Try parsing JSON safely
-    try:
-        # Remove Markdown-style triple backticks and "json" label
-        cleaned_triples = re.sub(r"```json|```", "", triples).strip()
-        parsed_data = json.loads(cleaned_triples)
-    except json.JSONDecodeError as e:
-        print(f"JSON decoding failed at index {index}: {e}")
-        print(f"Problematic JSON: {cleaned_triples}")
-        parsed_data = []  # Use an empty list if JSON parsing fails
+        # Try parsing JSON safely
+        try:
+            # Remove Markdown-style triple backticks and "json" label
+            cleaned_triples = re.sub(r"```json|```", "", triples).strip()
+            parsed_data = json.loads(cleaned_triples)
+        except json.JSONDecodeError as e:
+            print(f"JSON decoding failed at index {index}: {e}")
+            print(f"Problematic JSON: {cleaned_triples}")
+            parsed_data = None  # Use an empty list if JSON parsing fails
 
-    # Update the current row with the extracted relationships
-    df.at[index, "extracted_relationships"] = parsed_data
-
-    # Append the updated row to the existing data
-    updated_row = row.to_dict()
-    updated_row["extracted_relationships"] = parsed_data
-    existing_data.append(updated_row)
-
-    # Save the updated data to the output file
-    with open(output_path, "w") as file:
-        json.dump(existing_data, file, indent=4)
+        df.at[index, "extracted_relationships"] = parsed_data
+        # Update the current row with the extracted relationships
+        df.to_json(output_path, orient="records", force_ascii=False)
 
 print("DataFrame updated and saved incrementally to output.json")
