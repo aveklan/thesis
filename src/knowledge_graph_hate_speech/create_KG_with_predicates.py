@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 from pathlib import Path
 import pandas as pd
 from pyvis.network import Network
@@ -12,7 +13,7 @@ tqdm.pandas()
 root_dir = Path(__file__).resolve().parent
 input_path = (
     root_dir
-    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships_new.json"
 )
 
 data = {"extracted_relationships": []}
@@ -28,7 +29,7 @@ def load_dataset(dataset_path):
 
 
 # Load dataframe
-df = load_dataset(input_path)
+df = load_dataset(input_path)[:150]
 
 for index, row in tqdm(df.iterrows(), total=len(df)):
     data["extracted_relationships"].append(row["extracted_relationships"])
@@ -38,8 +39,12 @@ relationships = pd.DataFrame(data)
 # Count the frequency of each triple
 triple_counts = defaultdict(int)
 
-for relationships in df["extracted_relationships"]:
-    for triple in relationships:
+for rel_list in df["extracted_relationships"]:
+    if rel_list is None:
+        continue
+    for triple in rel_list:
+        if triple is None:
+            continue
         # Skip triples that don't have the required keys
         if not all(key in triple for key in ["subject", "predicate", "object"]):
             continue
@@ -97,4 +102,4 @@ net = Network(notebook=True, directed=True)
 net.from_nx(G)
 
 # Save the visualization to an HTML file
-net.show("knowledge_graph.html")
+net.show("knowledge_graph_new.html")

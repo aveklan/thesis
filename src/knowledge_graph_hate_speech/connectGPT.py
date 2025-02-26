@@ -9,7 +9,7 @@ tqdm.pandas()
 
 
 keys = [
-    "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",
+    "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",
     "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",
     "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",
     "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",
@@ -18,27 +18,36 @@ keys = [
     "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",
     "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",
     "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
 ]
 models = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
     "google/gemini-2.0-pro-exp-02-05:free",
     "deepseek/deepseek-chat:free",
+    "qwen/qwen-vl-plus:free",
 ]
 
 
 root_dir = Path(__file__).resolve().parent
 input_path = (
     root_dir
-    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships_new.json"
 )
 output_path = (
     root_dir
-    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships_new.json"
 )
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=keys[8],
+    api_key=keys[16],
 )
 
 
@@ -53,7 +62,7 @@ def load_dataset(dataset_path):
 
 def generate_relationships(comment, keywords):
     completion = client.chat.completions.create(
-        model=models[0],
+        model=models[2],
         messages=[
             {
                 "role": "system",
