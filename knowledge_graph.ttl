@@ -1,0 +1,3439 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/%21> ns1:call ns1:lil%20retard ;
+    ns1:weight 1 .
+
+<http://example.org/%23faggots> ns1:are ns1:best%20thing%20on%20the%20planet,
+        ns1:thing ;
+    ns1:are%20made%20by <http://example.org/%23brains> ;
+    ns1:have ns1:bits%20of%20%23brains ;
+    ns1:weight 1 .
+
+<http://example.org/%2A> ns1:believes ns1:actually ;
+    ns1:dresses ns1:like ;
+    ns1:is ns1:chink ;
+    ns1:lives ns1:mammy ;
+    ns1:looks ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:1%25 ns1:is ns1:enthralled%20in%20their%20work,
+        ns1:getting%20really%20sick%20of%20the%20state%20of%20women,
+        <http://example.org/grinding%2024/7> ;
+    ns1:weight 1 .
+
+ns1:13%25%20of%20the%20american%20population ns1:have ns1:shit%20attitude ;
+    ns1:tops ns1:the%20chart%20in%20drug%20crimes,
+        ns1:the%20chart%20in%20gang%20violence,
+        ns1:the%20chart%20in%20homicide,
+        ns1:the%20chart%20in%20theft ;
+    ns1:weight 1 .
+
+ns1:15%20year%20old%20boys%20soccer%20team ns1:beat ns1:reeeeee%20tards ;
+    ns1:weight 1 .
+
+ns1:2%20alphas ns1:put ns1:a%20bitch%20beta%20sub,
+        ns1:in%20his%20place ;
+    ns1:weight 1 .
+
+ns1:2grand ns1:make ns1:lmao ;
+    ns1:weight 1 .
+
+ns1:47%20chromosomes ns1:did ns1:for%20us ;
+    ns1:weight 1 .
+
+ns1:6 ns1:weight 1 ;
+    ns1:year ns1:olds .
+
+ns1:815000 ns1:are ns1:disabled,
+        ns1:mentally%20disabled ;
+    ns1:weight 1 .
+
+ns1:Christine ns1:said ns1:nigger ;
+    ns1:weight 1 .
+
+ns1:I ns1:abort ns1:you ;
+    ns1:am ns1:autistic,
+        ns1:bitch,
+        ns1:hateful%20fucking%20guy,
+        ns1:sick,
+        ns1:tired ;
+    ns1:am%20convinced ns1:retarded ;
+    ns1:bet ns1:you%20have%20a%20micropenis ;
+    ns1:can%27t ns1:hear ;
+    ns1:doing ns1:favor ;
+    ns1:don%27t%20like ns1:people ;
+    ns1:dox ns1:those%20fags ;
+    ns1:find ns1:mother ;
+    ns1:fuck ns1:nigga,
+        ns1:population,
+        ns1:that%20schizo,
+        ns1:this%20syphilitic%20retard,
+        ns1:you ;
+    ns1:fucked ns1:mother ;
+    ns1:fucking ns1:person ;
+    ns1:go ns1:to%20listen ;
+    ns1:hang ns1:you ;
+    ns1:have ns1:girlfriend ;
+    ns1:hope ns1:cholesterol%20will%20shorten%20life,
+        ns1:her%20dad%20kills%20himself,
+        ns1:they%20all%20die%20from%20aids,
+        ns1:you,
+        ns1:you%20die ;
+    ns1:kill ns1:crippled%20bitches,
+        ns1:handicapped ;
+    ns1:know ns1:if%20you%27re%20slow ;
+    ns1:rather%20go%20to ns1:hell ;
+    ns1:see ns1:you ;
+    ns1:shoot ns1:wheels%20off%20his%20chair ;
+    ns1:think ns1:you%20need%20help ;
+    ns1:treat ns1:piece%20of%20shit ;
+    ns1:use ns1:them ;
+    ns1:weight 1,
+        2 .
+
+ns1:Jesus ns1:is ns1:mentioned ;
+    ns1:weight 1 .
+
+ns1:Justin%27s%20fans ns1:hate ns1:Justin ;
+    ns1:weight 1 .
+
+ns1:Justin%27s%20hair ns1:look ns1:gay ;
+    ns1:weight 1 .
+
+ns1:Person ns1:be ns1:bitch,
+        ns1:retard ;
+    ns1:being ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:Satan ns1:reject ns1:hell ;
+    ns1:weight 1 .
+
+ns1:Stephen%20Hawking ns1:has ns1:ass,
+        ns1:chair ;
+    ns1:weight 1 .
+
+ns1:Western%20civilizations ns1:have ns1:money ;
+    ns1:weight 1 .
+
+ns1:a ns1:fucking ns1:retard ;
+    ns1:is ns1:autist,
+        ns1:piece,
+        ns1:retard,
+        ns1:shit ;
+    ns1:weight 1,
+        2 .
+
+ns1:a%20dumbass ns1:thinks ns1:a%20stroke%20makes%20you%20retarded ;
+    ns1:weight 1 .
+
+ns1:a%20dutch%20dick ns1:ended ns1:ass ;
+    ns1:weight 1 .
+
+ns1:a%20majority ns1:live ns1:black%20neighborhood ;
+    ns1:weight 1 .
+
+ns1:a%20single%20clap ns1:create ns1:loud%20noises ;
+    ns1:weight 1 .
+
+ns1:abdool ns1:says ns1:inbred ;
+    ns1:spread ns1:retard ;
+    ns1:weight 1 .
+
+ns1:abortion ns1:is ns1:good%20for%20society,
+        ns1:murder ;
+    ns1:weight 1 .
+
+ns1:abortions ns1:are ns1:17%20million%20worldwide%20this%20year ;
+    ns1:keep ns1:retards ;
+    ns1:weight 1 .
+
+ns1:actual ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:all ns1:are%20committing ns1:crimes ;
+    ns1:must%20be%20charged ns1:for%20crimes ;
+    ns1:must%20be%20eradicated ns1:for%20crimes ;
+    ns1:must%20be%20executed ns1:for%20crimes%20against%20humanity ;
+    ns1:weight 1 .
+
+ns1:all%20autists ns1:should ns1:die ;
+    ns1:weight 1 .
+
+ns1:all%20of%20your%20family ns1:are ns1:stupid%20fat%20white%20redneck%20trash ;
+    ns1:weight 1 .
+
+ns1:all%20the%20retards ns1:are%20becoming <http://example.org/the%20presidents/prime%20ministers> ;
+    ns1:weight 1 .
+
+ns1:all%20these%20niggas ns1:look ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:all%20you%20queer%20pedophiles ns1:weight 1 ;
+    ns1:will%20burn ns1:burn .
+
+ns1:americans ns1:are ns1:fucking,
+        ns1:retards ;
+    ns1:weight 1 .
+
+ns1:ancestors ns1:have%20done ns1:it ;
+    ns1:weight 1 .
+
+ns1:anger ns1:can%27t ns1:deal ;
+    ns1:weight 1 .
+
+ns1:anon ns1:is ns1:tard ;
+    ns1:weight 1 .
+
+ns1:another ns1:is ns1:dumb,
+        ns1:gay,
+        ns1:sick,
+        ns1:slut ;
+    ns1:weight 1 .
+
+ns1:another%20nutcase ns1:go ns1:wild ;
+    ns1:weight 1 .
+
+ns1:anyone ns1:acts ns1:high%20and%20mighty,
+        ns1:holier%20than%20thou ;
+    ns1:attempts%20to ns1:insult ;
+    ns1:care ns1:you ;
+    ns1:cusses ns1:you%20out ;
+    ns1:has ns1:severe%20issues ;
+    ns1:stooops ns1:low ;
+    ns1:think ns1:humans ;
+    ns1:weight 1 .
+
+ns1:ape ns1:share ns1:20%20second%20clip ;
+    ns1:weight 1 .
+
+ns1:ape%20retard ns1:kicks ns1:head ;
+    ns1:knocks ns1:cunt ;
+    ns1:needs ns1:charged ;
+    ns1:pries ns1:door ;
+    ns1:screams ns1:nigger ;
+    ns1:weight 1 .
+
+ns1:asian ns1:is ns1:bitch ;
+    ns1:weight 1 .
+
+ns1:atheist ns1:is ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:austirlia ns1:is ns1:backward,
+        ns1:country,
+        ns1:world ;
+    ns1:weight 1 .
+
+ns1:autistic%20little%20piece%20of%20shit ns1:get%20off ns1:internet ;
+    ns1:weight 1 .
+
+ns1:average%20pakistani ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:awb ns1:break ns1:his%20legs ;
+    ns1:hope ns1:will ;
+    ns1:weight 1 .
+
+ns1:babies ns1:are ns1:killed%20each%20year ;
+    ns1:weight 1 .
+
+ns1:baby%20rodrigues ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:baron ns1:is ns1:autistic ;
+    ns1:weight 1 .
+
+ns1:beigefrequency ns1:like ns1:retarded%20faggot ;
+    ns1:ran%20off ns1:retarded%20faggot ;
+    ns1:weight 1 .
+
+ns1:beta ns1:is ns1:cuck,
+        ns1:trash ;
+    ns1:weight 1 .
+
+ns1:bey ns1:are ns1:lying ;
+    ns1:weight 1 .
+
+ns1:bit ns1:be ns1:real%20talk ;
+    ns1:weight 1 .
+
+ns1:bitch%20ass ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:bitch%20beta%20sub ns1:in ns1:his%20place ;
+    ns1:weight 1 .
+
+ns1:black%20africans ns1:hate ns1:american%20blacks ;
+    ns1:weight 1 .
+
+ns1:black%20children ns1:are%20murdered ns1:womb ;
+    ns1:weight 1 .
+
+ns1:blue%20lives ns1:matter ns1: ;
+    ns1:weight 1 .
+
+ns1:bo%20rood ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:boys ns1:cuck ns1:them ;
+    ns1:refuse ns1:to%20become%20better ;
+    ns1:weight 1 .
+
+ns1:brainless ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:buddy ns1:is ns1:half%20past%20retarded ;
+    ns1:weight 1 .
+
+ns1:bye ns1:is ns1:incel ;
+    ns1:weight 1 .
+
+ns1:charlemagne%20the%20god ns1:is ns1:dumb,
+        ns1:racist ;
+    ns1:weight 1 .
+
+ns1:chick ns1:be ns1:bitch ;
+    ns1:has ns1:low%20iq%20genetics ;
+    ns1:pass ns1:trashy%20low%20iq%20genetics ;
+    ns1:weight 1 .
+
+ns1:children%20with%20down%27s%20syndrome ns1:are%20murdered ns1:womb ;
+    ns1:weight 1 .
+
+ns1:chinese%20government ns1:are ns1:inbred%20retards ;
+    ns1:are%20inbred ns1:retards ;
+    ns1:call%20themselves ns1:fucking%20pigs,
+        ns1:human%20fucking%20pigs ;
+    ns1:weight 1 .
+
+ns1:chinks ns1:hate ns1:niggers ;
+    ns1:weight 1 .
+
+ns1:citizens ns1:are ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:clapping ns1:is ns1:a%20way ;
+    ns1:weight 1 .
+
+ns1:comment ns1:asks ns1:what%20is%20wrong%20with%20these%20subhuman%20apes ;
+    ns1:contain ns1:fucker,
+        ns1:retard ;
+    ns1:contains ns1:autist,
+        ns1:dumb,
+        ns1:fucking,
+        ns1:url ;
+    ns1:is ns1:retarded ;
+    ns1:knows ns1:they%20are%20subhuman%20apes ;
+    ns1:like ns1:yours ;
+    ns1:mentions ns1:children,
+        ns1:fuck,
+        ns1:people ;
+    ns1:refers%20to ns1:subhuman%20apes ;
+    ns1:weight 1,
+        2 .
+
+ns1:commenter ns1:asks ns1:when%20will%20arabs%20ever%20become%20humans ;
+    ns1:call ns1:faggot ;
+    ns1:calls ns1:bitch,
+        ns1:retard,
+        ns1:retards,
+        ns1:this%20is%20retarded ;
+    ns1:fuck ns1:trump,
+        ns1:white%20supremacists ;
+    ns1:mentions ns1:holy%20shitbangers ;
+    ns1:says ns1:lmfao ;
+    ns1:weight 1 .
+
+ns1:copycat%20dummy ns1:has ns1:a%20burned%20up%20brain,
+        ns1:a%20stupid%20soul ;
+    ns1:weight 1 .
+
+ns1:could%20autistic%20shits ns1:kill ns1:you ;
+    ns1:like ns1:you ;
+    ns1:weight 1 .
+
+ns1:couple ns1:are ns1:idiots,
+        ns1:racist ;
+    ns1:have ns1:hair,
+        ns1:head ;
+    ns1:weight 1 .
+
+ns1:course ns1:doesn%27t%20allow ns1:minorities ;
+    ns1:weight 1 .
+
+ns1:cowards ns1:are ns1:fucking%20waste,
+        ns1:human%20population%20statistic,
+        ns1:waste ;
+    ns1:like ns1:you ;
+    ns1:using ns1:weapons ;
+    ns1:weight 1 .
+
+ns1:creature ns1:go ns1:extinct ;
+    ns1:weight 1 .
+
+ns1:cringy ns1:autistic ns1:6%20year%20olds ;
+    ns1:weight 1 .
+
+ns1:cuck%20husband ns1:raise ns1:child ;
+    ns1:weight 1 .
+
+ns1:cunt%20on%20the%20internet ns1:was ns1:mean ;
+    ns1:weight 1 .
+
+ns1:dad ns1:shooting ns1:loads ;
+    ns1:should%20have%20gotten ns1:tested ;
+    ns1:weight 1 .
+
+ns1:daragh ns1:has ns1:illness ;
+    ns1:weight 1 .
+
+ns1:daragh%27s%20child ns1:is ns1:mentally%20retarded ;
+    ns1:weight 1 .
+
+ns1:death%20threats ns1:weight 1 ;
+    ns1:were%20send ns1:to%20his%20pms .
+
+ns1:decomposers ns1:could ns1:not ;
+    ns1:weight 1 .
+
+ns1:deflection ns1:is ns1:lmao ;
+    ns1:weight 1 .
+
+ns1:dem%20rats%20crimes%20party ns1:love ns1:drug%20cartel,
+        ns1:illegal%20immigrants,
+        ns1:refugees ;
+    ns1:weight 1 .
+
+ns1:devs ns1:are ns1:sucking%20each%20other%27s%20hairy%20assholes,
+        ns1:too%20busy ;
+    ns1:hope ns1:are%20the%20next%20place%20that%20gets%20shot%20up ;
+    ns1:weight 1 .
+
+ns1:dicks ns1:covered ns1:aids ;
+    ns1:weight 1 .
+
+ns1:dinosaur%20descendant ns1:look ns1:mothafucka ;
+    ns1:weight 1 .
+
+ns1:disease ns1:infest ns1:them ;
+    ns1:weight 1 .
+
+ns1:doctors ns1:should%20be%20trying ns1:to%20eradicate%20devolution,
+        ns1:to%20eradicate%20fagtards,
+        ns1:to%20eradicate%20genetic%20defects,
+        ns1:to%20eradicate%20incels,
+        ns1:to%20eradicate%20learning%20disbabiltiies ;
+    ns1:weight 1 .
+
+ns1:don%27t%20say ns1:nigger ns1:circumstances ;
+    ns1:weight 1 .
+
+ns1:douche%20bags ns1:are ns1:dumb,
+        ns1:ignorant ;
+    ns1:like ns1:you%20all ;
+    ns1:weight 1 .
+
+ns1:down%27s%20syndrome ns1:has%20been ns1:eradicated ;
+    ns1:weight 1 .
+
+ns1:dude ns1:is ns1:fucking%20stupid%20fucking%20dumbfuck,
+        ns1:wow-wife ;
+    ns1:jewks%20off ns1:lives%20chat%20sites ;
+    ns1:weight 1 .
+
+ns1:dude%20behind%20the%20wheel ns1:is ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:dumnass ns1:blinded ns1:american ;
+    ns1:weight 1 .
+
+ns1:english ns1:mean ns1:bunch%20of%20degenerate%20men%20or%20women ;
+    ns1:weight 1 .
+
+ns1:entitled%20kid ns1:want ns1:on%20his%20way,
+        ns1:to%20fuck%20up%20anything ;
+    ns1:weight 1 .
+
+ns1:everbody ns1:hates ns1:you ;
+    ns1:weight 1 .
+
+ns1:everyone%20in%20that%20crowd ns1:should%20be ns1:sterilized ;
+    ns1:weight 1 .
+
+ns1:eyes ns1:weight 1 ;
+    ns1:work ns1:nigger,
+        ns1:retarded .
+
+ns1:faith ns1:in ns1:humanity ;
+    ns1:weight 1 .
+
+ns1:fat%20faggot ns1:has ns1:useless%20life ;
+    ns1:weight 1 .
+
+ns1:father%20and%20uncle ns1:should%20be ns1:hanged,
+        ns1:killed%20in%20public ;
+    ns1:weight 1 .
+
+ns1:females ns1:are ns1:burden%20on%20society ;
+    ns1:are%20murdered ns1:womb ;
+    ns1:weight 1 .
+
+ns1:femi-nazis ns1:are%20regressing ns1:progression%20of%20the%20world ;
+    ns1:should%20be%20put%20in ns1:concentration%20camp ;
+    ns1:weight 1 .
+
+ns1:first%20lady ns1:is ns1:bitch,
+        ns1:immigrant ;
+    ns1:weight 1 .
+
+ns1:fix ns1:weight 1 ;
+    ns1:would%20be ns1:quick .
+
+ns1:food ns1:is ns1:disgusting ;
+    ns1:weight 1 .
+
+ns1:fuckface ns1:is%20in ns1:your%20overflowing%20diaper ;
+    ns1:suckin%27%20on ns1:your%20daddy%27s%20tits ;
+    ns1:weight 1 .
+
+ns1:gay%20people ns1:are ns1:degenerate,
+        ns1:retards ;
+    ns1:weight 1 .
+
+ns1:gay%20retard ns1:post ns1:instagram%20worthy%20memes ;
+    ns1:weight 1 .
+
+ns1:generation ns1:is ns1:obese,
+        ns1:weak ;
+    ns1:weight 1 .
+
+ns1:gimps ns1:are ns1:complete%20fucking%20idiots ;
+    ns1:weight 1 .
+
+ns1:globalist ns1:is ns1:dirty,
+        ns1:pig ;
+    ns1:weight 1 .
+
+<http://example.org/gma/gpa> ns1:are ns1:american%20retards,
+        ns1:retards,
+        ns1:typical%20american%20retards ;
+    ns1:weight 1 .
+
+ns1:go ns1:abort ns1:yourself ;
+    ns1:back ns1:chapo ;
+    ns1:defend ns1:alinity ;
+    ns1:kill ns1:yourself ;
+    ns1:shoot ns1:school ;
+    ns1:shove ns1:a%20fucking%20lemon%20up%20your%20god%20damn%20asshole ;
+    ns1:weight 1 .
+
+ns1:half ns1:is ns1:result ;
+    ns1:weight 1 .
+
+ns1:he ns1:can%27t%20be%20honest%20with ns1:complete%20strangers ;
+    ns1:cry ns1:for%20me%20to%20stop ;
+    ns1:destroy ns1:idot%20retart ;
+    ns1:didn%27t ns1:kill%20anyone ;
+    ns1:execute ns1:eugenic ;
+    ns1:fuck ns1:her%20mentally ;
+    ns1:get ns1:lips ;
+    ns1:got ns1:banned,
+        ns1:publicly%20shamed ;
+    ns1:has ns1:low%20test,
+        ns1:small%20cock ;
+    ns1:hated ns1:women ;
+    ns1:is ns1:a%20tiny-headed%20faggot,
+        ns1:bogan,
+        ns1:fucking%20psychotic%20incel,
+        ns1:loser,
+        ns1:retarded,
+        ns1:wrong ;
+    ns1:is%20propagating ns1:misinformation ;
+    ns1:killed ns1:bunch,
+        ns1:sister ;
+    ns1:look ns1:like%20a%20loser ;
+    ns1:may%20be ns1:cunt ;
+    ns1:must%20have%20been ns1:raised ;
+    ns1:needs ns1:good,
+        ns1:kick ;
+    ns1:say ns1:i%20fucked%20her%20up%20mentally ;
+    ns1:shit ns1:his%20pant ;
+    ns1:shoot ns1:bar ;
+    ns1:stop ns1:crying ;
+    ns1:suffer ns1:mental%20illness,
+        ns1:narcissistic%20personality%20disorder ;
+    ns1:takes ns1:internet ;
+    ns1:talk ns1:mental%20illness ;
+    ns1:turned ns1:blood ;
+    ns1:weight 1 ;
+    ns1:will%20be ns1:use ;
+    ns1:would ns1:die .
+
+ns1:her%20dad ns1:kill ns1:himself ;
+    ns1:weight 1 .
+
+ns1:her%20face ns1:is ns1:obviously%20chock-full%20of%20botox ;
+    ns1:weight 1 .
+
+ns1:hey ns1:address ns1:retarded%20faggot ;
+    ns1:weight 1 .
+
+ns1:higgins ns1:is ns1:bastard ;
+    ns1:is%20in%20the ns1:closet ;
+    ns1:weight 1 .
+
+ns1:hindus ns1:is ns1:cowardly ;
+    ns1:let ns1:hate ;
+    ns1:weight 1 .
+
+ns1:his ns1:find ns1:ass ;
+    ns1:is ns1:ass ;
+    ns1:stuck%20to ns1:diaper ;
+    ns1:weight 1 .
+
+ns1:his%20five%20fucking%20braincells ns1:couldn%27t%20get ns1:to%20work ;
+    ns1:weight 1 .
+
+ns1:his%20head ns1:is ns1:tiny ;
+    ns1:weight 1 .
+
+ns1:hitler ns1:didn%27t%20finish ns1:it ;
+    ns1:give ns1:all%20what%20he%20needs ;
+    ns1:weight 1 .
+
+ns1:hitler%20and%20the%20nazis ns1:call ns1:final%20solution ;
+    ns1:weight 1 .
+
+ns1:hollywood ns1:is ns1:big ;
+    ns1:weight 1 .
+
+ns1:holocaust ns1:is ns1:2.0 ;
+    ns1:weight 1 .
+
+ns1:homeless%20veterans ns1:get ns1:homeless ;
+    ns1:weight 1 .
+
+ns1:homo%20sapiens ns1:kill ns1:themselves ;
+    ns1:weight 1 .
+
+ns1:homosexual ns1:is ns1:mental%20disorder ;
+    ns1:weight 1 .
+
+ns1:homosexuals ns1:are ns1:illegal ;
+    ns1:weight 1 .
+
+ns1:hope ns1:weight 1 ;
+    ns1:you%20and%20your%20family ns1:die%20together .
+
+ns1:huey ns1:is ns1:dead ;
+    ns1:say ns1:never%20trust%20a%20white%20man%20named%20jerome ;
+    ns1:weight 1 .
+
+ns1:human%20race ns1:get%20a%20little ns1:better ;
+    ns1:weight 1 .
+
+ns1:hunting ns1:is ns1:bitch,
+        ns1:little,
+        ns1:tiny ;
+    ns1:weight 1 .
+
+ns1:i%27d ns1:tell ns1:mommy ;
+    ns1:weight 1 .
+
+ns1:ideals ns1:are ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:if%20duals%20were%20still%20legal ns1:weight 1 ;
+    ns1:would ns1:shoot%20ur%20ass .
+
+ns1:ilhan%20omar ns1:belongs%20in ns1:africa ;
+    ns1:is ns1:disgrace ;
+    ns1:is%20from ns1:somalia ;
+    ns1:weight 1 .
+
+ns1:illegals ns1:send ns1:back ;
+    ns1:weight 1 .
+
+ns1:im ns1:gazorpazorpfield ns1:white ;
+    ns1:weight 1 .
+
+ns1:immigrants ns1:arrived ns1:after%201492 ;
+    ns1:should%20go ns1:home ;
+    ns1:weight 1 .
+
+ns1:imran%20khan ns1:go ns1:retard ;
+    ns1:weight 1 .
+
+ns1:inbreed%20inbeciles ns1:has ns1:opinion ;
+    ns1:weight 1 .
+
+ns1:incels ns1:die ns1: ;
+    ns1:do ns1:favor ;
+    ns1:don%27t ns1:exist ;
+    ns1:weight 1 .
+
+ns1:incest%20banter ns1:was%20being%20thrown%20around ns1:nigger ;
+    ns1:weight 1 .
+
+ns1:indians ns1:are ns1:foolish ;
+    ns1:weight 1 .
+
+ns1:invaders ns1:low ns1:iq ;
+    ns1:weight 1 .
+
+ns1:iqs ns1:low ns1:very ;
+    ns1:weight 1 .
+
+ns1:iranian%20leadershit ns1:are ns1:retards ;
+    ns1:weight 1 .
+
+ns1:it%27s ns1:make ns1:her%20offspring ;
+    ns1:weight 1 .
+
+ns1:ive ns1:kill ns1:plenty ;
+    ns1:weight 1 .
+
+ns1:jesus ns1:are ns1:autistic ;
+    ns1:weight 1 .
+
+ns1:jew ns1:confronts ns1:u,
+        ns1:ur ;
+    ns1:weight 1 .
+
+ns1:jews ns1:are ns1:illegal ;
+    ns1:deserve ns1:the%20holocaust ;
+    ns1:weight 1 .
+
+ns1:joe ns1:is ns1:midget,
+        ns1:person ;
+    ns1:look ns1:reasonably%20in%20shape ;
+    ns1:takes ns1:stem%20cell%20injections ;
+    ns1:weight 1 ;
+    ns1:would%20be ns1:incel .
+
+ns1:joe%20rogan ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:josh ns1:try ns1:find ;
+    ns1:weight 1 .
+
+ns1:karma ns1:weight 1 ;
+    ns1:whoring ns1:fuck .
+
+ns1:kys ns1:is ns1:suggestion ;
+    ns1:weight 1 .
+
+ns1:ladies ns1:weight 1 ;
+    ns1:work ns1:nice .
+
+ns1:lawyers ns1:typed ns1:up ;
+    ns1:weight 1 .
+
+ns1:libtards ns1:are ns1:faggots,
+        ns1:sensitive ;
+    ns1:weight 1 .
+
+ns1:lil%20baby%20bitch ns1:want ns1:hole ;
+    ns1:weight 1 .
+
+ns1:little%20boy ns1:left ns1:therapy ;
+    ns1:weight 1 .
+
+ns1:looks ns1:like ns1:chromosomes,
+        ns1:nigger ;
+    ns1:weight 1 .
+
+ns1:lord ns1:is ns1:reddit%20faggot ;
+    ns1:weight 1 .
+
+ns1:losers ns1:could ns1:fuck%20diabetty,
+        ns1:fuck%20the%20400%20lb%20amputee%20down%20the%20street ;
+    ns1:weight 1 .
+
+ns1:low%20iq%20people ns1:leave ns1:america ;
+    ns1:like ns1:you ;
+    ns1:weight 1 .
+
+ns1:m0xyy ns1:is ns1:autist ;
+    ns1:weight 1 .
+
+ns1:majority ns1:is ns1:non%20white ;
+    ns1:weight 1 .
+
+ns1:maker ns1:is ns1:fat ;
+    ns1:weight 1 .
+
+ns1:making%20fun%20of%20mental%20health ns1:created ns1:this%20dynasty ;
+    ns1:weight 1 .
+
+ns1:making%20fun%20of%20poor%20people ns1:created ns1:this%20dynasty ;
+    ns1:weight 1 .
+
+ns1:male ns1:is ns1:autistic,
+        ns1:degenerate ;
+    ns1:weight 1 .
+
+ns1:mangle ns1:is ns1:disgusting,
+        ns1:fat ;
+    ns1:weight 1 .
+
+ns1:manner ns1:is ns1:idiotic ;
+    ns1:weight 1 .
+
+ns1:many ns1:are ns1:retards ;
+    ns1:weight 1 .
+
+ns1:mating%20rituals ns1:are ns1:autistic ;
+    ns1:weight 1 .
+
+ns1:men ns1:are ns1:actually%20getting%20shit%20done ;
+    ns1:care ns1:anymore ;
+    ns1:weight 1 .
+
+ns1:men%20like%20this ns1:eradicate ns1:from%20the%20earth ;
+    ns1:need ns1:from%20the%20earth,
+        ns1:to%20be%20eradicated ;
+    ns1:weight 1 .
+
+ns1:men%20or%20women ns1:fucking ns1:their%20own%20gender ;
+    ns1:weight 1 .
+
+ns1:mental ns1:ill ns1:shit ;
+    ns1:weight 1 .
+
+ns1:mentally%20and%20emotionally%20ill ns1:do%20not%20deserve ns1:equal%20rights ;
+    ns1:weight 1 .
+
+ns1:mentally%20defect%20subhumans ns1:can ns1:post%20anymore ;
+    ns1:weight 1 .
+
+ns1:millions%20of%20babies ns1:are ns1:killed ;
+    ns1:weight 1 .
+
+ns1:millions%20of%20brown%20retards ns1:coming%20in ns1:that ;
+    ns1:weight 1 .
+
+ns1:misogynist ns1:fuck ns1:women ;
+    ns1:weight 1 .
+
+ns1:mkg ns1:made ns1:generations ;
+    ns1:weight 1 .
+
+ns1:mods ns1:ban ns1:me ;
+    ns1:weight 1 .
+
+ns1:motherfucker ns1:ate ns1:damn%20shaving%20cream,
+        ns1:shaving%20cream ;
+    ns1:weight 1 .
+
+ns1:muslims ns1:take ns1:europe ;
+    ns1:weight 1 .
+
+ns1:my ns1:comeback ns1:jizz ;
+    ns1:has ns1:tiny%20wittle%20cock ;
+    ns1:weight 1 .
+
+ns1:my%20nathan ns1:is ns1:gay ;
+    ns1:weight 1 .
+
+ns1:my%20shit ns1:weight 1 ;
+    ns1:work ns1:too .
+
+ns1:nation ns1:is ns1:fucking%20retard ;
+    ns1:weight 1 .
+
+ns1:nazis ns1:did ns1:okay ;
+    ns1:weight 1 .
+
+ns1:negroes ns1:show ns1:retards ;
+    ns1:weight 1 .
+
+ns1:nick%20king%2013 ns1:eat ns1:welders ;
+    ns1:is ns1:homo,
+        ns1:sexual ;
+    ns1:weight 1 .
+
+ns1:niggrus%20americanus ns1:erase ns1:planet ;
+    ns1:is ns1:lowest%20form%20of%20human ;
+    ns1:weight 1 .
+
+ns1:no%20one ns1:care ns1:sensitivities ;
+    ns1:want ns1:to%20have%20a%20conversation%20with%20me ;
+    ns1:wants ns1:people%20of%20your%20ilk ;
+    ns1:weight 1 .
+
+ns1:no%20one%20in%20america ns1:care ns1:mentally%20ill ;
+    ns1:weight 1 .
+
+ns1:nobody ns1:give ns1:fuck ;
+    ns1:likes ns1:you ;
+    ns1:needs ns1:you ;
+    ns1:said ns1:shit ;
+    ns1:wanna ns1:touch ;
+    ns1:wants ns1:tainted ;
+    ns1:weight 1 .
+
+ns1:none ns1:weight 1 ;
+    ns1:will ns1:miss .
+
+ns1:normal%20people ns1:don%27t%20behave ns1:in%20this%20way ;
+    ns1:feel ns1:empathy ;
+    ns1:weight 1 .
+
+ns1:offspring ns1:is ns1:criminal,
+        ns1:poor ;
+    ns1:weight 1 .
+
+ns1:one%20day ns1:weight 1 ;
+    ns1:will ns1:be%20able%20to%20call%20them .
+
+ns1:one%20eyed%20retards ns1:get ns1:born ;
+    ns1:weight 1 .
+
+ns1:one%20of%20those%20retards ns1:is ns1:smart ;
+    ns1:weight 1 .
+
+ns1:one%27s ns1:is ns1:gay ;
+    ns1:weight 1 .
+
+ns1:only%20retard%20here ns1:is ns1:yourself ;
+    ns1:weight 1 .
+
+ns1:op ns1:are ns1:dumbass,
+        ns1:idiot ;
+    ns1:weight 1 .
+
+ns1:otakus%20and%20weebs%20everywhere ns1:are ns1:autistic ;
+    ns1:masturbate ns1:to%20childrens%20cartoons ;
+    ns1:need ns1:to%20be%20put%20on%20a%20watch%20list ;
+    ns1:to%20be%20put%20on ns1:watch%20list ;
+    ns1:weight 1 .
+
+ns1:other%27s ns1:is ns1:autistic ;
+    ns1:weight 1 .
+
+ns1:parents ns1:kicked ns1:head ;
+    ns1:weight 1 .
+
+ns1:pedophila ns1:is ns1:big ;
+    ns1:weight 1 .
+
+ns1:peele ns1:reveal ns1:during%20a%20talk ;
+    ns1:weight 1 .
+
+ns1:people%20like%20you ns1:are ns1:retarded ;
+    ns1:kill ns1:yourselves ;
+    ns1:need%20to ns1:be%20wiped%20out ;
+    ns1:should%20not ns1:reproduce ;
+    ns1:weight 1 .
+
+ns1:pickle ns1:has ns1:dick ;
+    ns1:weight 1 .
+
+ns1:pieces ns1:are ns1:shit ;
+    ns1:weight 1 .
+
+ns1:planned%20parenthood ns1:was%20founded%20by ns1:racist%20eugenicists ;
+    ns1:weight 1 .
+
+ns1:plastic ns1:has ns1:warning%20labels ;
+    ns1:weight 1 .
+
+ns1:plastic%20surgery ns1:is ns1:big ;
+    ns1:weight 1 .
+
+ns1:poop ns1:is ns1:shit ;
+    ns1:weight 1 .
+
+ns1:power%20mod ns1:has ns1:mental%20deficiency ;
+    ns1:weight 1 .
+
+ns1:pride%20pin ns1:is ns1:shit ;
+    ns1:weight 1 .
+
+ns1:problems ns1:are ns1:at%20a%20young%20age ;
+    ns1:weight 1 .
+
+ns1:racism ns1:is ns1:bad,
+        ns1:fucking ;
+    ns1:weight 1 .
+
+ns1:rapper ns1:is ns1:midget%20faggot ;
+    ns1:weight 1 .
+
+ns1:rappers ns1:used%20to%20be ns1:cool%20street%20dudes ;
+    ns1:weight 1 .
+
+ns1:real%20world ns1:treat ns1:precious%20snowflake ;
+    ns1:weight 1 .
+
+ns1:reeee ns1:is ns1:piece%20of%20shit ;
+    ns1:weight 1 .
+
+ns1:refuse ns1:allow ns1:europe ;
+    ns1:subject%20to ns1:moronic%20whims ;
+    ns1:weight 1 .
+
+ns1:religion ns1:inbreede ns1:massive ;
+    ns1:weight 1 .
+
+ns1:reminder ns1:shoot ns1:heroin%20dealer ;
+    ns1:weight 1 .
+
+ns1:replacement ns1:is ns1:penis ;
+    ns1:weight 1 .
+
+ns1:repost ns1:and ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:retard%20fuck ns1:get%20off ns1:computer ;
+    ns1:weight 1 .
+
+ns1:retawded%20bwo ns1:are ns1:retard ;
+    ns1:weight 1 .
+
+ns1:revolution ns1:be%20achieved ns1:probably ;
+    ns1:weight 1 .
+
+ns1:rss ns1:has ns1:non-existent%20role ;
+    ns1:weight 1 .
+
+ns1:safe%20space ns1:is ns1:designated%20area ;
+    ns1:weight 1 .
+
+ns1:satin ns1:pluck ns1:idiot%27s ;
+    ns1:weight 1 .
+
+ns1:seek ns1:help ns1:moron,
+        ns1:professional ;
+    ns1:weight 1 .
+
+ns1:she ns1:breaking%20up ns1:a%20family ;
+    ns1:denies ns1:having%20plastic%20surgery ;
+    ns1:did ns1:nothing%20wrong ;
+    ns1:fuck ns1:you ;
+    ns1:give ns1:cancer ;
+    ns1:got ns1:mad ;
+    ns1:has ns1:mental%20issues ;
+    ns1:hope ns1:burns%20in%20hell ;
+    ns1:is ns1:10%20years%20old,
+        ns1:annoying,
+        ns1:cunt,
+        ns1:dumb,
+        ns1:feminist,
+        ns1:fuckin,
+        ns1:fucking%20whale,
+        ns1:mentally%20ill,
+        ns1:retard,
+        ns1:retarded,
+        ns1:stupid,
+        ns1:the%20killer,
+        ns1:ugly ;
+    ns1:is%20not ns1:girl ;
+    ns1:kill ns1:black%20babies ;
+    ns1:look ns1:like%20a%20zombie ;
+    ns1:looks ns1:like,
+        ns1:like%20the%20kind%20of%20retard,
+        ns1:retarded ;
+    ns1:looks%20like ns1:the%20kind%20of%20retard ;
+    ns1:seems ns1:retarted ;
+    ns1:weight 1,
+        2,
+        6 .
+
+ns1:shirt ns1:is ns1:gay ;
+    ns1:weight 1 .
+
+ns1:shooters ns1:are ns1:shooter,
+        ns1:shooting ;
+    ns1:watch ns1:ya%20home ;
+    ns1:weight 1 .
+
+ns1:short%20guys ns1:can%20still%20be ns1:useful%20and%20valuable%20to%20society%20and%20other%20humans ;
+    ns1:weight 1 .
+
+ns1:shot ns1:retard ns1:nice ;
+    ns1:weight 1 .
+
+ns1:situation ns1:happen ns1:because%20of%20hindus ;
+    ns1:kind ns1:this ;
+    ns1:weight 1 .
+
+ns1:slaughter ns1:includes ns1:gays,
+        ns1:millions%20of%20jews,
+        ns1:prostitutes,
+        ns1:sometimes%20homeless ;
+    ns1:weight 1 .
+
+ns1:smash ns1:weight 1 ;
+    ns1:with ns1:head .
+
+ns1:smurf ns1:ass ns1:faggot ;
+    ns1:weight 1 .
+
+ns1:snoop ns1:is ns1:old,
+        ns1:piece%20of%20shit,
+        ns1:racist,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:some ns1:say ns1:the%20chemicals%20were%20not%20found%20in%20the%20so%20called%20gas%20chambers ;
+    ns1:think ns1:the%20holocaust%20never%20really%20took%20place ;
+    ns1:weight 1 .
+
+ns1:some%20people ns1:need ns1:help ;
+    ns1:weight 1 .
+
+ns1:someone ns1:act%20like ns1:a%20fucking%20cunt ;
+    ns1:go ns1:jail ;
+    ns1:is%20suffering ns1:mental%20health%20problems ;
+    ns1:making%20fun%20of ns1:mental%20health,
+        ns1:poor%20people ;
+    ns1:need ns1:bomb,
+        ns1:kill ;
+    ns1:shoots ns1:aoc ;
+    ns1:weight 1 .
+
+ns1:son%20niggas ns1:are ns1:ignorant ;
+    ns1:look ns1:hunchback%20of%20notre%20dam,
+        ns1:quasimodo ;
+    ns1:weight 1 .
+
+ns1:speaker ns1:call ns1:dumb%20goomba,
+        ns1:retarded%20nigger ;
+    ns1:comment ns1:yours ;
+    ns1:eat ns1:my%20asshole ;
+    ns1:hey ns1:great%20sleuth%20work ;
+    ns1:insult ns1:autist,
+        ns1:soyboy ;
+    ns1:lol ns1:look ;
+    ns1:look ns1:sherlock%27s%20homo ;
+    ns1:say ns1:lol ;
+    ns1:says ns1:fuck%20you ;
+    ns1:state ns1:he%20didn%27t%20see%20himself%20casting%20a%20white%20dude ;
+    ns1:tell ns1:fuck%20off ;
+    ns1:weight 1 .
+
+ns1:spic ns1:live ns1:losangeles ;
+    ns1:weight 1 .
+
+ns1:spicks ns1:hate ns1:niggers ;
+    ns1:weight 1 .
+
+ns1:spindly%20retard ns1:makes ns1:shit ;
+    ns1:weight 1 .
+
+ns1:std ns1:infest ns1:whore ;
+    ns1:weight 1 .
+
+ns1:sterilizing ns1:is ns1:more%20humane%20than%20shooting ;
+    ns1:weight 1 .
+
+ns1:stupid%20people ns1:are ns1:target%20of%20sterilizing ;
+    ns1:weight 1 .
+
+ns1:stupidpol ns1:is ns1:faggot ;
+    ns1:weight 1 .
+
+ns1:survival%20of%20the%20fittest ns1:is ns1:lie ;
+    ns1:weight 1 .
+
+ns1:susan ns1:cry ns1:bitch ;
+    ns1:shit ns1:pants ;
+    ns1:sucks ns1:titties ;
+    ns1:weight 1 .
+
+ns1:syndrome ns1:is ns1:old ;
+    ns1:weight 1 .
+
+ns1:talks ns1:like ns1:retard ;
+    ns1:weight 1 .
+
+ns1:tards ns1:should%20be%20killed ns1:at%20birth ;
+    ns1:weight 1 .
+
+ns1:teammates ns1:can%27t ns1:handle%20not%20getting%20dicked%20everyday ;
+    ns1:weight 1 .
+
+ns1:tech%20company ns1:filled ns1:autistic%20losers,
+        ns1:retards ;
+    ns1:weight 1 .
+
+ns1:terrorist%20state ns1:is ns1:discussing ;
+    ns1:weight 1 .
+
+ns1:that%20asshole ns1:check ns1:himself%20into%20a%20mental%20institute ;
+    ns1:needs ns1:to%20check%20himself%20into%20a%20mental%20institute ;
+    ns1:weight 1 .
+
+ns1:that%20baby ns1:is%20gonna%20end%20up ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:that%20guy ns1:makes%20us%20look%20like ns1:morons ;
+    ns1:makes%20us%20look%20like%20fucking ns1:morons ;
+    ns1:weight 1 .
+
+ns1:that%20inbred ns1:is%20yelling ns1:like%20a%20psychopath ;
+    ns1:weight 1 .
+
+ns1:that%20sub ns1:exists ns1:makes%20my%20blood%20boil ;
+    ns1:weight 1 .
+
+ns1:that%20woman ns1:is ns1:psychopath ;
+    ns1:weight 1 .
+
+ns1:the ns1:fucking ns1:retards ;
+    ns1:retards ns1:4chan ;
+    ns1:weight 1 .
+
+ns1:the%2040%25%20of%20your%20tranny%20comrades ns1:follow ns1:retard ;
+    ns1:weight 1 .
+
+ns1:the%20choice ns1:is ns1:lie ;
+    ns1:weight 1 .
+
+ns1:the%20dumpanzee ns1:make ns1:all%20sane%20people%20cringe ;
+    ns1:weight 1 .
+
+ns1:the%20faggot ns1:is ns1:a%20retard ;
+    ns1:weight 1 .
+
+ns1:the%20hardcore%20christians ns1:going ns1:end%20of%20the%20world ;
+    ns1:looked ns1:retards ;
+    ns1:weight 1 .
+
+ns1:the%20low%20iq ns1:are%20being%20genocided ns1:in%20america ;
+    ns1:weight 1 .
+
+ns1:the%20men%20in%20white%20jackets ns1:call ns1:you ;
+    ns1:weight 1 .
+
+ns1:the%20mentally%20retarded ns1:should%20be%20put%20down ns1:mentally,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:the%20other%2095%25%20of%20the%20world%27s%20population ns1:think ns1:stupid ;
+    ns1:weight 1 .
+
+ns1:the%20people%20you%20love%20all%20get%20depression ns1:kill ns1:themselves ;
+    ns1:weight 1 .
+
+ns1:the%20real%20solution ns1:is ns1:resurrecting%20hitler ;
+    ns1:weight 1 .
+
+ns1:the%20retards ns1:talk ns1:like%20that ;
+    ns1:weight 1 .
+
+ns1:the%20slop%20hole ns1:let ns1:you%20retarded%20ass%20dump%20in%20it ;
+    ns1:weight 1 .
+
+ns1:the%20spanish ns1:are ns1:disabled,
+        ns1:mentally%20disabled,
+        ns1:trash ;
+    ns1:weight 1 .
+
+ns1:the%20stupid%20dude ns1:is%20from ns1:the%20human%20centipede%202 ;
+    ns1:weight 1 .
+
+ns1:their ns1:country%20of%20origin ns1:america ;
+    ns1:create ns1:retard%20society ;
+    ns1:is ns1:kid,
+        ns1:retarded ;
+    ns1:live ns1:there ;
+    ns1:put ns1:cages ;
+    ns1:weight 1 .
+
+ns1:their%20behavior ns1:is ns1:disgusting ;
+    ns1:weight 1 .
+
+ns1:there%27s%20a ns1:is ns1:special%20place%20in%20hell ;
+    ns1:weight 1 .
+
+ns1:these ns1:are ns1:morons,
+        ns1:people,
+        ns1:retards ;
+    ns1:fucking ns1:brainlets ;
+    ns1:weight 1 .
+
+ns1:these%20kind%20of%20people ns1:are ns1:worthless ;
+    ns1:are%20good%20at ns1:working%20the%20system ;
+    ns1:have ns1:eight%20kids ;
+    ns1:is ns1:constant%20drains%20on%20society ;
+    ns1:weight 1 .
+
+ns1:these%20micro-dick%20losers ns1:leave ns1:people%20alone ;
+    ns1:need ns1:to%20get%20real%20jobs,
+        ns1:to%20leave%20people%20alone ;
+    ns1:weight 1 .
+
+ns1:these%20people ns1:are ns1:fucking%20faggots,
+        ns1:pieces%20of%20shit,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:these%20traitors ns1:give ns1:care ;
+    ns1:weight 1 .
+
+ns1:these%20two ns1:are ns1:fucking%20retarded ;
+    ns1:weight 1 .
+
+ns1:this%20bitch ns1:gave ns1:hell ;
+    ns1:is ns1:dumb,
+        ns1:hell ;
+    ns1:weight 1 .
+
+ns1:this%20guy ns1:needs ns1:rot%20in%20jail%20for%20life ;
+    ns1:weight 1 .
+
+ns1:this%20hoe%20looking%20girl ns1:is ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:this%20nigga ns1:is ns1:fuckin%20retarded,
+        ns1:retard,
+        ns1:retarded ;
+    ns1:weight 1,
+        2 .
+
+ns1:this%20one ns1:has ns1:autism ;
+    ns1:weight 1 .
+
+ns1:this%20shrimp%20dick ns1:need ns1:attention ;
+    ns1:weight 1 .
+
+ns1:this%20small%20dick%20loser ns1:help ns1:rinse ;
+    ns1:look ns1:pathetic%20ass ;
+    ns1:weight 1 .
+
+ns1:those ns1:are ns1:cunts,
+        ns1:fat,
+        ns1:useless ;
+    ns1:catapult ns1:fuckers,
+        ns1:man ;
+    ns1:want ns1:women ;
+    ns1:weight 1 .
+
+ns1:towelheads ns1:hate ns1:niggers ;
+    ns1:weight 1 .
+
+ns1:trannies ns1:are ns1:mentally%20ill ;
+    ns1:weight 1 .
+
+ns1:transgender ns1:is ns1:mental%20disorder ;
+    ns1:weight 1 .
+
+ns1:transvestites ns1:have ns1:mental%20condition ;
+    ns1:weight 1 .
+
+ns1:trevor%20noah ns1:is%20played%20by ns1:black%20man ;
+    ns1:weight 1 .
+
+ns1:true%20retard ns1:weight 1 ;
+    ns1:would%20start ns1:capital%20and,
+        ns1:sentence .
+
+ns1:twatter%20apes ns1:have ns1:no%20critical%20thinking ;
+    ns1:think ns1:ruin%20credibility%20of%20the%20police ;
+    ns1:weight 1 .
+
+ns1:tweet ns1:proves ns1:point ;
+    ns1:weight 1 .
+
+ns1:two%20white%20male%20trump-supporting%20white%20supremacists ns1:kill ns1:30%20people ;
+    ns1:weight 1 .
+
+ns1:tyson ns1:retire%20before%20you%20is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:uk%20chicks ns1:is ns1:sideways ;
+    ns1:weight 1 .
+
+ns1:ur%20depresi%C3%B3n ns1:weight 1 ;
+    ns1:will ns1:end .
+
+ns1:urgent%20care ns1:see ns1:hour ;
+    ns1:weight 1 .
+
+ns1:us%20brits ns1:use ns1:insult ;
+    ns1:weight 1 .
+
+ns1:us%20side ns1:get ns1:fat%20kids ;
+    ns1:weight 1 .
+
+ns1:user ns1:claim ns1:im%20retarded ;
+    ns1:fuck ns1:black%20people,
+        ns1:uneducated%20retards ;
+    ns1:suck ns1:cock ;
+    ns1:weight 1 .
+
+ns1:users ns1:are ns1:braindead ;
+    ns1:weight 1 .
+
+ns1:we ns1:bandying ns1:words ;
+    ns1:be ns1:dirty%20hoes,
+        ns1:sluts ;
+    ns1:cause ns1:you ;
+    ns1:deal ns1:brothers ;
+    ns1:deal%20with ns1:it ;
+    ns1:find ns1:one ;
+    ns1:give ns1:guns ;
+    ns1:go ns1:hell ;
+    ns1:involved ns1:defense%20forces,
+        ns1:politics ;
+    ns1:kick ns1:them ;
+    ns1:kill ns1:niggers ;
+    ns1:let ns1:brothers ;
+    ns1:like ns1:autistic%20faggot,
+        ns1:faggot,
+        ns1:redditor ;
+    ns1:live ns1:world ;
+    ns1:look ns1:one ;
+    ns1:might%20be ns1:safe ;
+    ns1:need ns1:anymore,
+        ns1:concentration%20camps,
+        ns1:incelebates,
+        ns1:kick,
+        ns1:medicating%20them,
+        ns1:people,
+        ns1:to%20lock%20them%20up,
+        ns1:to%20start%20sterilizing%20stupid%20people ;
+    ns1:put ns1:end ;
+    ns1:putting ns1:black%20women ;
+    ns1:shoot ns1:person ;
+    ns1:should%20have ns1:database,
+        ns1:database%20of%20white%20supremacists ;
+    ns1:should%20kill ns1:everyone%20below%20a%20certain%20iq ;
+    ns1:start ns1:makin%27%20changes,
+        ns1:sterilizing%20stupid%20people ;
+    ns1:start%20killing ns1:dummies ;
+    ns1:stop ns1:fucking ;
+    ns1:want ns1:retards ;
+    ns1:watch ns1:brothers ;
+    ns1:weight 1,
+        2 ;
+    ns1:will%20anger ns1:virgins .
+
+ns1:website ns1:is ns1:fucking ;
+    ns1:weight 1 .
+
+ns1:wetback ns1:live ns1:losangeles ;
+    ns1:weight 1 .
+
+ns1:what%20up ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:white%20people ns1:care ns1:others ;
+    ns1:weight 1 .
+
+ns1:white%20trash ns1:is ns1:stupid ;
+    ns1:weight 1 .
+
+ns1:who ns1:are ns1:maniacs,
+        ns1:retards ;
+    ns1:being ns1:pedophile ;
+    ns1:can%20work ns1:society ;
+    ns1:commit ns1:mass%20shootings ;
+    ns1:has ns1:autism ;
+    ns1:is ns1:nigga,
+        ns1:retarded%20one ;
+    ns1:lives ns1:parents%20basement ;
+    ns1:say ns1:im%20not%20military ;
+    ns1:weight 1 .
+
+ns1:whoever ns1:say ns1:different ;
+    ns1:weight 1 .
+
+ns1:whole%20time ns1:had ns1:somebody%20else ;
+    ns1:weight 1 .
+
+ns1:why ns1:call ns1:word ;
+    ns1:weight 1 .
+
+ns1:x ns1:said ns1:shit ;
+    ns1:told ns1:people%20online ;
+    ns1:was%20going%20to ns1:rape%20their%20underaged%20sisters ;
+    ns1:weight 1 .
+
+ns1:xtian%2C%20jew%2C%20muslim%2C%20hindu ns1:are ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:y%27all ns1:are ns1:fat,
+        ns1:fat%20bitches,
+        ns1:fucking%20wannabes,
+        ns1:gay,
+        ns1:retards,
+        ns1:trash,
+        ns1:ugly,
+        ns1:wannabes ;
+    ns1:could%20never%20get%20to ns1:level ;
+    ns1:weight 1 .
+
+ns1:ya%20bitch ns1:is ns1:little ;
+    ns1:weight 1 .
+
+ns1:yall ns1:are ns1:f%2Acked%20in%20the%20head ;
+    ns1:flex%20on ns1:people ;
+    ns1:retard ns1:so%20fucking%20dumb ;
+    ns1:weight 1 .
+
+ns1:yaumal%20qiyamah ns1:is ns1:close ;
+    ns1:weight 1 .
+
+ns1:yo%20triflin%20dirty%20white%20racist%20ass ns1:took ns1:me%20off%20the%20mfucking%20schedule ;
+    ns1:weight 1 .
+
+ns1:you%20assholes ns1:weight 1 ;
+    ns1:will%20eat ns1:anything .
+
+ns1:you%20chinks ns1:are%20determined%20to ns1:eat ;
+    ns1:are%20determined%20to%20eat ns1:pangolin ;
+    ns1:weight 1 .
+
+ns1:you%20guys ns1:are ns1:bitchmade,
+        ns1:morons ;
+    ns1:probably ns1:laughed%20and%20clapped%20along ;
+    ns1:weight 1 .
+
+ns1:you%20inbred%20euro%20filth ns1:are ns1:crying ;
+    ns1:weight 1 .
+
+ns1:you%20incels ns1:post ns1:static%20images%20with%20no%20sources%20and%20no%20context ;
+    ns1:weight 1 .
+
+ns1:you%20jesus ns1:beat ns1:half%20his%20ass,
+        ns1:that ;
+    ns1:kiss ns1:the%20perv ;
+    ns1:launch ns1:the%20pervert%27s%20ass ;
+    ns1:rip ns1:his%20penis ;
+    ns1:turn ns1:the%20other%20cheek ;
+    ns1:use ns1:penis ;
+    ns1:walk ns1:atlantic ;
+    ns1:weight 1 .
+
+ns1:you%20people ns1:are ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:you%20religious%20dumbasses ns1:are ns1:dumbass ;
+    ns1:deserve ns1:everything%20that%20happens ;
+    ns1:weight 1 .
+
+ns1:you%20retards ns1:spread ns1:aids,
+        ns1:aids%20like%20it%27s%20going%20out%20of%20fashion ;
+    ns1:weight 1 .
+
+ns1:you%20the%20bitch ns1:look ns1:lazy,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:you%20trained%20trumpanzee%20peckerwoods ns1:are ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:you%27re ns1:fuck ns1:mother%27s%20cold%20dead%20body,
+        ns1:retarded%20girl%27s%20mother ;
+    ns1:happens ns1:a%20midget ;
+    ns1:weight 1 .
+
+ns1:youg%20whores ns1:live ns1:life ;
+    ns1:need ns1:learn ;
+    ns1:weight 1 .
+
+ns1:your ns1:are ns1:fucking,
+        ns1:gums,
+        ns1:inferior%20genetics,
+        ns1:retarded,
+        ns1:teeth ;
+    ns1:be ns1:hater ;
+    ns1:child ns1:dies ;
+    ns1:comrades ns1:tranny ;
+    ns1:dead ns1:ass ;
+    ns1:disgusting ns1:ass ;
+    ns1:fat ns1:ass ;
+    ns1:has ns1:post%20history ;
+    ns1:have ns1:ass,
+        ns1:fat%20nasty%20disease%20having%20ass,
+        ns1:virgin%20ass,
+        ns1:wife ;
+    ns1:hope ns1:child ;
+    ns1:is ns1:country,
+        ns1:dick,
+        ns1:dirty,
+        ns1:disabled,
+        ns1:disgusting,
+        ns1:poor%20boy,
+        ns1:result%20of%20an%20incest,
+        ns1:too%20much%20stupid,
+        ns1:wretched ;
+    ns1:kill ns1:urself,
+        ns1:yourself ;
+    ns1:retard ns1:child ;
+    ns1:take ns1:autistic%20bullshit ;
+    ns1:was ns1:iq ;
+    ns1:weight 1 .
+
+ns1:your%20%22girl%22 ns1:is ns1:disgusting%20cow ;
+    ns1:weight 1 .
+
+ns1:your%2047%20chromosomes ns1:did ns1:for%20us,
+        ns1:for%20us%20already ;
+    ns1:did%20for ns1:us,
+        ns1:us%20already ;
+    ns1:weight 1 .
+
+ns1:your%20comebacks ns1:being ns1:shit ;
+    ns1:weight 1 .
+
+ns1:your%20comment%20history ns1:suggest ns1:you%27re%20a%20basement%20dwelling%20retard ;
+    ns1:weight 1 .
+
+ns1:your%20desperate%20ass ns1:payed ns1:for%20a%20hooker ;
+    ns1:weight 1 .
+
+ns1:your%20face ns1:look ns1:one%20that%20needs%20to%20be%20punched ;
+    ns1:need ns1:to%20be%20punched ;
+    ns1:weight 1 .
+
+ns1:your%20fucked%20up%20nipple ns1:is ns1:nasty ;
+    ns1:weight 1 .
+
+ns1:your%20girl ns1:lose ns1:interest,
+        ns1:interest%20in%20your%20fat%20dumbass ;
+    ns1:weight 1 .
+
+ns1:your%20head ns1:is%20up ns1:motherfucking%20ass ;
+    ns1:weight 1 .
+
+ns1:your%20honor ns1:fucking ns1:i%20rest%20my%20case ;
+    ns1:weight 1 .
+
+ns1:your%20iq ns1:has%20hit ns1:the%20negatives ;
+    ns1:weight 1 .
+
+ns1:your%20mom ns1:conceiving ns1:you%20with%20her%20brother ;
+    ns1:fucking ns1:you%20over%20with%20alcohol%20and%20drugs ;
+    ns1:is ns1:american,
+        ns1:fat ;
+    ns1:probably ns1:vaccinated%20you ;
+    ns1:squeezed ns1:vagina%20too%20hard ;
+    ns1:weight 1 .
+
+ns1:your%20mother ns1:sucks ns1:vlad ;
+    ns1:weight 1 .
+
+ns1:your%20next%20hit ns1:is ns1:laced ;
+    ns1:weight 1 .
+
+ns1:your%20own%20mother ns1:wants%20to ns1:slap%20the%20fuck%20out%20of%20you ;
+    ns1:weight 1 .
+
+ns1:your%20parents ns1:hate ns1:everything%20about%20you ;
+    ns1:should%27ve%20have ns1:aborted ;
+    ns1:weight 1 .
+
+ns1:your%20shit ns1:is ns1:all%20retarded,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:your%20twitter%20handle ns1:say ns1:something ;
+    ns1:weight 1 .
+
+ns1:youth ns1:indoctrination ns1:mental%20health ;
+    ns1:weight 1 .
+
+ns1:Justin ns1:could%20not ns1:pass%20high%20school ;
+    ns1:is ns1:racist,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:a%20bunch%20of%20retards ns1:try ns1:to%20hump%20a%20doorknob ;
+    ns1:weight 1 .
+
+ns1:a%20midget ns1:fucks ns1:a%20badger ;
+    ns1:weight 1 .
+
+ns1:alinity ns1:being ns1:piece%20of%20shit,
+        ns1:shit ;
+    ns1:weight 1 .
+
+ns1:anyone%20else ns1:suffer ns1:horrific%20deformity ;
+    ns1:weight 1 .
+
+ns1:asylum ns1:is_for ns1:crazy%20people ;
+    ns1:weight 1 .
+
+ns1:autistic%20faggot ns1:such%20as ns1:yourself ;
+    ns1:weight 1 .
+
+ns1:being ns1:is ns1:cunt,
+        ns1:dumb,
+        ns1:faggot,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:black%20man ns1:is ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:black%20women ns1:be%20in ns1:video%20games ;
+    ns1:weight 1 .
+
+ns1:boy ns1:kys ns1: ;
+    ns1:looks ns1:ugly ;
+    ns1:shut ns1:yo ;
+    ns1:weight 1 .
+
+ns1:brain ns1:is ns1:tiny ;
+    ns1:weight 1 .
+
+ns1:brain%20damage ns1:cause ns1:baby ;
+    ns1:weight 1 .
+
+ns1:braindead ns1:watch ns1:tranny ;
+    ns1:weight 1 .
+
+ns1:brainlets ns1:need ns1:gassed ;
+    ns1:weight 1 .
+
+ns1:bro ns1:suggest ns1:you ;
+    ns1:weight 1 .
+
+ns1:car ns1:full%20of ns1:retards,
+        ns1:terrorist ;
+    ns1:is ns1:shitty ;
+    ns1:weight 1 .
+
+ns1:cat ns1:kill ns1:vodka ;
+    ns1:weight 1 .
+
+ns1:concentration%20camps ns1:are%20for ns1:theses%20freaks ;
+    ns1:weight 1 .
+
+ns1:database ns1:is ns1:hit%20list ;
+    ns1:weight 1 .
+
+ns1:degenerates ns1:do%20not%20deserve ns1:equal%20rights ;
+    ns1:weight 1 .
+
+ns1:diapers ns1:are ns1:ass,
+        ns1:loaded ;
+    ns1:weight 1 .
+
+ns1:eugenics ns1:is ns1:not ;
+    ns1:should%20have%20kept ns1:low%20iq%20one ;
+    ns1:weight 1 .
+
+ns1:everyone ns1:hates ns1:you ;
+    ns1:is%20below ns1:a%20certain%20iq ;
+    ns1:laughs ns1:you ;
+    ns1:weight 1 .
+
+ns1:fact ns1:is ns1:sad ;
+    ns1:weight 1 .
+
+ns1:fat%20retards ns1:weight 1 ;
+    ns1:with ns1:small%20pee%20pees .
+
+ns1:final%20solution ns1:is ns1:slaughter%20of%20millions%20of%20jews%2C%20gays%2C%20prostitutes%2C%20and%20sometimes%20homeless ;
+    ns1:weight 1 .
+
+ns1:freak ns1:has ns1:beard,
+        ns1:face,
+        ns1:hair ;
+    ns1:is ns1:ugly ;
+    ns1:weight 1 .
+
+ns1:fucking%20concentration%20camps ns1:are%20for ns1:both%20sjw%27s%20and%20anti-sjw%27s ;
+    ns1:weight 1 .
+
+ns1:gang ns1:is ns1:little ;
+    ns1:weight 1 .
+
+ns1:girls ns1:are ns1:annoying%20ass,
+        ns1:retarded ;
+    ns1:are%20in ns1:care%20home ;
+    ns1:fishing%20for ns1:attention ;
+    ns1:have ns1:alzheimer%27s,
+        ns1:inbox%20flood%20with%20messages,
+        ns1:ways ;
+    ns1:post ns1:dumb%20shit ;
+    ns1:weight 1 .
+
+ns1:god ns1:damn ns1: ;
+    ns1:weight 1 .
+
+ns1:guy ns1:fuck ns1:crocodile,
+        ns1:monkey ;
+    ns1:makes ns1:us ;
+    ns1:post ns1:subreddit ;
+    ns1:punches ns1:girl ;
+    ns1:weight 1 .
+
+ns1:history ns1:full%20of ns1:retarded%20looneys ;
+    ns1:weight 1 .
+
+ns1:homeless%20people ns1:want ns1:change ;
+    ns1:weight 1 .
+
+ns1:homo ns1:is ns1:closet ;
+    ns1:weight 1 .
+
+ns1:hopefully ns1:die ns1:your%20family ;
+    ns1:weight 1 .
+
+ns1:humans ns1:are ns1:living%20beings,
+        ns1:stupid ;
+    ns1:do%20not ns1:deserve ;
+    ns1:kill ns1:themselves ;
+    ns1:live ns1:earth ;
+    ns1:weight 1 .
+
+ns1:i ns1:actually ns1:pay%20to%20see%20it ;
+    ns1:ain%27t ns1:big ;
+    ns1:am ns1:bitch,
+        ns1:dumb,
+        ns1:fucking,
+        ns1:gay,
+        ns1:retarded,
+        ns1:sure,
+        ns1:tired,
+        ns1:whore ;
+    ns1:am%20gonna ns1:beat%20the%20fuck%20out%20of%20you,
+        ns1:beat%20the%20fuck%20out%20of%20you%20bitch ;
+    ns1:am%20trying ns1:think%20of%20sex%20positions ;
+    ns1:be ns1:incel ;
+    ns1:believe ns1:you%27re%20brain-poisoned ;
+    ns1:bend ns1:three-year-old%20body ;
+    ns1:bet ns1:hes%20crying%20so%20hard,
+        ns1:iq,
+        ns1:nigga ;
+    ns1:break ns1:the%20habit%20of%20a%20lifetime ;
+    ns1:build ns1:fucking%20concentration%20camps ;
+    ns1:can%27t ns1:imagine ;
+    ns1:come%20for ns1:you ;
+    ns1:confirm ns1:black ;
+    ns1:convinced ns1:you%20bitches ;
+    ns1:crush ns1:gay%20ass%20retard ;
+    ns1:did ns1:it,
+        ns1:retarded ;
+    ns1:did%20with ns1:mother ;
+    ns1:dont ns1:need ;
+    ns1:feel ns1:offended ;
+    ns1:find ns1:mentally%20damaged%20queers ;
+    ns1:fuck ns1:everything,
+        ns1:girls,
+        ns1:her,
+        ns1:retards,
+        ns1:that%20chair,
+        ns1:you,
+        ns1:your%20dead%20mom ;
+    ns1:get ns1:a%20chair,
+        ns1:love ;
+    ns1:get%20on ns1:gay%20dating%20app%20grindr ;
+    ns1:give ns1:shit ;
+    ns1:got ns1:called,
+        ns1:crazy%20shooters ;
+    ns1:got%20called ns1:retard%20faggot ;
+    ns1:hate ns1:fat%20bitches,
+        ns1:our%20society,
+        ns1:people,
+        ns1:person,
+        ns1:women%20especially,
+        ns1:world,
+        ns1:you ;
+    ns1:have ns1:chromosomes,
+        ns1:filthy%20sex ;
+    ns1:hear ns1:word ;
+    ns1:hope ns1:autistic,
+        ns1:baby,
+        ns1:inbred,
+        ns1:japan%20dumps%20your%20fat%20ass,
+        ns1:mentally%20disturbed%20terrorist%20bitch,
+        ns1:older%20person%20does%20the%20same%20to%20her,
+        ns1:people,
+        ns1:retarded%20baby,
+        ns1:that%20you%20are%20lying,
+        ns1:the%20people%20you%20love%20all%20get%20depression%20and%20kill%20themselves,
+        ns1:they,
+        ns1:they%20took%20his%20crazy%2C%20demonic%20possessed%20ass%20to%20the%20psych%20ward,
+        ns1:thing,
+        ns1:your%20children ;
+    ns1:is ns1:dirty%20dick ;
+    ns1:kid ns1:myself ;
+    ns1:know ns1:fuck,
+        ns1:it,
+        ns1:ya ;
+    ns1:learn ns1:what ;
+    ns1:live ns1:in%20a%20country,
+        ns1:world ;
+    ns1:love ns1:living ;
+    ns1:make ns1:money,
+        ns1:short ;
+    ns1:need ns1:make%20him%20beg%20and%20cry,
+        ns1:ur ;
+    ns1:pimped%20out%20by ns1:kikes ;
+    ns1:ready ns1:to%20assassinate ;
+    ns1:refer ns1:midget ;
+    ns1:remove ns1:myself ;
+    ns1:rest ns1:case ;
+    ns1:roast ns1:fags ;
+    ns1:say ns1:it ;
+    ns1:see ns1:edit,
+        ns1:fuckin%20retard,
+        ns1:gears%20turning,
+        ns1:wrong ;
+    ns1:shove ns1:guys%20throats,
+        ns1:mental%20illness,
+        ns1:ragingly%20hard%20cock ;
+    ns1:sound ns1:like%20an%20idot%20retart ;
+    ns1:spread ns1:aid ;
+    ns1:start ns1:talk ;
+    ns1:stay ns1:away ;
+    ns1:strangle ns1:autistic%20retard ;
+    ns1:succ ns1:ball ;
+    ns1:suggest ns1:you ;
+    ns1:talk ns1:bullet,
+        ns1:like%20this ;
+    ns1:thank ns1:you ;
+    ns1:think ns1:its%20all%20of%20them,
+        ns1:retard,
+        ns1:sterilizing%20the%20mentally%20ill%20and%20the%20ones%20with%20very%20low%20iqs%20should%20not%20only%20be%20encouraged%2C%20but%20permitted,
+        ns1:they%20should%20have%20separate%20events,
+        ns1:you%20are%20failing,
+        ns1:you%27d%20need%20a%20big%20fucking%20dong ;
+    ns1:thought ns1:retard ;
+    ns1:use ns1:gay,
+        ns1:retard,
+        ns1:your%20mum ;
+    ns1:wanna ns1:slap,
+        ns1:spit ;
+    ns1:want ns1:hear,
+        ns1:insult,
+        ns1:my%20fucking%20kudos,
+        ns1:risk,
+        ns1:somebody,
+        ns1:to%20fuck,
+        ns1:to%20have%20sexual%20relations,
+        ns1:your%20dead%20mom ;
+    ns1:watch ns1:them%20live%20together,
+        ns1:ya%20tone ;
+    ns1:weight 1,
+        3 ;
+    ns1:will ns1:believe ;
+    ns1:will%20be%20avoiding ns1:shithole ;
+    ns1:wish ns1:everyone,
+        ns1:we%20could%20create%20their%20retard%20society,
+        ns1:we%20could%20send%20them%20all%20there,
+        ns1:world ;
+    ns1:would%20love%20to ns1:fight%20snoop%20dogg ;
+    ns1:would%20rather%20be ns1:cunt,
+        ns1:retarded ;
+    ns1:would%20totally%20fuck ns1:your%20wife ;
+    ns1:wouldn%27t ns1:listen,
+        ns1:watch%20it .
+
+ns1:idiot%27s ns1:come ns1:america ;
+    ns1:weight 1 .
+
+ns1:ill ns1:do ns1:it%20myself ;
+    ns1:weight 1 .
+
+ns1:inbreds ns1:believe ns1:qanon%20phaggotry ;
+    ns1:like ns1:yourself ;
+    ns1:weight 1 .
+
+ns1:incelebates ns1:get ns1:pussy ;
+    ns1:weight 1 .
+
+ns1:islam ns1:is ns1:bullshit ;
+    ns1:weight 1 .
+
+ns1:japan ns1:dumps ns1:your%20fat%20ass ;
+    ns1:weight 1 .
+
+ns1:kid ns1:in ns1:body ;
+    ns1:is ns1:fucking,
+        ns1:retard ;
+    ns1:know ns1:look ;
+    ns1:speaking ns1:jeberish ;
+    ns1:weight 1 .
+
+ns1:kikes ns1:hate ns1:niggers ;
+    ns1:weight 1 .
+
+ns1:kind ns1:is ns1:good ;
+    ns1:makes ns1:shit ;
+    ns1:weight 1 .
+
+ns1:listen ns1:here ns1:retard ;
+    ns1:weight 1 .
+
+ns1:little%20dancer ns1:was ns1:new ;
+    ns1:weight 1 .
+
+ns1:loads ns1:into ns1:cunt ;
+    ns1:weight 1 .
+
+ns1:love ns1:is ns1:blind ;
+    ns1:weight 1 .
+
+ns1:mad%20kids ns1:have ns1:different%20women ;
+    ns1:weight 1 .
+
+ns1:manspreading ns1:is ns1:thing ;
+    ns1:weight 1 .
+
+ns1:mentally%20ill%20lgbtq%20people ns1:cut ns1:gene%20pool ;
+    ns1:weight 1 .
+
+ns1:midget%20faggot ns1:is ns1:weak ;
+    ns1:weight 1 .
+
+ns1:mom ns1:give ns1:birth ;
+    ns1:is ns1:gay ;
+    ns1:should ns1:swallow ;
+    ns1:sucks ns1:dick ;
+    ns1:weight 1 .
+
+ns1:mommy ns1:think ns1:precious%20snowflake ;
+    ns1:weight 1 .
+
+ns1:n ns1:go%20out ns1:folk ;
+    ns1:weight 1 .
+
+ns1:niggas ns1:are ns1:good%20at%20talking%20to%20women,
+        ns1:retarded ;
+    ns1:get ns1:mad%20kids ;
+    ns1:hate ns1:to%20see%20women%20win,
+        ns1:women ;
+    ns1:have ns1:a%20touch%20of%20retardation ;
+    ns1:know ns1:i ;
+    ns1:say ns1:u%20sound%20like%20a%207%20year%20old ;
+    ns1:weight 1 .
+
+ns1:non%20white ns1:decides ns1:shooting%20spree ;
+    ns1:weight 1 .
+
+ns1:nut%20cases ns1:are ns1:in%20america ;
+    ns1:weight 1 .
+
+ns1:piece ns1:of ns1:shit ;
+    ns1:weight 1 .
+
+ns1:poor%20people ns1:have ns1:bad%20teeth ;
+    ns1:weight 1 .
+
+ns1:population ns1:is ns1:entire,
+        ns1:human ;
+    ns1:weight 1 .
+
+ns1:probably ns1:killed ns1:ass,
+        ns1:retarded%20ass ;
+    ns1:weight 1 .
+
+ns1:quasimodo ns1:look ns1:mother%20fucka ;
+    ns1:weight 1 .
+
+ns1:reddit ns1:encourages ns1:fucks,
+        ns1:retarded,
+        ns1:white ;
+    ns1:is%20filled%20with ns1:ill%20trannies,
+        ns1:mentally%20ill%20trannies ;
+    ns1:weight 1 .
+
+ns1:redditor ns1:is ns1:faggot ;
+    ns1:weight 1 .
+
+ns1:reporter ns1:getting%20beat%20by ns1:man ;
+    ns1:weight 1 .
+
+ns1:retard%20faggot ns1:should ns1:off%20himself ;
+    ns1:weight 1 .
+
+ns1:sensitive%20bunch ns1:are ns1:cunts ;
+    ns1:weight 1 .
+
+ns1:ships ns1:bomb ns1:ships ;
+    ns1:weight 1 .
+
+ns1:shut ns1:mad ns1:chapo ;
+    ns1:retard ns1:chapo ;
+    ns1:the ns1:degenerate,
+        ns1:fuck ;
+    ns1:weight 1 .
+
+ns1:sjw ns1:weight 1 ;
+    ns1:will%20take%20a%20sharp%20nose%20dive ns1:we%20start%20killing%20of%20the%20dummies .
+
+ns1:slave ns1:be ns1:good ;
+    ns1:weight 1 .
+
+ns1:solution ns1:is ns1:temporary ;
+    ns1:weight 1 .
+
+ns1:somebody ns1:beat ns1:ass,
+        ns1:faggot,
+        ns1:nigga,
+        ns1:sick ;
+    ns1:weight 1 .
+
+ns1:special%20needs%20kids ns1:eliminate ns1:nazism ;
+    ns1:weight 1 .
+
+ns1:spreading%20your%20shitty%20dna ns1:is ns1:detrimental%20to%20the%20world ;
+    ns1:weight 1 .
+
+ns1:talk ns1:about ns1:being ;
+    ns1:weight 1 .
+
+ns1:that%20fucking%20psycho%20bitch ns1:raise ns1:her%20kids ;
+    ns1:weight 1 .
+
+ns1:there ns1:are ns1:nut%20cases ;
+    ns1:is ns1:no%20force ;
+    ns1:weight 1 .
+
+ns1:they ns1:are ns1:breeding,
+        ns1:complete,
+        ns1:earth,
+        ns1:fucking%20retarded,
+        ns1:fucking%20stupid,
+        ns1:idiot,
+        ns1:moron,
+        ns1:morons,
+        ns1:rude%20and%20aggressive,
+        ns1:stupid,
+        ns1:uglier%20than%20hell,
+        ns1:ugly,
+        ns1:voluntarily%20celibate,
+        ns1:white ;
+    ns1:are%20allowed ns1:shit ;
+    ns1:be ns1:mad,
+        ns1:retards ;
+    ns1:be%20mad%20at ns1:world ;
+    ns1:beaten ns1:homeless%20man ;
+    ns1:breed ns1:morons ;
+    ns1:cling%20to ns1:disadvantaged%20people,
+        ns1:mentally%20slow ;
+    ns1:deserve ns1:shoot ;
+    ns1:die ns1:from%20aids ;
+    ns1:do ns1:idiot ;
+    ns1:dominate ns1:minds ;
+    ns1:end ns1:alone,
+        ns1:divorced ;
+    ns1:execute ns1:mentally%20retarted ;
+    ns1:fuck ns1:children,
+        ns1:homeless%20people ;
+    ns1:fucking%20die ns1:from%20aids ;
+    ns1:get ns1:a%20pass,
+        ns1:aid,
+        ns1:rapey,
+        ns1:smarter%20black%20folks ;
+    ns1:get%20out%20of ns1:their%20comfortable%20hole ;
+    ns1:get%20rejected%20all%20the ns1:time ;
+    ns1:getting ns1:aborted ;
+    ns1:go ns1:whole%20mile ;
+    ns1:have ns1:chromosome,
+        ns1:low%20iq ;
+    ns1:infest ns1:all%20the%20cool%20subreddits ;
+    ns1:kill ns1:people ;
+    ns1:like ns1:it ;
+    ns1:look ns1:inbreds,
+        ns1:like ;
+    ns1:name ns1:their%20children%20retarded%20names ;
+    ns1:need ns1:bullet,
+        ns1:to ;
+    ns1:normally%20kill ns1:themselves ;
+    ns1:should%20be%20removed%20from ns1:society ;
+    ns1:so%20fuckin ns1:ugly ;
+    ns1:solve ns1:something ;
+    ns1:speak ns1:like%20idiots ;
+    ns1:take ns1:america,
+        ns1:his%20crazy%2C%20demonic%20possessed%20ass%20to%20the%20psych%20ward ;
+    ns1:talk ns1:like%20fucking%20retards ;
+    ns1:target ns1:whites%20for%20their%20crimes ;
+    ns1:throw ns1:away%20the%20key ;
+    ns1:using ns1:one%20person ;
+    ns1:wanted ns1:her ;
+    ns1:weight 1,
+        2 ;
+    ns1:will ns1:be%20able%20to%20call%20them ;
+    ns1:will%20fix ns1:where%20ever%20you%27re%20from .
+
+ns1:thot ns1:is ns1:dumb ;
+    ns1:raise ns1:child ;
+    ns1:spit ns1:vodka ;
+    ns1:weight 1 .
+
+ns1:titties ns1:be ns1:fat,
+        ns1:pig,
+        ns1:ugly ;
+    ns1:weight 1 .
+
+ns1:to ns1:insult ns1:people ;
+    ns1:threaten ns1:suicide ;
+    ns1:weight 1 .
+
+ns1:to%20see%20women%20win ns1:is ns1:a%20mental%20illness ;
+    ns1:weight 1 .
+
+ns1:vaccinated%20you ns1:made ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:weapons ns1:are%20used%20against ns1:people ;
+    ns1:weight 1 .
+
+ns1:what ns1:bunch%20of ns1:retards ;
+    ns1:comes ns1:around ;
+    ns1:fukn ns1:retards ;
+    ns1:goes ns1:around ;
+    ns1:is ns1:bitch,
+        ns1:bunch%20of%20cucks%20and%20whores,
+        ns1:faggot,
+        ns1:fucking,
+        ns1:fucking%20loser,
+        ns1:hell,
+        ns1:piece%20of%20trash,
+        ns1:queer,
+        ns1:queer%20boy,
+        ns1:retard,
+        ns1:retarded,
+        ns1:stupid,
+        ns1:weak%20boned,
+        ns1:wrong ;
+    ns1:weight 1,
+        2 .
+
+ns1:wife ns1:fuck ns1:cock ;
+    ns1:is ns1:cunt ;
+    ns1:looks%20like ns1:fat,
+        ns1:retard ;
+    ns1:suck ns1:cock ;
+    ns1:turn ns1:retard ;
+    ns1:weight 1 .
+
+ns1:words ns1:are ns1:mean ;
+    ns1:weight 1 .
+
+ns1:you%20all ns1:live ns1:island ;
+    ns1:weight 1 .
+
+ns1:you%20bitches ns1:are ns1:retarded ;
+    ns1:come ns1:niggas ;
+    ns1:weight 1,
+        2 .
+
+ns1:your%20children ns1:grow ns1:mentally%20ill%20lgbtq%20people ;
+    ns1:weight 1 .
+
+ns1:bastard ns1:is ns1:alone ;
+    ns1:weight 1 .
+
+ns1:bunch ns1:are ns1:inbred,
+        ns1:mentally%20deficient,
+        ns1:monkeys ;
+    ns1:weight 1 .
+
+ns1:europe ns1:subjected%20to ns1:moronic%20whims ;
+    ns1:weight 1 ;
+    ns1:will%20be ns1:predominantly%20muslim .
+
+ns1:family ns1:gave ns1:no%20support ;
+    ns1:weight 1 .
+
+ns1:feminist ns1:is ns1:dumbass,
+        ns1:retard,
+        ns1:sign ;
+    ns1:weight 1 .
+
+ns1:hear ns1:good ns1:day ;
+    ns1:weight 1 .
+
+ns1:human ns1:selling ns1:violence ;
+    ns1:weight 1 .
+
+ns1:humanity ns1:is ns1:retard ;
+    ns1:weight 1 .
+
+ns1:kick ns1:to ns1:nut ;
+    ns1:weight 1 .
+
+ns1:lmao ns1:is ns1:you ;
+    ns1:weight 1 .
+
+ns1:low ns1:get ns1:them ;
+    ns1:weight 1 .
+
+ns1:mad ns1:retard ns1:chapo ;
+    ns1:weight 1 .
+
+ns1:me ns1:come ns1:it ;
+    ns1:has ns1:opinion ;
+    ns1:weight 1 .
+
+ns1:myself ns1:remove ns1:planet ;
+    ns1:weight 1 .
+
+ns1:nice ns1:post ns1:retard ;
+    ns1:weight 1 .
+
+ns1:problem ns1:solve ns1:problem ;
+    ns1:weight 1 .
+
+ns1:race ns1:die ns1:if%20people%20didn%27t%20have%20kids ;
+    ns1:weight 1 .
+
+ns1:school ns1:recruit ns1:Americans ;
+    ns1:weight 1 .
+
+ns1:scum ns1:shouldn%27t%20be%20allowed%20to ns1:kids ;
+    ns1:weight 1 .
+
+ns1:suicide ns1:is ns1:sin ;
+    ns1:weight 1 .
+
+ns1:this ns1:deal ns1:you ;
+    ns1:execute ns1:normie ;
+    ns1:fuck ns1:little%20midget%20faggot ;
+    ns1:happens ns1:when%20you%27re%20barstool%20lite ;
+    ns1:is ns1:bitch,
+        ns1:borderline,
+        ns1:brain%20dead,
+        ns1:brain%20dead%20cunt,
+        ns1:cunt,
+        ns1:cyberbullying,
+        ns1:dead,
+        ns1:far,
+        ns1:fucker,
+        ns1:fucking,
+        ns1:gay%20shit,
+        ns1:hoe,
+        ns1:joke,
+        ns1:literally,
+        ns1:man,
+        ns1:mentally,
+        ns1:mentally%20ill,
+        ns1:one%20of%20the%20signs,
+        ns1:pathetic%20faggot,
+        ns1:post,
+        ns1:pure%20mental%20illness,
+        ns1:retard,
+        ns1:retarded,
+        ns1:scripted,
+        ns1:shit,
+        ns1:shycopath,
+        ns1:solution,
+        ns1:wrong ;
+    ns1:look ns1:better ;
+    ns1:proves ns1:point ;
+    ns1:smack ns1:bitch ;
+    ns1:was ns1:level,
+        ns1:planned%20in%20order%20to%20create%20political%20israel ;
+    ns1:weight 1,
+        2,
+        7,
+        8 .
+
+ns1:time ns1:be ns1:good ;
+    ns1:make ns1:history ;
+    ns1:weight 1 .
+
+ns1:trump ns1:get ns1:re-elected ;
+    ns1:is ns1:disgusting,
+        ns1:pig,
+        ns1:right,
+        ns1:trump ;
+    ns1:need ns1:blow,
+        ns1:how%20many%20brown%20jihadi%20leper%20rapists%20are%20crossing%20the%20border,
+        ns1:info ;
+    ns1:supporter ns1:incel,
+        ns1:retard ;
+    ns1:weight 1 .
+
+ns1:us ns1:are ns1:kind ;
+    ns1:weight 1 .
+
+ns1:victim ns1:of ns1:retardation ;
+    ns1:weight 1 .
+
+ns1:vodka ns1:kill ns1:cat ;
+    ns1:weight 1 .
+
+ns1:way ns1:fuck%20up ns1:a%20six-word%20comment ;
+    ns1:weight 1 .
+
+ns1:woman ns1:must%20be ns1:whore ;
+    ns1:weight 1 .
+
+ns1:ya ns1:got ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:american ns1:acts ns1:terrorist ;
+    ns1:are ns1:everywhere,
+        ns1:retards,
+        ns1:scum ;
+    ns1:weight 1 .
+
+ns1:black ns1:are ns1:people ;
+    ns1:weight 1 .
+
+ns1:brothers ns1:kill ns1:each%20other ;
+    ns1:weight 1 .
+
+ns1:dumbass ns1:has%20to ns1:type ;
+    ns1:weight 1 .
+
+ns1:face ns1:is ns1:bitch,
+        ns1:cockroach,
+        ns1:white ;
+    ns1:weight 1 .
+
+ns1:fags ns1:learn ns1:to%20do ;
+    ns1:like ns1:yourself ;
+    ns1:shit ns1:their%20diapers ;
+    ns1:weight 1 .
+
+ns1:girl ns1:is ns1:fucking,
+        ns1:retarded,
+        ns1:victim ;
+    ns1:look ns1:hoe ;
+    ns1:said ns1:something%20mean ;
+    ns1:talks ns1:god,
+        ns1:retard ;
+    ns1:tell ns1:you ;
+    ns1:weight 1,
+        2 .
+
+ns1:her ns1:be ns1:trans%20woman ;
+    ns1:is ns1:stupid ;
+    ns1:look ns1:man ;
+    ns1:turn ns1:lil%20boys ;
+    ns1:weight 1 .
+
+ns1:life ns1:be ns1:tough ;
+    ns1:weight 1 .
+
+ns1:mentally ns1:ill ns1:ones ;
+    ns1:weight 1 .
+
+ns1:mother ns1:are ns1:fuckers ;
+    ns1:go ns1:asylum ;
+    ns1:hate ns1:you ;
+    ns1:hit ns1:wall ;
+    ns1:is ns1:dirty ;
+    ns1:resent ns1:you ;
+    ns1:try ns1:abort ;
+    ns1:weight 1 .
+
+ns1:off ns1:fuck ns1:you ;
+    ns1:weight 1 .
+
+ns1:one ns1:bad%20word%20happens ns1:bad%20word,
+        ns1:word ;
+    ns1:be ns1:bastard,
+        ns1:ugly ;
+    ns1:have ns1:mentally%20challenged ;
+    ns1:look ns1:retarded ;
+    ns1:replaced%20with ns1:retard ;
+    ns1:should%20have%20been ns1:aborted ;
+    ns1:weight 1 .
+
+ns1:retarded%20faggot ns1:go ns1:suck ;
+    ns1:suck ns1:dick ;
+    ns1:weight 1 .
+
+ns1:society ns1:consists%20of ns1:sensitive%20bunch ;
+    ns1:weight 1 .
+
+ns1:something ns1:happens ns1:women ;
+    ns1:weight 1 .
+
+ns1:baby ns1:is ns1:incest ;
+    ns1:weight 1 .
+
+ns1:bitches ns1:are ns1:big,
+        ns1:bitch,
+        ns1:retarded,
+        ns1:stupid,
+        ns1:ugly ;
+    ns1:be ns1:retarded ;
+    ns1:got ns1:best%20pussy,
+        ns1:pussy ;
+    ns1:hate ns1:hard ;
+    ns1:have ns1:ass ;
+    ns1:is ns1:dead,
+        ns1:fat ;
+    ns1:live ns1:small%20ass%20crib ;
+    ns1:look ns1:retarded ;
+    ns1:weight 1,
+        2,
+        3 .
+
+ns1:chapo ns1:house ns1:tard ;
+    ns1:weight 1 .
+
+ns1:country ns1:is ns1:hindu%20majority,
+        ns1:waste%20of%20space%20and%20resource ;
+    ns1:mean ns1:fan ;
+    ns1:weight 1 .
+
+ns1:dirty ns1:in ns1:river ;
+    ns1:weight 1 .
+
+ns1:disabled ns1:are ns1:illegal ;
+    ns1:weight 1 .
+
+ns1:hoe ns1:is ns1:messy ;
+    ns1:weight 1 .
+
+ns1:incel ns1:deserves ns1:to%20perish ;
+    ns1:is ns1:ugly ;
+    ns1:weight 1 .
+
+ns1:iq ns1:based ns1:genocide ;
+    ns1:is ns1:70,
+        ns1:level ;
+    ns1:minimum%20requirements ns1:us%20armed%20forces ;
+    ns1:was ns1:low ;
+    ns1:weight 1 .
+
+ns1:kids ns1:are ns1:bad,
+        ns1:retarded,
+        ns1:retards,
+        ns1:stupid ;
+    ns1:like ns1:this ;
+    ns1:shouldnt%20be ns1:on%20reddit ;
+    ns1:weight 1,
+        2 .
+
+ns1:man ns1:beat ns1:reporter ;
+    ns1:give ns1:birth ;
+    ns1:is ns1:feminist ;
+    ns1:molests ns1:retard ;
+    ns1:must%20love ns1:pussy ;
+    ns1:play ns1:game ;
+    ns1:post ns1:subreddit ;
+    ns1:talk ns1:shit ;
+    ns1:weight 1 .
+
+ns1:midget ns1:deserved ns1:it ;
+    ns1:fucking ns1:ass ;
+    ns1:has ns1:dick ;
+    ns1:is ns1:faggot,
+        ns1:little ;
+    ns1:say ns1:word ;
+    ns1:weight 1 .
+
+ns1:tranny ns1:is ns1:disgusting,
+        ns1:mentally%20ill,
+        ns1:sick ;
+    ns1:weight 1 .
+
+ns1:ur ns1:are ns1:retarded ;
+    ns1:confronts%20in ns1:street ;
+    ns1:dead ns1:u ;
+    ns1:is ns1:bitch,
+        ns1:fat,
+        ns1:fucking,
+        ns1:normie,
+        ns1:retard,
+        ns1:retarded ;
+    ns1:is%20not ns1:baby ;
+    ns1:kind%20of ns1:low%20iq ;
+    ns1:like ns1:pee ;
+    ns1:looks%20like ns1:retard ;
+    ns1:retard ns1:advice ;
+    ns1:weight 1,
+        3 .
+
+ns1:whore ns1:has ns1:aids ;
+    ns1:is ns1:filthy,
+        ns1:fucking,
+        ns1:ugly ;
+    ns1:weight 1 .
+
+ns1:america ns1:is ns1:country,
+        ns1:degenerates ;
+    ns1:weight 1 ;
+    ns1:will%20be ns1:better%20off .
+
+ns1:child ns1:is ns1:half%20black%20jewish ;
+    ns1:weight 1 .
+
+ns1:little ns1:has ns1:place ;
+    ns1:is ns1:delusional ;
+    ns1:weight 1 .
+
+ns1:mental%20illness ns1:exists ns1:planet ;
+    ns1:is ns1:real ;
+    ns1:is%20from ns1:incest ;
+    ns1:make ns1:me%20cum,
+        ns1:me%20wet ;
+    ns1:weight 1 .
+
+ns1:person ns1:behind ns1:account ;
+    ns1:cannot%20handle ns1:mean ;
+    ns1:care%20about ns1:word ;
+    ns1:from ns1:somalia ;
+    ns1:go%20through ns1:life ;
+    ns1:is ns1:crazy,
+        ns1:faggot,
+        ns1:real,
+        ns1:retard,
+        ns1:retarded ;
+    ns1:weight 1,
+        2 .
+
+ns1:that ns1:being ns1:degenerate ;
+    ns1:fuck ns1:argentinian,
+        ns1:fuckhead,
+        ns1:midget ;
+    ns1:is ns1:cause,
+        ns1:dumb%20hoe,
+        ns1:fat%20bitch,
+        ns1:oh,
+        ns1:retarded,
+        ns1:retarded%20redneck%20humor,
+        ns1:screwed%20up,
+        ns1:shit,
+        ns1:to%20wish%20death%20on%20another%20person,
+        ns1:tranny ;
+    ns1:should%20help ns1:retards ;
+    ns1:was ns1:clean,
+        ns1:shit ;
+    ns1:weight 1,
+        2 .
+
+ns1:thing ns1:helped%20start ns1:gang ;
+    ns1:weight 1 .
+
+ns1:aids ns1:come ns1:guy ;
+    ns1:means ns1:your%20desperate%20ass%20payed%20for%20a%20hooker%20and%20couldn%27t%20get%20his%20five%20fucking%20braincells%20to%20work%20and%20you%20forgot%20a%20condom ;
+    ns1:weight 1 .
+
+ns1:disgusting ns1:is ns1:mentally%20ill,
+        ns1:sick ;
+    ns1:weight 1 .
+
+ns1:morons ns1:are ns1:you ;
+    ns1:weight 1 .
+
+ns1:nigga ns1:fuck ns1:u,
+        ns1:yo%20mama ;
+    ns1:is ns1:nigga,
+        ns1:retarded ;
+    ns1:live ns1:small%20ass%20crib ;
+    ns1:weight 1,
+        2 .
+
+ns1:nigger ns1:beat ns1:cousin ;
+    ns1:confronts ns1:u,
+        ns1:ur ;
+    ns1:has ns1:retarded%20haircuts ;
+    ns1:weight 1 ;
+    ns1:went ns1:way ;
+    ns1:went%20out%20of%20their%20way ns1:beat .
+
+ns1:niggers ns1:hate ns1:niggers ;
+    ns1:weight 1 .
+
+ns1:pussy ns1:is ns1:ass,
+        ns1:slang ;
+    ns1:weight 1 .
+
+ns1:u ns1:are ns1:bitch,
+        ns1:dirty%20mongoloid,
+        ns1:dumb%20retard,
+        ns1:fags,
+        ns1:retarded,
+        ns1:st%C3%B8%C3%B8pid,
+        ns1:uglier ;
+    ns1:be ns1:cunt,
+        ns1:retard,
+        ns1:shit ;
+    ns1:bet ns1:uglier ;
+    ns1:can%27t ns1:remember ;
+    ns1:confronts%20in ns1:street ;
+    ns1:downloading ns1:video ;
+    ns1:fuck ns1:urself ;
+    ns1:fucking ns1:retarded,
+        ns1:retarded%20ass%20niggas ;
+    ns1:have ns1:autistic%20ass ;
+    ns1:is ns1:dumb,
+        ns1:faggot,
+        ns1:fat,
+        ns1:fucking,
+        ns1:pussy,
+        ns1:thing,
+        ns1:white ;
+    ns1:love ns1:fags ;
+    ns1:make ns1:post ;
+    ns1:move%20from ns1:ur ;
+    ns1:should ns1:kill%20itself ;
+    ns1:shut ns1:ya%20bitch%20ass ;
+    ns1:sound ns1:7%20year%20old,
+        ns1:like ;
+    ns1:talk ns1:like,
+        ns1:like%20a%20little%20boy ;
+    ns1:ugly ns1:bitch ;
+    ns1:vault ns1:robot ;
+    ns1:weight 1 ;
+    ns1:wipe ns1:ur%20ass .
+
+ns1:women ns1:are ns1:out%20of%20line,
+        ns1:stupid ;
+    ns1:are%20missing ns1:160%20million ;
+    ns1:be ns1:fat,
+        ns1:fuck ;
+    ns1:become ns1:retarded ;
+    ns1:do%20not ns1:deserve ;
+    ns1:get%20slandered%20for%20being ns1:bitches,
+        ns1:cunts,
+        ns1:sluts,
+        ns1:whores ;
+    ns1:have ns1:special%20needs%20kids ;
+    ns1:see ns1:you ;
+    ns1:want ns1:to%20do%20it ;
+    ns1:weight 1 .
+
+ns1:cock ns1:go%20down ns1:your%20throat ;
+    ns1:go%20up ns1:your%20ass ;
+    ns1:is ns1:fat ;
+    ns1:weight 1 .
+
+ns1: ns1:fuck ns1:off ;
+    ns1:weight 1 .
+
+ns1:mentally%20ill ns1:be ns1:burn ;
+    ns1:weight 1 .
+
+ns1:racist ns1:call ns1:them ;
+    ns1:weight 1 .
+
+ns1:them ns1:get%20out%20of ns1:gene%20pool ;
+    ns1:stop ns1:family ;
+    ns1:trade ns1:mexico ;
+    ns1:turn ns1:beta%20simps ;
+    ns1:weight 1 .
+
+ns1:white ns1:fucks ns1:reproducing,
+        ns1:stop ;
+    ns1:is ns1:devil ;
+    ns1:play ns1:pigs ;
+    ns1:weight 1 .
+
+ns1:dick ns1:is ns1:ass,
+        ns1:pussy ;
+    ns1:is%20in ns1:ass ;
+    ns1:weight 1 .
+
+ns1:fuck ns1:get ns1:me ;
+    ns1:is ns1:bloodline,
+        ns1:democrats,
+        ns1:fat,
+        ns1:islam,
+        ns1:you ;
+    ns1:off ns1:retarded%20toptard%20shill ;
+    ns1:shut ns1:up ;
+    ns1:targets ns1:fat%20bitches ;
+    ns1:weight 1 ;
+    ns1:you ns1:human%20shit .
+
+ns1:world ns1:be ns1:better%20off ;
+    ns1:become ns1:more%20peaceful ;
+    ns1:end ns1:soon ;
+    ns1:get ns1:worse ;
+    ns1:rip ns1:world ;
+    ns1:weight 1 .
+
+ns1:yourself ns1:hang ns1:retard ;
+    ns1:is ns1:dummy ;
+    ns1:weight 1 .
+
+ns1:it ns1:be ns1:filthy ;
+    ns1:is ns1:eugenics,
+        ns1:lie,
+        ns1:mental%20illness,
+        ns1:ok,
+        ns1:okay,
+        ns1:retard%20alert,
+        ns1:true ;
+    ns1:matters ns1:japan ;
+    ns1:refers ns1:violence ;
+    ns1:reveals ns1:your%2068%20iq ;
+    ns1:say ns1:retarded ;
+    ns1:stop ns1:certain%20people ;
+    ns1:suggest ns1:major%20psychological%20issues ;
+    ns1:take ns1:hour ;
+    ns1:weight 1,
+        3 ;
+    ns1:will%20be ns1:disaster,
+        ns1:game .
+
+ns1:cunt ns1:is ns1:yellow ;
+    ns1:spits ns1:face ;
+    ns1:was%20mean%20to ns1:you ;
+    ns1:weight 1 .
+
+ns1:faggot ns1:eat ns1:nerd ;
+    ns1:is ns1:waste ;
+    ns1:played ns1:himself ;
+    ns1:weight 1 .
+
+ns1:people ns1:are ns1:filth,
+        ns1:fucking,
+        ns1:innocent,
+        ns1:mentally%20ill,
+        ns1:murdering,
+        ns1:retarded,
+        ns1:sick,
+        ns1:small,
+        ns1:stupid,
+        ns1:weak,
+        ns1:white ;
+    ns1:are%20in ns1:head ;
+    ns1:be ns1:retarded ;
+    ns1:cannot ns1:defend%20themselves ;
+    ns1:care ns1:family ;
+    ns1:deserve ns1:respect,
+        ns1:rights ;
+    ns1:get ns1:cancer,
+        ns1:too%20uppity ;
+    ns1:have ns1:ass,
+        ns1:ball,
+        ns1:kids,
+        ns1:mental%20illnesses ;
+    ns1:is ns1:wrong ;
+    ns1:like ns1:her,
+        ns1:wtf,
+        ns1:you ;
+    ns1:need ns1:decrease%20the%20tightness,
+        ns1:manspreading,
+        ns1:sterilized ;
+    ns1:posting ns1:subreddits ;
+    ns1:raise ns1:kids ;
+    ns1:say ns1:flower,
+        ns1:little%20dancer,
+        ns1:petal ;
+    ns1:should%20be ns1:dead ;
+    ns1:spew ns1:hate ;
+    ns1:think ns1:about%20you ;
+    ns1:use ns1:reddit ;
+    ns1:wear ns1:rag%20on%20their%20heads ;
+    ns1:weight 1,
+        2,
+        4 .
+
+ns1:ugly ns1:is ns1:bitch ;
+    ns1:weight 1 .
+
+ns1:dumb ns1:is ns1:bitch ;
+    ns1:weight 1 .
+
+ns1:fat ns1:describes ns1:bitches ;
+    ns1:is ns1:bitch,
+        ns1:ugly ;
+    ns1:weight 1 .
+
+ns1:fucking ns1:go ns1:retard ;
+    ns1:is ns1:cancer,
+        ns1:cunt,
+        ns1:midget ;
+    ns1:refers%20to ns1:retard ;
+    ns1:weight 1 .
+
+ns1:ass ns1:is ns1:bitch,
+        ns1:cunt,
+        ns1:retarded ;
+    ns1:weight 1 .
+
+ns1:shit ns1:is ns1:dumb ;
+    ns1:weight 1 .
+
+ns1:bitch ns1:drives ns1:car ;
+    ns1:go ns1:prison ;
+    ns1:goes%20to ns1:job ;
+    ns1:is ns1:ass,
+        ns1:dumb,
+        ns1:fat ;
+    ns1:weight 1,
+        2 .
+
+ns1:retards ns1:are ns1:actual%20children,
+        ns1:everywhere,
+        ns1:retard,
+        ns1:strong ;
+    ns1:call ns1:dick,
+        ns1:fascist,
+        ns1:nazi,
+        ns1:racist,
+        ns1:sexist ;
+    ns1:fuck ns1:humanity ;
+    ns1:go%20to ns1:hell ;
+    ns1:like ns1:you ;
+    ns1:reproduce ns1:null ;
+    ns1:weight 1 .
+
+ns1:you ns1:are ns1:a%20child,
+        ns1:a%20gay%20retard,
+        ns1:a%20parent,
+        ns1:a%20pile%20of%20fish%20shit,
+        ns1:absolute,
+        ns1:ass,
+        ns1:asshole,
+        ns1:autist,
+        ns1:autistic,
+        ns1:autistic%20fag,
+        ns1:baby%20dick,
+        ns1:bafoon,
+        ns1:bitch,
+        ns1:bitches,
+        ns1:black,
+        ns1:boy,
+        ns1:brain%20dead,
+        ns1:bunch,
+        ns1:chink,
+        ns1:country,
+        ns1:cousin%20fucking%20pedophile,
+        ns1:crazy,
+        ns1:crying,
+        ns1:cuck,
+        ns1:cunt,
+        ns1:cunts,
+        ns1:degenerate,
+        ns1:delusional,
+        ns1:dirty,
+        ns1:disabled,
+        ns1:dumb,
+        ns1:dumb%20opioid%20baby,
+        ns1:fag,
+        ns1:faggot,
+        ns1:fan,
+        ns1:fat,
+        ns1:fuck,
+        ns1:fuck%20tard,
+        ns1:fucked%20in%20the%20head,
+        ns1:fuckin%20trash,
+        ns1:fucking,
+        ns1:fucking%20fragile%20loser,
+        ns1:fucking%20gimp%20lol,
+        ns1:fucking%20inbred%20trailer%20trash,
+        ns1:fucking%20mentally%20handicapped,
+        ns1:fucking%20mongoloid,
+        ns1:fucking%20mouth%20breather,
+        ns1:fucking%20nasty%20ass%20wankstain,
+        ns1:fucking%20retard,
+        ns1:fucking%20sad%20twit,
+        ns1:fucking%20saddos,
+        ns1:fucking%20tough,
+        ns1:fucks,
+        ns1:full,
+        ns1:gay,
+        ns1:handicap,
+        ns1:hick,
+        ns1:hoe,
+        ns1:homophobe,
+        ns1:human,
+        ns1:idiot,
+        ns1:idiotic,
+        ns1:ignorant,
+        ns1:ill,
+        ns1:inbred,
+        ns1:insensitive,
+        ns1:kind%20of%20person,
+        ns1:lil,
+        ns1:literally,
+        ns1:literally%20mongoloid,
+        ns1:literally%20retarded,
+        ns1:little,
+        ns1:little%20fucking%20bitch,
+        ns1:little%20piece%20of%20shit,
+        ns1:low%20iq%20jew,
+        ns1:low%20iq%20shitskin%20imbecile,
+        ns1:low%20life%20piece%20of%20sh%2At,
+        ns1:lying,
+        ns1:mentally,
+        ns1:mentally%20challenged,
+        ns1:mentally%20ill,
+        ns1:mentally%20retarded,
+        ns1:mentally%20unstable,
+        ns1:mongoloid,
+        ns1:moron,
+        ns1:motherfucking%20cunt,
+        ns1:nigger,
+        ns1:normie,
+        ns1:nut%20job,
+        ns1:obese,
+        ns1:obviously,
+        ns1:old,
+        ns1:opioid%20addicted,
+        ns1:pathetic,
+        ns1:pedophile,
+        ns1:person,
+        ns1:piece%20of%20shit,
+        ns1:pig,
+        ns1:poor,
+        ns1:primitive%20scum,
+        ns1:proof,
+        ns1:pussy,
+        ns1:racist,
+        ns1:retard,
+        ns1:retarded,
+        ns1:retards,
+        ns1:retarted,
+        ns1:sack,
+        ns1:scum,
+        ns1:self%20conscious,
+        ns1:sensitive%20mongoloids,
+        ns1:sexist,
+        ns1:shitface,
+        ns1:short,
+        ns1:shut%20in,
+        ns1:simple%20minded,
+        ns1:sjw,
+        ns1:slut,
+        ns1:special,
+        ns1:stupid,
+        ns1:sub%20human,
+        ns1:subhuman,
+        ns1:suicidal,
+        ns1:sweaty%20fat%20neckbearded%20virgin%20cunt,
+        ns1:terrible%20at%20talking%20shit,
+        ns1:terrorist,
+        ns1:thot,
+        ns1:tough,
+        ns1:tranny,
+        ns1:trans-faggot,
+        ns1:trash,
+        ns1:ugly,
+        ns1:victim,
+        ns1:waste%20of%20parental%20attention,
+        ns1:waste%20of%20public%20money,
+        ns1:waste%20of%20space,
+        ns1:waste%20of%20sperm,
+        ns1:waste%20of%20time,
+        ns1:waste%20to%20society,
+        ns1:weak,
+        ns1:white,
+        ns1:white%20boy,
+        ns1:white%20man,
+        ns1:whore,
+        ns1:worthless,
+        ns1:worthless%20degenerate ;
+    ns1:are%20considered ns1:mentally%20impaired ;
+    ns1:are%20drag%20on ns1:society ;
+    ns1:are%20gonna%20have ns1:some%20adult%20problems ;
+    ns1:are%20not ns1:good%20at%20anything,
+        ns1:woman ;
+    ns1:are%20one%20of%20those%20mens%20rights ns1:guys ;
+    ns1:argue ns1:folk ;
+    ns1:ask ns1:something ;
+    ns1:be ns1:a%20real%20fuckin%20autist%20piece,
+        ns1:autistic,
+        ns1:gay,
+        ns1:like,
+        ns1:piece%20of%20shit,
+        ns1:probably%20sad%20creep,
+        ns1:racist,
+        ns1:retard,
+        ns1:retarded%20piece%20of%20shit,
+        ns1:sad%20creep,
+        ns1:slave,
+        ns1:subhuman,
+        ns1:too%20much%20of%20a%20retard%20to%20see%20it%20coming ;
+    ns1:beat ns1:u ;
+    ns1:been%20hit ns1:hard ;
+    ns1:being ns1:ableist,
+        ns1:sexist ;
+    ns1:belong ns1:incel%20subs ;
+    ns1:blow ns1:cock,
+        ns1:world ;
+    ns1:breed ns1:mental%20illness ;
+    ns1:bring ns1:world ;
+    ns1:call ns1:me%20retarded,
+        ns1:retard,
+        ns1:retarded,
+        ns1:the%20bitch ;
+    ns1:called ns1:retard ;
+    ns1:care ns1:what%20people%20think ;
+    ns1:cause ns1:anyone%20else,
+        ns1:fear,
+        ns1:retards ;
+    ns1:claim ns1:mental%20health%20issues ;
+    ns1:clean ns1:body,
+        ns1:room ;
+    ns1:come ns1:america ;
+    ns1:come%20up%20with ns1:word ;
+    ns1:couldn%27t%20help ns1:your%20fat%20nasty%20disease%20having%20ass ;
+    ns1:crazy ns1:hoe ;
+    ns1:create ns1:troll%20account ;
+    ns1:cut ns1:balls,
+        ns1:cock,
+        ns1:penis,
+        ns1:people ;
+    ns1:deserve ns1:to%20die,
+        ns1:to%20suck%20cocks ;
+    ns1:destroy ns1:sports,
+        ns1:your%20karma,
+        ns1:your%20social%20life ;
+    ns1:destroying ns1:thing ;
+    ns1:did ns1:actually,
+        ns1:good,
+        ns1:job ;
+    ns1:die ns1:,
+        ns1:already,
+        ns1:fucking,
+        ns1:retard,
+        ns1:very%20much ;
+    ns1:dissing%20tom ns1:like%20that%20retard ;
+    ns1:do ns1:favor ;
+    ns1:don%27t ns1:just%20fucking%20die ;
+    ns1:doom ns1:bastard%20child ;
+    ns1:eat ns1:dick,
+        ns1:more,
+        ns1:sack%20of%20aids%20covered%20dicks,
+        ns1:shit ;
+    ns1:exist ns1:on%20this%20pitiful%20site ;
+    ns1:feel ns1:sad ;
+    ns1:fix ns1:your%20bilateral%20hernia ;
+    ns1:follow ns1:url ;
+    ns1:forgot ns1:a%20condom ;
+    ns1:fuck ns1:,
+        ns1:anything,
+        ns1:autist,
+        ns1:bear,
+        ns1:bitches,
+        ns1:cousin,
+        ns1:off,
+        ns1:retard,
+        ns1:retards,
+        ns1:smurf%20ass,
+        ns1:that%20fat%20bitch,
+        ns1:you,
+        ns1:yourself,
+        ns1:yourselves ;
+    ns1:fuck%20off ns1:fuck ;
+    ns1:fuckin ns1:ugly ;
+    ns1:fucking ns1:bitch,
+        ns1:clown,
+        ns1:dunce,
+        ns1:fag,
+        ns1:inbred,
+        ns1:poser%20ass,
+        ns1:retard,
+        ns1:retarded,
+        ns1:retards ;
+    ns1:get ns1:angry,
+        ns1:balls,
+        ns1:chromosomes,
+        ns1:cock,
+        ns1:down,
+        ns1:help,
+        ns1:racist,
+        ns1:ready,
+        ns1:retarded,
+        ns1:some%20new%20material,
+        ns1:the%20fuck%20of,
+        ns1:therapy,
+        ns1:white ;
+    ns1:get%20known ns1:retard ;
+    ns1:give ns1:criminals,
+        ns1:death,
+        ns1:poor,
+        ns1:religious%20nutcases,
+        ns1:tired,
+        ns1:yourself%20bilateral%20hernia ;
+    ns1:go ns1:back,
+        ns1:dead,
+        ns1:die,
+        ns1:fuck,
+        ns1:fuck%20your%20self,
+        ns1:kill%20yourself,
+        ns1:lose,
+        ns1:sub,
+        ns1:suicide ;
+    ns1:go%20back%20to%20wanking%20it%20to ns1:tranny%20porn ;
+    ns1:go%20cry%20to ns1:mom ;
+    ns1:go%20to ns1:closet,
+        ns1:hell ;
+    ns1:going%20to ns1:hell ;
+    ns1:grow ns1:big,
+        ns1:without%20support ;
+    ns1:guess ns1:retarded ;
+    ns1:hang ns1:yourself ;
+    ns1:has ns1:aids,
+        ns1:oompa%20loompa%20body%20ass%20bitch ;
+    ns1:hate ns1:american ;
+    ns1:have ns1:account,
+        ns1:aim%20of%20michael%20j%20fox,
+        ns1:autism,
+        ns1:bilateral%20hernia,
+        ns1:brain%20damage,
+        ns1:chance,
+        ns1:dick,
+        ns1:face,
+        ns1:gene,
+        ns1:good,
+        ns1:handicap,
+        ns1:high%20self%20esteem,
+        ns1:horrible%20day,
+        ns1:kids,
+        ns1:low%20intelligence,
+        ns1:low%20iq,
+        ns1:nice%20day,
+        ns1:opinion,
+        ns1:pink%20hair,
+        ns1:problem,
+        ns1:sister,
+        ns1:small,
+        ns1:some%20kind%20of%20social%20ineptitude ;
+    ns1:have%20got ns1:not%20redeeming%20qualities ;
+    ns1:haven%27t%20go ns1:your%20own%20way ;
+    ns1:imagine ns1:being%20the%20parents%20of%20that%20degenerate,
+        ns1:retarded ;
+    ns1:infest ns1:aids,
+        ns1:subhumans ;
+    ns1:insult ns1:quality ;
+    ns1:is ns1:big%20fat%20bitch,
+        ns1:big%20fat%20white%20nasty%20smelling%20fat%20bitch,
+        ns1:degenerate,
+        ns1:delusional,
+        ns1:dirty%20white%20racist%20ass,
+        ns1:fag,
+        ns1:fucking,
+        ns1:gay,
+        ns1:loser,
+        ns1:moron,
+        ns1:obese,
+        ns1:retard,
+        ns1:retarded,
+        ns1:uncultured ;
+    ns1:keep ns1:race ;
+    ns1:keep%20fucking%20with ns1:ppl%20older%20than%20you ;
+    ns1:kike ns1:kike ;
+    ns1:kill ns1:self,
+        ns1:them,
+        ns1:urself,
+        ns1:xirself,
+        ns1:yourself ;
+    ns1:know ns1:difference,
+        ns1:fun,
+        ns1:illegal,
+        ns1:medicine,
+        ns1:mental%20health,
+        ns1:more%20than%201%20language,
+        ns1:short%20term%20memory%20loss,
+        ns1:who%20they%20are ;
+    ns1:learn ns1:how%20to%20fucking%20spell,
+        ns1:to%20spell ;
+    ns1:leave ns1:half%20a%20person,
+        ns1:weak%20boned%20neanderthal ;
+    ns1:let ns1:that%20fucking%20psycho%20bitch ;
+    ns1:like ns1:fat%20retards,
+        ns1:that,
+        ns1:to%20be%20fucked ;
+    ns1:listen ns1:moron ;
+    ns1:live%20in ns1:fucking%20cave ;
+    ns1:look ns1:autistic%20child,
+        ns1:dumb,
+        ns1:his%20tiny%20head,
+        ns1:like,
+        ns1:mental%20midget,
+        ns1:my%20scalp,
+        ns1:pedophile,
+        ns1:retarted,
+        ns1:shit%20for%20breath ;
+    ns1:look%20for ns1:chromosomes ;
+    ns1:look%20like ns1:a%20bunch%20of%20retards,
+        ns1:freak,
+        ns1:kid%20fucker,
+        ns1:queer,
+        ns1:retarted%20clint%20eastwood%20impersonator ;
+    ns1:lose ns1:chromosome ;
+    ns1:lost ns1:chromosomes ;
+    ns1:love ns1:illegal ;
+    ns1:make ns1:account,
+        ns1:edit,
+        ns1:want ;
+    ns1:masturbate ns1:women ;
+    ns1:masturbating ns1:filth ;
+    ns1:match ns1:iq ;
+    ns1:might%20have ns1:a%20chance%20at%20life ;
+    ns1:mongoloid ns1:shut ;
+    ns1:moron ns1:aids ;
+    ns1:must%20be ns1:a%20real%20fuckin%20autist%20piece%20of%20shit ;
+    ns1:need ns1:a%20big%20fucking%20dong,
+        ns1:help,
+        ns1:lollipop,
+        ns1:more,
+        ns1:one,
+        ns1:parent,
+        ns1:special%20rigging,
+        ns1:therapy,
+        ns1:treatment ;
+    ns1:not ns1:work ;
+    ns1:oust ns1:gene%20pool ;
+    ns1:owned ns1:normies ;
+    ns1:pay ns1:attention ;
+    ns1:phuck ns1:reza,
+        ns1:your%20entire%20family ;
+    ns1:play ns1:race ;
+    ns1:post ns1:shit,
+        ns1:video ;
+    ns1:posted ns1:retard ;
+    ns1:pressed ns1:nigga ;
+    ns1:prove ns1:comment%20wrong ;
+    ns1:put ns1:gun%20in%20your%20mouth ;
+    ns1:ready%20to ns1:shoot ;
+    ns1:realize ns1:need ;
+    ns1:remaining ns1:virgin ;
+    ns1:remove ns1:yourself ;
+    ns1:reproduce ns1:hopefully ;
+    ns1:retard ns1:,
+        ns1:bitch,
+        ns1:retards ;
+    ns1:reveal ns1:fact ;
+    ns1:ri ns1:your%20entrails ;
+    ns1:rub ns1:dick ;
+    ns1:rub%20your ns1:brain%20cells ;
+    ns1:run ns1:bro ;
+    ns1:say ns1:anything%20to%20anyone%20in%20person ;
+    ns1:saying ns1:same%20shit,
+        ns1:shit ;
+    ns1:screaming ns1:same%20shit ;
+    ns1:screech ns1:people ;
+    ns1:see ns1:triple%20sixes ;
+    ns1:shoot ns1:another%20walmart,
+        ns1:child,
+        ns1:head,
+        ns1:them,
+        ns1:woman ;
+    ns1:shoot%20up ns1:school ;
+    ns1:should ns1:abort%20your%20child,
+        ns1:ask,
+        ns1:die,
+        ns1:die%20in%20a%20hole,
+        ns1:fuck%20off ;
+    ns1:should%20be ns1:sterilized ;
+    ns1:shove ns1:allah,
+        ns1:ass ;
+    ns1:show ns1:signs%20of%20mental%20retardation ;
+    ns1:shut ns1:autist,
+        ns1:fuck,
+        ns1:fuck%20up,
+        ns1:the%20fuck,
+        ns1:the%20fuck%20up,
+        ns1:up ;
+    ns1:smack ns1:head ;
+    ns1:smearing ns1:shit ;
+    ns1:sound ns1:dumb,
+        ns1:like%20entitled%20kid,
+        ns1:retarded ;
+    ns1:sound%20like ns1:idiot ;
+    ns1:speak ns1:idiotic ;
+    ns1:spend ns1:life,
+        ns1:time ;
+    ns1:start ns1:hate ;
+    ns1:stay ns1:depressed,
+        ns1:lane ;
+    ns1:stfu ns1:bitch,
+        ns1:u ;
+    ns1:stop ns1:being%20a%20fucking%20retard%20little%20weeb,
+        ns1:harassment,
+        ns1:inbreeding,
+        ns1:mess,
+        ns1:molesting,
+        ns1:shit,
+        ns1:spreading%20your%20shitty%20dna,
+        ns1:sucking,
+        ns1:using%20phrases ;
+    ns1:suck ns1:,
+        ns1:ass,
+        ns1:balls,
+        ns1:cock,
+        ns1:it,
+        ns1:secks ;
+    ns1:sucking ns1:dick ;
+    ns1:swear ns1:retard ;
+    ns1:take ns1:breed,
+        ns1:care,
+        ns1:estrogen,
+        ns1:faggot%20way,
+        ns1:injections,
+        ns1:it,
+        ns1:knife,
+        ns1:l%20like%20a%20man,
+        ns1:meds,
+        ns1:your%20l ;
+    ns1:talk ns1:big,
+        ns1:disgusting%20retard,
+        ns1:immigration,
+        ns1:like,
+        ns1:like%20a%20fag ;
+    ns1:tell ns1:difference,
+        ns1:way ;
+    ns1:telling ns1:world ;
+    ns1:think ns1:n,
+        ns1:shit ;
+    ns1:throw ns1:diapers,
+        ns1:diapers%20onto%20people,
+        ns1:spergy%20tantrums ;
+    ns1:took ns1:me%20off%20the%20mfucking%20schedule ;
+    ns1:try ns1:not,
+        ns1:start,
+        ns1:suck%20your%20own%20dick,
+        ns1:tell%20me ;
+    ns1:tweet ns1:like%20a%20little%20fucking%20kid,
+        ns1:on%20twitter ;
+    ns1:typed ns1:all%20caps,
+        ns1:that ;
+    ns1:understand ns1:game,
+        ns1:that,
+        ns1:the%20meaning%20of ;
+    ns1:use ns1:ya ;
+    ns1:wanna ns1:downvote ;
+    ns1:want ns1:attention,
+        ns1:beat%20him,
+        ns1:doom,
+        ns1:kill%20his%20family,
+        ns1:someone%20to%20play%20with,
+        ns1:stupid,
+        ns1:wuss ;
+    ns1:was ns1:pedophile ;
+    ns1:watch ns1:out ;
+    ns1:weight 1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        21,
+        30 ;
+    ns1:whine%20about ns1:it ;
+    ns1:will ns1:reproduce ;
+    ns1:wish ns1:death ;
+    ns1:worm%20infested ns1:mongrel ;
+    ns1:would%20be%20spreading ns1:two%20massive%20globs%20of%20fat ;
+    ns1:would%20mitigate ns1:the%20fat%20drooping%20over%20her%20pussy .
+
+ns1:retard ns1:be ns1:biggest%20on%20earth ;
+    ns1:fuck ns1:off ;
+    ns1:go ns1:full ;
+    ns1:is ns1:baby,
+        ns1:brain,
+        ns1:dead,
+        ns1:fucking,
+        ns1:retard,
+        ns1:you ;
+    ns1:love ns1:crime ;
+    ns1:own ns1:illegal%20firearm ;
+    ns1:polluting ns1:world ;
+    ns1:was ns1:black,
+        ns1:girl ;
+    ns1:weight 1 .
+
+ns1:retarded ns1:confirm ns1:faggot ;
+    ns1:is ns1:bitch,
+        ns1:cunt ;
+    ns1:weight 1 .
+
