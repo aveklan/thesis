@@ -10,6 +10,12 @@ tqdm.pandas()
 
 keys = [
     "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
 ]
 models = [
     "google/gemini-2.0-flash-lite-preview-02-05:free",
@@ -31,7 +37,7 @@ output_path = (
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=keys[0],
+    api_key=keys[6],
 )
 
 
@@ -46,7 +52,7 @@ def load_dataset(dataset_path):
 
 def generate_relationships(comment, keywords):
     completion = client.chat.completions.create(
-        model=models[2],
+        model=models[3],
         messages=[
             {
                 "role": "system",
@@ -60,6 +66,7 @@ def generate_relationships(comment, keywords):
                     "- Subject and object cannot be the same word in the same RDF triple"
                     "- Return the extracted RDF triples in valid JSON format, structured as a list of { 'subject': '', 'predicate': '', 'object': '' } dictionaries.\n"
                     "- If no valid triples can be extracted from a comment, return an empty list []."
+                    "- Do not provide any additional explanation, just return the RDF triples in json format."
                 ),
             },
             {
