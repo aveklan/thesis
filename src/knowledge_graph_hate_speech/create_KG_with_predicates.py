@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from pathlib import Path
 import pandas as pd
 from pyvis.network import Network
@@ -13,8 +12,9 @@ tqdm.pandas()
 root_dir = Path(__file__).resolve().parent
 input_path = (
     root_dir
-    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships_new.json"
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
 )
+output_path = root_dir / "knowledge_graph.html"
 
 data = {"extracted_relationships": []}
 
@@ -29,7 +29,7 @@ def load_dataset(dataset_path):
 
 
 # Load dataframe
-df = load_dataset(input_path)[:150]
+df = load_dataset(input_path)
 
 for index, row in tqdm(df.iterrows(), total=len(df)):
     data["extracted_relationships"].append(row["extracted_relationships"])
@@ -95,11 +95,11 @@ for s, p, o, w in weighted_triples:
     G.add_edge(s, o, title=p, weight=w)
 
 # Serialize the RDF graph to a file (e.g., in Turtle format)
-g.serialize(destination="knowledge_graph.ttl", format="turtle")
+# g.serialize(destination="knowledge_graph.ttl", format="turtle")
 
 # Visualize the graph using pyvis
 net = Network(notebook=True, directed=True)
 net.from_nx(G)
 
 # Save the visualization to an HTML file
-net.show("knowledge_graph_new.html")
+net.show(str(output_path))  # Convert Path object to string
