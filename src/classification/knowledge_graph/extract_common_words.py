@@ -14,7 +14,23 @@ input_path_cad = (
     / "cleaned_json_datasets"
     / "cad_dataset_withContext_cleaned.json"
 )
-output_path_cad = root_dir.parent.parent / "cad_dataset_withContext_tokenized.json"
+input_path_ethos = (
+    root_dir.parent.parent
+    / "dataset"
+    / "cleaned_json_datasets"
+    / "ethos_dataset_withContext_cleaned.json"
+)
+input_path_gab = (
+    root_dir.parent.parent
+    / "dataset"
+    / "cleaned_json_datasets"
+    / "gab_dataset_withContext_cleaned.json"
+)
+
+output_path_cad = root_dir / "cad_dataset_withContext_tokenized.json"
+output_path_ethos = root_dir / "ethos_dataset_withContext_tokenized.json"
+output_path_gab = root_dir / "gab_dataset_withContext_tokenized.json"
+
 
 nlp = spacy.load("en_core_web_md")
 tqdm.pandas()
@@ -125,7 +141,7 @@ def find_common_tokens(tokenized_text, unique_tokens_high_frequency):
     return list(set(tokenized_text) & set(unique_tokens_high_frequency))
 
 
-df = pd.read_json(input_path_cad, orient="records")
+df = pd.read_json(input_path_gab, orient="records")
 
 print("Removing mentions from comments......")
 comments = df["comment"]
@@ -137,10 +153,10 @@ preprocessed_comments = preprocessed_comments.astype(str).progress_apply(
     replace_abbreviations
 )
 
-print("Correcting grammar errors...")
-preprocessed_comments = preprocessed_comments.astype(str).progress_apply(
-    correct_grammar
-)
+# print("Correcting grammar errors...")
+# preprocessed_comments = preprocessed_comments.astype(str).progress_apply(
+#     correct_grammar
+# )
 
 # Load the list from the JSON file
 with open(uinque_tokens_file_path, "r", encoding="utf-8") as file:
@@ -156,4 +172,4 @@ df["common_tokens"] = df["tokenized_text"].progress_apply(
 )
 
 print("Saving the result......")
-df.to_json(output_path_cad, orient="records", force_ascii=False)
+df.to_json(output_path_gab, orient="records", force_ascii=False)
