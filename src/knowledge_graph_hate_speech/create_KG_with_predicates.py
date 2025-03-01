@@ -12,9 +12,10 @@ tqdm.pandas()
 root_dir = Path(__file__).resolve().parent
 input_path = (
     root_dir
-    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships.json"
+    / "hate_speech_KG_dataset_comments_with_common_words_with_relationships_third_version.json"
 )
-output_path = root_dir / "knowledge_graph.html"
+output_kg_visualization_path = root_dir / "knowledge_graph_third_version.html"
+output_kg_turtle_path = root_dir / "knowledge_graph_turtle.ttl"
 
 data = {"extracted_relationships": []}
 
@@ -66,7 +67,7 @@ weighted_triples = [(s, p, o, w) for (s, p, o), w in triple_counts.items()]
 g = Graph()
 
 # Define a namespace for your graph
-ns = Namespace("http://example.org/")
+ns = Namespace("http://hate_speech_detection.org")
 
 # Create a directed graph for visualization
 G = nx.DiGraph()
@@ -78,16 +79,19 @@ for s, p, o, w in weighted_triples:
         continue
 
     # Encode the subject, predicate, and object to make them valid URIs
-    subject = URIRef(ns + quote(s.encode("utf-8")))  # Encode string to bytes
-    predicate = URIRef(ns + quote(p.encode("utf-8")))  # Encode string to bytes
-    obj = URIRef(ns + quote(o.encode("utf-8")))  # Encode string to bytes
-    weight = Literal(w)
+    subject = URIRef(ns + "/" + quote(s.encode("utf-8")))  # Encode string to bytes
+    predicate = URIRef(ns + "/" + quote(p.encode("utf-8")))  # Encode string to bytes
+    obj = URIRef(ns + "/" + quote(o.encode("utf-8")))  # Encode string to bytes
+    connection = URIRef(
+        ns + "/" + quote(s.encode("utf-8") + p.encode("utf-8") + o.encode("utf-8"))
+    )  # Encode string to bytes
+    weight = URIRef(ns + "/" + quote(Literal(w)))
 
     # Add the triple to the RDF graph
     g.add((subject, predicate, obj))
 
     # Optionally, add the weight as a separate triple
-    g.add((subject, ns["weight"], weight))
+    g.add((connection, URIRef(ns + "/" + quote("weight")), weight))
 
     # Add nodes and edges to the visualization graph
     G.add_node(s, title=s)
@@ -95,11 +99,11 @@ for s, p, o, w in weighted_triples:
     G.add_edge(s, o, title=p, weight=w)
 
 # Serialize the RDF graph to a file (e.g., in Turtle format)
-# g.serialize(destination="knowledge_graph.ttl", format="turtle")
+g.serialize(destination=output_kg_turtle_path, format="turtle")
 
 # Visualize the graph using pyvis
 net = Network(notebook=True, directed=True)
 net.from_nx(G)
 
 # Save the visualization to an HTML file
-net.show(str(output_path))  # Convert Path object to string
+net.show(str(output_kg_visualization_path))  # Convert Path object to string
