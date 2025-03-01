@@ -25,6 +25,7 @@ search_grap_output_path = root_dir / "GK_search_graph.html"
 comments_with_common_words_output_path = (
     root_dir / "hate_speech_KG_dataset_comments_with_common_words.json"
 )
+unique_tokens_output_path = root_dir / "unique_tokens_list.txt"
 
 tqdm.pandas()
 
@@ -290,6 +291,11 @@ unique_tokens = list(
 print("Extracting tokens with high frequency......")
 high_fequency_tokens = filter_frequent_words(all_tokens)  # Apply frequency filter
 unique_tokens_high_frequency = list(set(high_fequency_tokens))
+
+print("Saving unique tokens in output file......")
+with open(unique_tokens_output_path, "w", encoding="utf-8") as file:
+    for token in unique_tokens_high_frequency:
+        file.write(token + "\n")  # Write each token on a new line
 
 print("Creating word clusters......")
 word_clusters = cluster_similar_words(unique_tokens)
