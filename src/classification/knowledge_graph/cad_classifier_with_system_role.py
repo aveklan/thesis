@@ -8,8 +8,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 root_dir = Path(__file__).resolve().parent
-input_path = root_dir / "cad_dataset_withContext_tokenized.json"
-output_file_path = root_dir / "classified_cad_dataset_withContext_tokenized.json"
+input_path = root_dir / "gab_dataset_withContext_tokenized.json"
+output_file_path = root_dir / "classified_gab_dataset_withContext_tokenized.json"
 input_kg_turtle_path = (
     root_dir.parent.parent
     / "knowledge_graph_hate_speech"
@@ -97,8 +97,9 @@ def classify_comment(comment, model, tokens, common_tokens):
     
     Classification Guidelines:
     - Respond only with "yes" or "no". Do not provide explanations, justifications, or any additional text.
-    - Only comments against people with disabilities must be classified as "yes".
+    - Comments against people with disabilities must be classified as "yes".
     - Hateful comments not directed against people with disabilities must be classified as "no".
+    - Comments that does not contain hate speech must be classified as "no".
     """
 
     # Construct the Prompt
@@ -112,6 +113,7 @@ def classify_comment(comment, model, tokens, common_tokens):
     response: ChatResponse = chat(
         model=model,
         messages=[
+            {"role": "system", "content": context},
             {"role": "user", "content": prompt},
         ],
     )
@@ -127,7 +129,7 @@ df = get_dataset()
 # print("Starting classification with llama model...")
 df["result_llama"] = df.progress_apply(
     lambda row: classify_comment(
-        df["comment"], "llama3.1:8b", row["tokenized_text"], row["common_tokens"]
+        row["comment"], "llama3.1:8b", row["tokenized_text"], row["common_tokens"]
     ),
     axis=1,
 )
