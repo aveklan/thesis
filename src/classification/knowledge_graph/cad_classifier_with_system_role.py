@@ -8,8 +8,10 @@ from pathlib import Path
 from tqdm import tqdm
 
 root_dir = Path(__file__).resolve().parent
-input_path = root_dir / "ethos_dataset_withContext_tokenized.json"
-output_file_path = root_dir / "classified_ethos_dataset_withContext_tokenized.json"
+
+input_path = root_dir / "gab_dataset_withContext_tokenized.json"
+output_file_path = root_dir / "classified_gab_dataset_withContext_tokenized.json"
+
 input_kg_turtle_path = (
     root_dir.parent.parent
     / "knowledge_graph_hate_speech"
@@ -97,8 +99,9 @@ def classify_comment(comment, model, tokens, common_tokens):
     
     Classification Guidelines:
     - Respond only with "yes" or "no". Do not provide explanations, justifications, or any additional text.
-    - Only comments against people with disabilities must be classified as "yes".
+    - Comments against people with disabilities must be classified as "yes".
     - Hateful comments not directed against people with disabilities must be classified as "no".
+    - Comments that does not contain hate speech must be classified as "no".
     """
 
     # Construct the Prompt
