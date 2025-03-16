@@ -8,8 +8,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 root_dir = Path(__file__).resolve().parent
-input_path = root_dir / "cad_dataset_withContext_tokenized.json"
-output_file_path = root_dir / "classified_cad_dataset_withContext_tokenized.json"
+input_path = root_dir / "ethos_dataset_withContext_tokenized.json"
+output_file_path = root_dir / "classified_ethos_dataset_withContext_tokenized.json"
 input_kg_turtle_path = (
     root_dir.parent.parent
     / "knowledge_graph_hate_speech"
@@ -103,7 +103,6 @@ def classify_comment(comment, model, tokens, common_tokens):
 
     # Construct the Prompt
     if len(common_pattern) > 0:
-        print(common_pattern)
         prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nNote: This comment contains words that commonly appear in hate speech patterns as follows: {common_pattern}\n\nComment: {comment}\nResponse:"
     else:
         prompt = f"The following comment needs to be classified. Does it contain hate speech against people with disabilities? Respond only with 'yes' or 'no'. Do not provide any explanations or generate other text.\nComment: {comment}"
@@ -112,7 +111,10 @@ def classify_comment(comment, model, tokens, common_tokens):
     response: ChatResponse = chat(
         model=model,
         messages=[
-            {"role": "user", "content": prompt},
+            {
+                "role": "user",
+                "content": prompt,
+            },
         ],
     )
 
@@ -127,7 +129,7 @@ df = get_dataset()
 # print("Starting classification with llama model...")
 df["result_llama"] = df.progress_apply(
     lambda row: classify_comment(
-        df["comment"], "llama3.1:8b", row["tokenized_text"], row["common_tokens"]
+        row["comment"], "llama3.1:8b", row["tokenized_text"], row["common_tokens"]
     ),
     axis=1,
 )
