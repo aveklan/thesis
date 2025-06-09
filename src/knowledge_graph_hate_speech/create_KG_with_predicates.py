@@ -62,6 +62,17 @@ for rel_list in df["extracted_relationships"]:
 # Convert to a list of triples with weights
 weighted_triples = [(s, p, o, w) for (s, p, o), w in triple_counts.items()]
 
+num_distinct_triples = len(triple_counts)
+print(f"Total distinct triples: {num_distinct_triples}")
+distinct_nodes = set()
+
+for subject, predicate, obj in triple_counts.keys():
+    distinct_nodes.add(subject)
+    distinct_nodes.add(obj)
+
+num_distinct_nodes = len(distinct_nodes)
+print(f"Total distinct nodes: {num_distinct_nodes}")
+
 
 # Create an RDF graph
 g = Graph()
